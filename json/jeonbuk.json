@@ -1,0 +1,856 @@
+[
+  {
+    "mt20id": ["PF194251"],
+    "prfnm": ["아트프로젝트보라, 소무 [익산]"],
+    "prfpdfrom": ["2022.08.20"],
+    "prfpdto": ["2022.08.21"],
+    "fcltynm": ["익산예술의전당 (대공연장)"],
+    "prfcast": [" "],
+    "prfcrew": ["김보라, 박상미, 최소영 등"],
+    "prfruntime": ["1시간"],
+    "prfage": ["만 5세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 20000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF194251_220708_105805.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["무용"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF194251_220708_1058050.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001356"],
+    "dtguidance": ["토요일(17:00), 일요일(15:00)"]
+  },
+  {
+    "mt20id": ["PF194212"],
+    "prfnm": ["급식왕: 발가락 떡볶이의 비밀 [전주]"],
+    "prfpdfrom": ["2022.09.24"],
+    "prfpdto": ["2022.09.25"],
+    "fcltynm": ["전북대학교 삼성문화회관 (대공연장)"],
+    "prfcast": [" "],
+    "prfcrew": ["김민수, 김명제, 문정일 등"],
+    "prfruntime": ["1시간 10분"],
+    "prfage": ["24개월 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 70000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF194212_220707_111508.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF194212_220707_1115080.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000469"],
+    "dtguidance": ["토요일 ~ 일요일(11:00,14:00), 토요일(18:00)"]
+  },
+  {
+    "mt20id": ["PF194168"],
+    "prfnm": ["Best of LDP [군산]"],
+    "prfpdfrom": ["2022.07.23"],
+    "prfpdto": ["2022.07.23"],
+    "fcltynm": ["군산예술의전당 (대공연장)"],
+    "prfcast": ["임샛별, 윤나라, 정건, 이홍, 이정은, 정하늘, 박지희 등"],
+    "prfcrew": ["김동규, 신창호, 장지호 등"],
+    "prfruntime": ["1시간 10분"],
+    "prfage": ["만 7세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 0,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF194168_220706_113151.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["무용"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF194168_220706_1131510.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000447"],
+    "dtguidance": ["토요일(15:00)"]
+  },
+  {
+    "mt20id": ["PF194153"],
+    "prfnm": ["세계 음악사 [김제]"],
+    "prfpdfrom": ["2022.07.15"],
+    "prfpdto": ["2022.07.15"],
+    "fcltynm": ["김제문화예술회관 (대공연장)"],
+    "prfcast": ["김재원, 백동현, 김동식, 문자희 등"],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간 10분"],
+    "prfage": ["만 7세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 0,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF194153_220706_110235.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["클래식"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF194153_220706_1102350.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000449"],
+    "dtguidance": ["금요일(19:30)"]
+  },
+  {
+    "mt20id": ["PF194007"],
+    "prfnm": ["미녀와 야수 [군산]"],
+    "prfpdfrom": ["2022.07.30"],
+    "prfpdto": ["2022.07.30"],
+    "fcltynm": ["군산예술의전당 (대공연장)"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간"],
+    "prfage": ["전체 관람가"],
+    "entrpsnm": ["명작극장"],
+    "pcseguidance": 20000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF194007_220704_135810.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF194007_220704_0158100.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000447"],
+    "dtguidance": ["토요일(11:00,14:00,16:00)"]
+  },
+  {
+    "mt20id": ["PF193953"],
+    "prfnm": ["엘사의 생일파티 [익산]"],
+    "prfpdfrom": ["2022.09.17"],
+    "prfpdto": ["2022.09.18"],
+    "fcltynm": ["익산예술의전당 (대공연장)"],
+    "prfcast": ["김다솔, 서가영, 심시원, 전승우, 송주리, 고승미, 구윤희 등"],
+    "prfcrew": ["이광열, 김효석, 조재은 등"],
+    "prfruntime": ["1시간"],
+    "prfage": ["24개월 이상"],
+    "entrpsnm": ["극단 예일"],
+    "pcseguidance": 44000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193953_220704_122422.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193953_220704_1224220.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193953_220704_1224522.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001356"],
+    "dtguidance": ["토요일(11:00,14:00,16:00), 일요일(11:00,14:00)"]
+  },
+  {
+    "mt20id": ["PF193938"],
+    "prfnm": ["유채훈 첫 단독 콘서트: Podium [전주]"],
+    "prfpdfrom": ["2022.08.13"],
+    "prfpdto": ["2022.08.14"],
+    "fcltynm": ["한국소리문화의전당 (모악당)"],
+    "prfcast": ["유채훈"],
+    "prfcrew": [" "],
+    "prfruntime": ["2시간"],
+    "prfage": ["만 7세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 121000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193938_220704_112331.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["클래식"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193938_220704_1123310.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000477"],
+    "dtguidance": ["토요일(18:00), 일요일(16:00)"]
+  },
+  {
+    "mt20id": ["PF193635"],
+    "prfnm": ["블루헬멧: 메이사의 노래 [전주]"],
+    "prfpdfrom": ["2022.08.05"],
+    "prfpdto": ["2022.08.07"],
+    "fcltynm": ["한국소리문화의전당 (모악당)"],
+    "prfcast": ["장기용, 김효진, 김인성, 이승준, 윤진솔, 표바하, 김리안 등"],
+    "prfcrew": ["이지나, 김문정, 박오달 등"],
+    "prfruntime": ["2시간 30분"],
+    "prfage": ["만 7세 이상"],
+    "entrpsnm": ["(주)하우팜즈"],
+    "pcseguidance": 130000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193635_220628_102115.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193635_220628_1021150.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193635_220628_1022002.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000477"],
+    "dtguidance": ["금요일(19:30), 토요일(14:00,19:00), 일요일(14:00)"]
+  },
+  {
+    "mt20id": ["PF193520"],
+    "prfnm": ["바다탐험대 옥토넛 시즌2: 대산호초 보호작전 [전주]"],
+    "prfpdfrom": ["2022.08.27"],
+    "prfpdto": ["2022.08.28"],
+    "fcltynm": ["전주교육문화회관(전북교육문화회관) (공연장)"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간 5분"],
+    "prfage": ["전체 관람가"],
+    "entrpsnm": ["극단 마당세실"],
+    "pcseguidance": 55000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193520_220627_105208.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193520_220627_1052080.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001514"],
+    "dtguidance": ["토요일(11:00,14:00,16:00), 일요일(11:00,14:00)"]
+  },
+  {
+    "mt20id": ["PF193501"],
+    "prfnm": ["호구의 꿈 [전주]"],
+    "prfpdfrom": ["2022.07.30"],
+    "prfpdto": ["2022.07.30"],
+    "fcltynm": ["우진문화공간 (우진문화공간)"],
+    "prfcast": ["차영석, 이종화, 김유빈, 김환희"],
+    "prfcrew": ["박고은, 박수경, 주인희 등"],
+    "prfruntime": ["1시간"],
+    "prfage": ["만 8세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 15000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193501_220627_094626.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193501_220627_0946260.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001269"],
+    "dtguidance": ["토요일 ~ HOL(14:00,16:00)"]
+  },
+  {
+    "mt20id": ["PF193500"],
+    "prfnm": ["회신 [전주]"],
+    "prfpdfrom": ["2022.07.20"],
+    "prfpdto": ["2022.07.21"],
+    "fcltynm": ["우진문화공간 (우진문화공간)"],
+    "prfcast": ["서동진, 송광일"],
+    "prfcrew": ["김은선, 이현진, 황예슬 등"],
+    "prfruntime": ["1시간"],
+    "prfage": ["만 8세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 15000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193500_220627_094412.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193500_220627_0944120.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001269"],
+    "dtguidance": ["수요일 ~ 목요일(19:30)"]
+  },
+  {
+    "mt20id": ["PF193376"],
+    "prfnm": ["시크릿쥬쥬 시즌3: 별의여신 마지막콘서트 [전주]"],
+    "prfpdfrom": ["2022.09.03"],
+    "prfpdto": ["2022.09.04"],
+    "fcltynm": ["전북대학교 삼성문화회관 (대공연장)"],
+    "prfcast": [" "],
+    "prfcrew": ["김철현, 윤성민, 정윤지 등"],
+    "prfruntime": ["1시간 10분"],
+    "prfage": ["24개월 이상"],
+    "entrpsnm": ["DS뮤지컬컴퍼니"],
+    "pcseguidance": 60000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193376_220623_124616.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193376_220623_1246160.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000469"],
+    "dtguidance": ["토요일(11:00,14:00,18:00), 일요일(11:00,14:00)"]
+  },
+  {
+    "mt20id": ["PF193373"],
+    "prfnm": ["포레스텔라 전국투어 콘서트: The Beginning : World Tree [전주]"],
+    "prfpdfrom": ["2022.07.16"],
+    "prfpdto": ["2022.07.17"],
+    "fcltynm": ["한국소리문화의전당 (모악당)"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["2시간 30분"],
+    "prfage": ["만 7세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 132000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193373_220623_123519.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["클래식"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193373_220623_1235191.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193373_220623_1235190.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000477"],
+    "dtguidance": ["토요일 ~ 일요일(18:00)"]
+  },
+  {
+    "mt20id": ["PF193206"],
+    "prfnm": ["이팝: 소리꽃 [고창]"],
+    "prfpdfrom": ["2022.06.24"],
+    "prfpdto": ["2022.09.02"],
+    "fcltynm": ["고창농악전수관 (야외공연장)"],
+    "prfcast": ["정소정, 김은숙, 박해라, 박성준, 김호준, 김정훈, 이광휴 등"],
+    "prfcrew": ["구재연, 주영롱, 박강의 등"],
+    "prfruntime": ["1시간 30분"],
+    "prfage": ["전체 관람가"],
+    "entrpsnm": [" "],
+    "pcseguidance": 10000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193206_220621_135102.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["국악"],
+    "prfstate": ["공연중"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193206_220621_0151020.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001833"],
+    "dtguidance": ["금요일(20:00), 토요일(20:00)"]
+  },
+  {
+    "mt20id": ["PF193134"],
+    "prfnm": ["캐리TV 러브콘서트: KPOP [전주]"],
+    "prfpdfrom": ["2022.08.27"],
+    "prfpdto": ["2022.08.28"],
+    "fcltynm": ["전북대학교 삼성문화회관 (대공연장)"],
+    "prfcast": [" "],
+    "prfcrew": ["김양순, 유연희, 박현중 등"],
+    "prfruntime": ["1시간 5분"],
+    "prfage": ["24개월 이상"],
+    "entrpsnm": ["(주)캐리소프트(캐리TV)"],
+    "pcseguidance": 66000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193134_220621_093036.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193134_220621_0930361.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193134_220621_0930360.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000469"],
+    "dtguidance": ["토요일 ~ 일요일(11:00,14:00)"]
+  },
+  {
+    "mt20id": ["PF193094"],
+    "prfnm": ["백설공주 [익산]"],
+    "prfpdfrom": ["2022.08.06"],
+    "prfpdto": ["2022.08.06"],
+    "fcltynm": ["솜리문화예술회관 (중공연장)"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간"],
+    "prfage": ["전체 관람가"],
+    "entrpsnm": [" "],
+    "pcseguidance": 30000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193094_220620_125027.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193094_220620_1250270.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000463"],
+    "dtguidance": ["토요일(11:00,14:00,16:00)"]
+  },
+  {
+    "mt20id": ["PF193092"],
+    "prfnm": ["누가 내 머리에 똥 쌌어? [전주]"],
+    "prfpdfrom": ["2022.10.30"],
+    "prfpdto": ["2022.10.30"],
+    "fcltynm": ["덕진예술회관 (덕진예술회관)"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간"],
+    "prfage": ["24개월 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 40000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193092_220620_124903.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193092_220620_1249030.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000939"],
+    "dtguidance": ["일요일(11:00,13:00,15:00)"]
+  },
+  {
+    "mt20id": ["PF193091"],
+    "prfnm": ["누가 내 머리에 똥 쌌어? [군산]"],
+    "prfpdfrom": ["2022.11.12"],
+    "prfpdto": ["2022.11.13"],
+    "fcltynm": ["군산예술의전당 (소공연장)"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간"],
+    "prfage": ["24개월 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 40000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193091_220620_124705.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193091_220620_1247050.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000447"],
+    "dtguidance": ["토요일 ~ 일요일(11:00,14:00,16:00)"]
+  },
+  {
+    "mt20id": ["PF193023"],
+    "prfnm": ["인어공주 [전주]"],
+    "prfpdfrom": ["2022.08.14"],
+    "prfpdto": ["2022.08.14"],
+    "fcltynm": ["전주교육문화회관(전북교육문화회관) (공연장)"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간"],
+    "prfage": ["24개월 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 40000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193023_220617_135529.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193023_220617_0155290.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001514"],
+    "dtguidance": ["일요일(11:00,13:00,15:00)"]
+  },
+  {
+    "mt20id": ["PF192857"],
+    "prfnm": ["Fantasie, 박종성 박지형의 작은 악기, 큰 울림"],
+    "prfpdfrom": ["2022.07.23"],
+    "prfpdto": ["2022.07.23"],
+    "fcltynm": ["전주한벽문화관 (한벽공연장)"],
+    "prfcast": ["박종성, 박지형"],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간 10분"],
+    "prfage": ["만 7세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 20000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF192857_220615_105257.gif"
+    ],
+    "sty": [
+      "[프로그램]\r\n\r\n\r\n〈박종성 X 박지형〉\r\nJ. S. Bach - Goldberg Variations, BWV 988 : Variation 13\r\n요한 제바스티안 바흐 - 골드베르크 변주곡 中 변주곡 13\r\nBread - If\r\n브레드 - 만약에\r\nTakashi Yoshimatsu - Velvet waltz\r\n타카시 요시마츠 - 벨벳 왈츠\r\n\r\n \r\n\r\n〈박종성 SOLO〉\r\nN. Yepes - Romance de L＇amour\r\n나르시소 예페스 - 금지된 장난\r\n박종성 - Run again\r\n\r\n \r\n\r\n〈박지형 SOLO〉\r\nSergio Assad - Remembrance\r\n세르지오 아사드 - 회상\r\nF. Tarrega - Sueno\r\n프란시스코 타레가 - 꿈\r\n\r\n \r\n\r\n〈박종성 X 박지형〉\r\nF. Tarrega/박종성 - 알함브라 궁전의 노을\r\nA. Piazzolla - Oblivion\r\n아스토르 피아졸라 - 망각\r\nA. Piazzolla - Libertango\r\n아스토르 피아졸라 - 리베르탱고"
+    ],
+    "genrenm": ["클래식"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF192857_220615_1052572.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF192857_220615_1052571.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF192857_220615_1052570.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001263"],
+    "dtguidance": ["토요일(11:00)"]
+  },
+  {
+    "mt20id": ["PF192297"],
+    "prfnm": ["용을 쫓는 사냥꾼 [전주]"],
+    "prfpdfrom": ["2022.06.10"],
+    "prfpdto": ["2022.09.16"],
+    "fcltynm": ["전주한벽문화관 (혼례마당)"],
+    "prfcast": ["김형태, 백선우, 임인환, 박종원, 임은설, 강래석, 황영하 등"],
+    "prfcrew": ["최기우, 이정훈, 신나경 등"],
+    "prfruntime": ["1시간 20분"],
+    "prfage": ["48개월 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 20000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF192297_220607_113656.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["국악"],
+    "prfstate": ["공연중"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF192297_220607_0211031.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF192297_220607_0211030.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001263"],
+    "dtguidance": ["금요일(20:00)"]
+  },
+  {
+    "mt20id": ["PF192047"],
+    "prfnm": ["몽연: 서동의 꽃"],
+    "prfpdfrom": ["2022.06.03"],
+    "prfpdto": ["2022.11.25"],
+    "fcltynm": ["전북예술회관 (공연장)"],
+    "prfcast": ["심재훈, 장동호, 한은혜, 이청산, 박동찬, 조은혜, 박채연 등"],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간 10분"],
+    "prfage": ["만 7세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 15000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF192047_220531_134358.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연중"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF192047_220531_0143580.png"
+        ]
+      }
+    ],
+    "mt10id": ["FC000479"],
+    "dtguidance": ["목요일(19:30), 금요일(15:00), 토요일(15:00)"]
+  },
+  {
+    "mt20id": ["PF191870"],
+    "prfnm": ["팬레터 [익산]"],
+    "prfpdfrom": ["2022.07.16"],
+    "prfpdto": ["2022.07.17"],
+    "fcltynm": ["익산예술의전당 (대공연장)"],
+    "prfcast": ["이규형, 백형훈, 윤소호, 김진욱, 강혜인, 허혜진, 박정표 등"],
+    "prfcrew": ["강병원, 김태형, 한재은 등"],
+    "prfruntime": ["2시간 40분"],
+    "prfage": ["만 13세 이상"],
+    "entrpsnm": ["라이브(주)"],
+    "pcseguidance": 90000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF191870_220530_092930.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF191870_220530_0929300.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001356"],
+    "dtguidance": ["토요일 ~ 일요일(14:00,18:30)"]
+  },
+  {
+    "mt20id": ["PF191709"],
+    "prfnm": ["제67회 군산시립교향악단 기획연주회"],
+    "prfpdfrom": ["2022.07.14"],
+    "prfpdto": ["2022.07.14"],
+    "fcltynm": ["군산예술의전당 (대공연장)"],
+    "prfcast": ["백정현, 조윤경 등"],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간 10분"],
+    "prfage": ["만 7세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 5000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF191709_220525_124807.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["클래식"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF191709_220525_1248070.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000447"],
+    "dtguidance": ["목요일(19:30)"]
+  },
+  {
+    "mt20id": ["PF191058"],
+    "prfnm": ["프리즌 [전주]"],
+    "prfpdfrom": ["2022.10.07"],
+    "prfpdto": ["2022.12.25"],
+    "fcltynm": ["한해랑아트홀 (한해랑아트홀)"],
+    "prfcast": ["신경준, 김상훈, 손형민, 김은찬, 이재연, 박해성, 이현명 등"],
+    "prfcrew": ["이영수, 이준우"],
+    "prfruntime": ["1시간 30분"],
+    "prfage": ["만 7세 이상"],
+    "entrpsnm": ["한해랑아트홀(극단 한해랑)"],
+    "pcseguidance": 40000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF191058_220513_135808.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF191058_220513_0158080.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001365"],
+    "dtguidance": [
+      "수요일 ~ 금요일(19:30), 토요일(15:00,18:00), 일요일(16:00), HOL(16:00)"
+    ]
+  },
+  {
+    "mt20id": ["PF191038"],
+    "prfnm": ["칠우전"],
+    "prfpdfrom": ["2022.06.04"],
+    "prfpdto": ["2022.10.15"],
+    "fcltynm": ["전주한벽문화관 (야외공연장)"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간 20분"],
+    "prfage": ["전체 관람가"],
+    "entrpsnm": [" "],
+    "pcseguidance": 15000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF191038_220513_124946.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["연극"],
+    "prfstate": ["공연중"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF191038_220513_1249460.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001263"],
+    "dtguidance": ["토요일(20:00)"]
+  },
+  {
+    "mt20id": ["PF190946"],
+    "prfnm": ["인어공주 [군산]"],
+    "prfpdfrom": ["2022.07.16"],
+    "prfpdto": ["2022.07.16"],
+    "fcltynm": ["군산예술의전당 (대공연장)"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["55분"],
+    "prfage": ["24개월 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 40000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF190946_220512_101209.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF190946_220512_0207221.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000447"],
+    "dtguidance": ["토요일(11:00,14:00,16:00)"]
+  },
+  {
+    "mt20id": ["PF190883"],
+    "prfnm": ["가인춘향"],
+    "prfpdfrom": ["2022.05.14"],
+    "prfpdto": ["2022.08.27"],
+    "fcltynm": ["화인당 (야외공연장)"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간 10분"],
+    "prfage": ["36개월 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 10000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF190883_220511_102121.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["연극"],
+    "prfstate": ["공연중"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF190883_220511_1021210.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC002984"],
+    "dtguidance": ["토요일(20:00)"]
+  },
+  {
+    "mt20id": ["PF190231"],
+    "prfnm": ["하나둘셋,김치! [전주]"],
+    "prfpdfrom": ["2022.05.03"],
+    "prfpdto": ["2022.07.30"],
+    "fcltynm": ["한옥마을아트홀 (한옥마을아트홀)"],
+    "prfcast": ["진시라, 정윤경, 홍정은, 정찬호"],
+    "prfcrew": ["김영오, 정준경, 김경주 등"],
+    "prfruntime": ["1시간 10분"],
+    "prfage": ["만 7세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 20000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF190231_220629_095719.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["연극"],
+    "prfstate": ["공연중"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF190231_220428_1234220.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001418"],
+    "dtguidance": [
+      "화요일 ~ 금요일(19:30), 토요일(15:00,19:00), HOL(15:00,19:00)"
+    ]
+  }
+]

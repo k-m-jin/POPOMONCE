@@ -1,0 +1,1359 @@
+[
+  {
+    "mt20id": ["PF194173"],
+    "prfnm": ["명랑시장 [영주]"],
+    "prfpdfrom": ["2022.07.16"],
+    "prfpdto": ["2022.07.16"],
+    "fcltynm": ["영주문화예술회관 (까치홀)"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간 10분"],
+    "prfage": ["만 7세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 5000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF194173_220706_114355.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF194173_220706_1143550.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000050"],
+    "dtguidance": ["토요일(15:00)"]
+  },
+  {
+    "mt20id": ["PF194129"],
+    "prfnm": ["해설이 있는 우리 춤 이야기"],
+    "prfpdfrom": ["2022.07.14"],
+    "prfpdto": ["2022.07.14"],
+    "fcltynm": ["문경문화예술회관 (대공연장)"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간 10분"],
+    "prfage": ["전체 관람가"],
+    "entrpsnm": [" "],
+    "pcseguidance": 0,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF194129_220706_102055.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["무용"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF194129_220706_1020550.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000525"],
+    "dtguidance": ["목요일(19:30)"]
+  },
+  {
+    "mt20id": ["PF194119"],
+    "prfnm": ["타악판타지 통: 공 · 기 · 결 [포항]"],
+    "prfpdfrom": ["2022.08.06"],
+    "prfpdto": ["2022.08.06"],
+    "fcltynm": ["포항문화예술회관 (대공연장)"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간 30분"],
+    "prfage": ["만 7세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 15000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF194119_220706_095004.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["국악"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF194119_220706_0950040.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001191"],
+    "dtguidance": ["토요일(19:00)"]
+  },
+  {
+    "mt20id": ["PF194016"],
+    "prfnm": ["엘사의 생일파티 [포항]"],
+    "prfpdfrom": ["2022.09.04"],
+    "prfpdto": ["2022.09.04"],
+    "fcltynm": ["포항시청 대잠홀 (포항시청 대잠홀)"],
+    "prfcast": ["김다솔, 서가영, 심시원, 전승우, 송주리, 고승미, 구윤희 등"],
+    "prfcrew": ["이광열, 김효석, 조재은 등"],
+    "prfruntime": ["1시간 60분"],
+    "prfage": ["24개월 이상"],
+    "entrpsnm": ["극단 예일"],
+    "pcseguidance": 44000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF194016_220705_092450.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF194016_220705_0924500.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001256"],
+    "dtguidance": ["일요일(14:00,16:00)"]
+  },
+  {
+    "mt20id": ["PF193884"],
+    "prfnm": ["여보 나도 할 말 있어 [경주]"],
+    "prfpdfrom": ["2022.07.30"],
+    "prfpdto": ["2022.07.30"],
+    "fcltynm": ["경주예술의전당 (대공연장(화랑홀))"],
+    "prfcast": ["이홍렬, 안지환, 우상민, 김정하, 박현정, 권혜영"],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간 40분"],
+    "prfage": ["만 13세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 50000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193884_220701_135444.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["연극"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193884_220701_0154440.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000517"],
+    "dtguidance": ["토요일(15:00,19:00)"]
+  },
+  {
+    "mt20id": ["PF193676"],
+    "prfnm": ["제20회 김천국제가족연극제, 고시원"],
+    "prfpdfrom": ["2022.08.02"],
+    "prfpdto": ["2022.08.02"],
+    "fcltynm": ["김천시립문화회관 (김천시립문화회관)"],
+    "prfcast": ["한동희, 이원재, 이윤수, 장유리, 강지덕, 이주한"],
+    "prfcrew": ["공찬호, 정인지, 박민수 등"],
+    "prfruntime": ["1시간 35분"],
+    "prfage": ["만 9세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 10000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193676_220628_130709.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["연극"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193676_220628_0107090.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001429"],
+    "dtguidance": ["화요일(16:00,19:00)"]
+  },
+  {
+    "mt20id": ["PF193655"],
+    "prfnm": ["신데렐라 [경주]"],
+    "prfpdfrom": ["2022.09.17"],
+    "prfpdto": ["2022.09.17"],
+    "fcltynm": ["경주예술의전당 (대공연장(화랑홀))"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간"],
+    "prfage": ["24개월 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 50000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193655_220628_113129.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193655_220628_1131290.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000517"],
+    "dtguidance": ["토요일(11:00,14:00)"]
+  },
+  {
+    "mt20id": ["PF193562"],
+    "prfnm": ["아버지와 살면 [안동]"],
+    "prfpdfrom": ["2022.08.26"],
+    "prfpdto": ["2022.08.27"],
+    "fcltynm": ["안동문화예술의전당 (백조홀)"],
+    "prfcast": ["김귀선, 원소연"],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간 10분"],
+    "prfage": ["만 11세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 20000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193562_220627_120533.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["연극"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193562_220627_1205331.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193562_220627_1205330.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000537"],
+    "dtguidance": ["금요일(19:30), 토요일(19:00)"]
+  },
+  {
+    "mt20id": ["PF193506"],
+    "prfnm": ["제190회 포항시립교향악단 정기연주회"],
+    "prfpdfrom": ["2022.07.12"],
+    "prfpdto": ["2022.07.12"],
+    "fcltynm": ["포항문화예술회관 (대공연장)"],
+    "prfcast": ["임헌정 등"],
+    "prfcrew": ["임헌정"],
+    "prfruntime": ["1시간 10분"],
+    "prfage": ["만 7세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 3000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193506_220627_100448.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["클래식"],
+    "prfstate": ["공연완료"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193506_220627_1004480.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001191"],
+    "dtguidance": ["화요일(19:30)"]
+  },
+  {
+    "mt20id": ["PF193493"],
+    "prfnm": ["굿모닝 Tango!"],
+    "prfpdfrom": ["2022.08.10"],
+    "prfpdto": ["2022.08.10"],
+    "fcltynm": ["안동문화예술의전당 (백조홀)"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간"],
+    "prfage": ["만 4세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 10000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193493_220624_131505.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["클래식"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193493_220624_0115051.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193493_220624_0115050.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000537"],
+    "dtguidance": ["수요일(11:00)"]
+  },
+  {
+    "mt20id": ["PF193482"],
+    "prfnm": ["비보브라스 & 안동MBC 어린이합창단, 꾀꼬리와 나팔여행 [안동]"],
+    "prfpdfrom": ["2022.08.31"],
+    "prfpdto": ["2022.08.31"],
+    "fcltynm": ["안동문화예술의전당 (백조홀)"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간 20분"],
+    "prfage": ["만 4세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 7000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193482_220624_120224.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["클래식"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193482_220624_1202241.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193482_220624_1202240.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000537"],
+    "dtguidance": ["수요일(19:30)"]
+  },
+  {
+    "mt20id": ["PF193455"],
+    "prfnm": ["누가 내 머리에 똥쌌어? [경주]"],
+    "prfpdfrom": ["2022.08.20"],
+    "prfpdto": ["2022.08.20"],
+    "fcltynm": ["서라벌문화회관 (서라벌문화회관)"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간"],
+    "prfage": ["24개월 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 35000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193455_220624_112337.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193455_220624_1123370.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000867"],
+    "dtguidance": ["토요일 ~ HOL(11:00,14:00,16:00)"]
+  },
+  {
+    "mt20id": ["PF193431"],
+    "prfnm": ["콩순이 시즌2: 우리들 음악회 [포항]"],
+    "prfpdfrom": ["2022.09.24"],
+    "prfpdto": ["2022.09.25"],
+    "fcltynm": ["포항시청 대잠홀 (포항시청 대잠홀)"],
+    "prfcast": [" "],
+    "prfcrew": ["김철현, 윤성민, 정윤지 등"],
+    "prfruntime": ["1시간 5분"],
+    "prfage": ["20개월 이상"],
+    "entrpsnm": ["DS뮤지컬컴퍼니, 영실업"],
+    "pcseguidance": 50000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193431_220624_101945.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193431_220624_1019450.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001256"],
+    "dtguidance": ["토요일(11:00,14:00,16:30), 일요일(11:00,14:00)"]
+  },
+  {
+    "mt20id": ["PF193363"],
+    "prfnm": ["신비아파트 시즌5: 감염된 도시의 비밀 [대구]"],
+    "prfpdfrom": ["2022.09.03"],
+    "prfpdto": ["2022.09.04"],
+    "fcltynm": ["천마아트센터 (그랜드홀)"],
+    "prfcast": [" "],
+    "prfcrew": ["김철현, 윤성민, 정윤지 등"],
+    "prfruntime": ["1시간 10분"],
+    "prfage": ["24개월 이상"],
+    "entrpsnm": ["(주)CJ ENM, DS뮤지컬컴퍼니"],
+    "pcseguidance": 66000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193363_220623_114419.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193363_220623_1144190.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001337"],
+    "dtguidance": ["토요일(11:00,14:00,16:30), 일요일(11:00,14:00)"]
+  },
+  {
+    "mt20id": ["PF193353"],
+    "prfnm": ["안동에 와봤니껴?!"],
+    "prfpdfrom": ["2022.07.22"],
+    "prfpdto": ["2022.07.23"],
+    "fcltynm": ["안동문화예술의전당 (백조홀)"],
+    "prfcast": ["배재현, 김동형, 박소연, 안정형, 윤민석, 권승은, 안은영 등"],
+    "prfcrew": ["김신근, 김세한, 김아람 등"],
+    "prfruntime": [" "],
+    "prfage": ["만 4세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 10000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193353_220623_111631.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["연극"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193353_220623_1116311.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193353_220623_1116310.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000537"],
+    "dtguidance": ["금요일(19:30), 토요일(19:00)"]
+  },
+  {
+    "mt20id": ["PF193315"],
+    "prfnm": ["제186회 포항시립연극단 정기공연: 파랑새"],
+    "prfpdfrom": ["2022.07.21"],
+    "prfpdto": ["2022.07.24"],
+    "fcltynm": ["포항시청 대잠홀 (포항시청 대잠홀)"],
+    "prfcast": [" "],
+    "prfcrew": ["김세일"],
+    "prfruntime": ["2시간 30분"],
+    "prfage": ["만 5세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 5000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193315_220623_095228.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["연극"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193315_220623_0952280.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001256"],
+    "dtguidance": ["목요일 ~ 금요일(19:00), 토요일 ~ 일요일(16:00)"]
+  },
+  {
+    "mt20id": ["PF193225"],
+    "prfnm": ["제20회 김천국제가족연극제, 거인이야기"],
+    "prfpdfrom": ["2022.07.30"],
+    "prfpdto": ["2022.07.30"],
+    "fcltynm": ["김천시문화예술회관 (소공연장)"],
+    "prfcast": ["백상민, 이지연, 정지혜"],
+    "prfcrew": [" "],
+    "prfruntime": ["50분"],
+    "prfage": ["전체 관람가"],
+    "entrpsnm": ["햇살놀이터"],
+    "pcseguidance": 10000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193225_220622_095033.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["연극"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193225_220622_0950330.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001108"],
+    "dtguidance": ["토요일(13:00,15:00)"]
+  },
+  {
+    "mt20id": ["PF193224"],
+    "prfnm": ["제20회 김천국제가족연극제, 낱말공장나라"],
+    "prfpdfrom": ["2022.08.03"],
+    "prfpdto": ["2022.08.03"],
+    "fcltynm": ["김천시문화예술회관 (소공연장)"],
+    "prfcast": ["표두란, 이승연, 여진우, 김조민, 강민지, 강아현"],
+    "prfcrew": ["김형아, 황덕신"],
+    "prfruntime": ["46분"],
+    "prfage": ["전체 관람가"],
+    "entrpsnm": ["이야기꾼의 책공연"],
+    "pcseguidance": 10000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193224_220622_094825.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["연극"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193224_220622_0948250.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001108"],
+    "dtguidance": ["수요일(13:00,15:00)"]
+  },
+  {
+    "mt20id": ["PF193223"],
+    "prfnm": ["제20회 김천국제가족연극제, 더 클라운"],
+    "prfpdfrom": ["2022.08.01"],
+    "prfpdto": ["2022.08.01"],
+    "fcltynm": ["김천시문화예술회관 (대공연장)"],
+    "prfcast": ["채창도, 이애경, 정수지, 엄소연, 신승희, 정다운, 김혜정 등"],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간"],
+    "prfage": ["전체 관람가"],
+    "entrpsnm": ["벼랑끝날다"],
+    "pcseguidance": 10000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193223_220622_094611.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["연극"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193223_220622_0946110.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001108"],
+    "dtguidance": ["월요일(19:00)"]
+  },
+  {
+    "mt20id": ["PF193222"],
+    "prfnm": ["제20회 김천국제가족연극제, 마술가게"],
+    "prfpdfrom": ["2022.07.29"],
+    "prfpdto": ["2022.07.30"],
+    "fcltynm": ["김천시문화예술회관 (대공연장)"],
+    "prfcast": ["최종원"],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간 40분"],
+    "prfage": ["만 7세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 10000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193222_220622_094352.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["연극"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193222_220622_0943520.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001108"],
+    "dtguidance": ["금요일(19:00), 토요일(19:00)"]
+  },
+  {
+    "mt20id": ["PF193221"],
+    "prfnm": ["제20회 김천국제가족연극제, 목 짧은 기린 지피"],
+    "prfpdfrom": ["2022.08.05"],
+    "prfpdto": ["2022.08.05"],
+    "fcltynm": ["김천시문화예술회관 (대공연장)"],
+    "prfcast": ["이은아, 백지연, 조영환, 정재헌, 김은지, 여한나, 장석준"],
+    "prfcrew": ["장석준, 나숙경, 조영환 등"],
+    "prfruntime": ["55분"],
+    "prfage": ["만 2세 이상"],
+    "entrpsnm": ["(사)뮤지컬창작터하늘에"],
+    "pcseguidance": 10000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193221_220622_094123.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["연극"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193221_220622_0941230.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001108"],
+    "dtguidance": ["금요일(19:00)"]
+  },
+  {
+    "mt20id": ["PF193220"],
+    "prfnm": ["제20회 김천국제가족연극제, 스프레이"],
+    "prfpdfrom": ["2022.08.06"],
+    "prfpdto": ["2022.08.06"],
+    "fcltynm": ["김천시립문화회관 (김천시립문화회관)"],
+    "prfcast": ["한다희, 김서연, 이상희, 장희정, 이동인, 김민정, 박현숙 등"],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간 20분"],
+    "prfage": ["만 6세 이상"],
+    "entrpsnm": ["극단 초인"],
+    "pcseguidance": 10000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193220_220622_093753.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["연극"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193220_220622_0937530.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001429"],
+    "dtguidance": ["토요일(16:00,19:00)"]
+  },
+  {
+    "mt20id": ["PF193219"],
+    "prfnm": ["제20회 김천국제가족연극제, 안녕도깨비"],
+    "prfpdfrom": ["2022.07.31"],
+    "prfpdto": ["2022.07.31"],
+    "fcltynm": ["김천시립문화회관 (김천시립문화회관)"],
+    "prfcast": ["고은경, 김응형, 이병선, 이주희, 인정아, 한여름"],
+    "prfcrew": ["배근영, 이현주, 최진근 등"],
+    "prfruntime": ["55분"],
+    "prfage": ["전체 관람가"],
+    "entrpsnm": ["극단 로.기.나래"],
+    "pcseguidance": 10000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193219_220622_093536.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["연극"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193219_220622_0935360.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001429"],
+    "dtguidance": ["일요일(16:00,19:00)"]
+  },
+  {
+    "mt20id": ["PF193218"],
+    "prfnm": ["제20회 김천국제가족연극제, 어딘가, 반짝"],
+    "prfpdfrom": ["2022.08.01"],
+    "prfpdto": ["2022.08.01"],
+    "fcltynm": ["김천시문화예술회관 (소공연장)"],
+    "prfcast": ["이미라, 이지민, 김솔지"],
+    "prfcrew": ["이지민, 이미라,  김솔지 등"],
+    "prfruntime": ["55분"],
+    "prfage": ["전체 관람가"],
+    "entrpsnm": [" "],
+    "pcseguidance": 10000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193218_220622_093312.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["연극"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193218_220622_0933120.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001108"],
+    "dtguidance": ["월요일(13:00,15:00)"]
+  },
+  {
+    "mt20id": ["PF193217"],
+    "prfnm": ["제20회 김천국제가족연극제, 이솝우화"],
+    "prfpdfrom": ["2022.07.29"],
+    "prfpdto": ["2022.07.29"],
+    "fcltynm": ["김천시립문화회관 (김천시립문화회관)"],
+    "prfcast": ["강지현, 김태완, 남기욱, 노준영, 박지은, 오윤정, 위다은 등"],
+    "prfcrew": ["황이선"],
+    "prfruntime": ["1시간"],
+    "prfage": ["전체 관람가"],
+    "entrpsnm": ["공상집단 뚱딴지"],
+    "pcseguidance": 10000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193217_220622_093023.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["연극"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193217_220622_0930230.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001429"],
+    "dtguidance": ["금요일(13:00,15:00)"]
+  },
+  {
+    "mt20id": ["PF193216"],
+    "prfnm": ["제20회 김천국제가족연극제, 해방의 서울"],
+    "prfpdfrom": ["2022.08.07"],
+    "prfpdto": ["2022.08.07"],
+    "fcltynm": ["김천시문화예술회관 (대공연장)"],
+    "prfcast": ["강지은, 박형준, 이원재, 김혁민, 이호열, 김은우, 안소영"],
+    "prfcrew": ["박근형"],
+    "prfruntime": ["1시간 30분"],
+    "prfage": ["만 7세 이상"],
+    "entrpsnm": ["극단 골목길"],
+    "pcseguidance": 10000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193216_220622_092749.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["연극"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193216_220622_0927490.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001108"],
+    "dtguidance": ["일요일(19:00)"]
+  },
+  {
+    "mt20id": ["PF193005"],
+    "prfnm": ["알피 [포항]"],
+    "prfpdfrom": ["2022.07.16"],
+    "prfpdto": ["2022.07.17"],
+    "fcltynm": ["포항문화예술회관 (대공연장)"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간 5분"],
+    "prfage": ["만 4세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 30000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193005_220617_123639.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193005_220617_1236390.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001191"],
+    "dtguidance": ["토요일 ~ 일요일(11:00,14:00)"]
+  },
+  {
+    "mt20id": ["PF192981"],
+    "prfnm": ["클래식으로 읽는 명작소설 어린왕자 [포항]"],
+    "prfpdfrom": ["2022.07.30"],
+    "prfpdto": ["2022.07.30"],
+    "fcltynm": ["포항시청 대잠홀 (포항시청 대잠홀)"],
+    "prfcast": ["이은총, 이안나, 김한올, 공시온, 허라원, 김성혜, 장인경 등"],
+    "prfcrew": ["정하해, 김현조, 유창숙 등"],
+    "prfruntime": ["1시간 10분"],
+    "prfage": ["만 3세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 10000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF192981_220617_104049.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["클래식"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF192981_220617_1040490.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001256"],
+    "dtguidance": ["토요일(17:00)"]
+  },
+  {
+    "mt20id": ["PF192884"],
+    "prfnm": [
+      "제13회 대한민국 국공립극단 페스티벌, 목포시립극단 : 아버지와 나와 홍매와"
+    ],
+    "prfpdfrom": ["2022.08.06"],
+    "prfpdto": ["2022.08.06"],
+    "fcltynm": ["경주예술의전당 (대공연장(화랑홀))"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간 30분"],
+    "prfage": ["만 7세 이상"],
+    "entrpsnm": ["목포시립극단"],
+    "pcseguidance": 5000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF192884_220615_133402.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["연극"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF192884_220615_0134020.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF192884_220615_0136102.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000517"],
+    "dtguidance": ["토요일(15:00)"]
+  },
+  {
+    "mt20id": ["PF192879"],
+    "prfnm": ["제13회 대한민국 국공립극단 페스티벌, 대구시립극단: 열혈심청"],
+    "prfpdfrom": ["2022.07.13"],
+    "prfpdto": ["2022.07.13"],
+    "fcltynm": ["경주예술의전당 (소공연장(원화홀))"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간 40분"],
+    "prfage": ["만 7세 이상"],
+    "entrpsnm": ["대구시립극단"],
+    "pcseguidance": 5000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF192879_220615_131724.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["연극"],
+    "prfstate": ["공연중"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF192879_220615_0117240.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF192879_220615_0121182.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000517"],
+    "dtguidance": ["수요일(19:30)"]
+  },
+  {
+    "mt20id": ["PF192862"],
+    "prfnm": [
+      "제13회 대한민국 국공립극단 페스티벌, 순천시립극단: 순천시립극단 억울한 여자"
+    ],
+    "prfpdfrom": ["2022.07.20"],
+    "prfpdto": ["2022.07.20"],
+    "fcltynm": ["경주예술의전당 (소공연장(원화홀))"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간 40분"],
+    "prfage": ["만 14세 이상"],
+    "entrpsnm": ["순천시립극단"],
+    "pcseguidance": 5000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF192862_220615_110429.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["연극"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF192862_220615_1104290.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF192862_220615_1140442.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000517"],
+    "dtguidance": ["수요일(19:30)"]
+  },
+  {
+    "mt20id": ["PF192833"],
+    "prfnm": ["제13회 대한민국 국공립극단 페스티벌, 포항시립극단: 파랑새"],
+    "prfpdfrom": ["2022.07.27"],
+    "prfpdto": ["2022.07.27"],
+    "fcltynm": ["경주예술의전당 (대공연장(화랑홀))"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["2시간 30분"],
+    "prfage": ["만 9세 이상"],
+    "entrpsnm": ["포항시립극단"],
+    "pcseguidance": 5000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF192833_220615_101223.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["연극"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF192833_220615_1012231.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF192833_220615_1012230.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000517"],
+    "dtguidance": ["수요일(19:00)"]
+  },
+  {
+    "mt20id": ["PF192832"],
+    "prfnm": [
+      "제13회 대한민국 국공립극단 페스티벌, 부산시립극단: 미운 오리 새끼"
+    ],
+    "prfpdfrom": ["2022.07.23"],
+    "prfpdto": ["2022.07.24"],
+    "fcltynm": ["경주예술의전당 (소공연장(원화홀))"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간 10분"],
+    "prfage": ["만 2세 이상"],
+    "entrpsnm": ["부산시립극단"],
+    "pcseguidance": 5000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF192832_220615_101025.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF192832_220615_1010250.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF192832_220615_1246513.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000517"],
+    "dtguidance": ["토요일 ~ 일요일(11:00,14:00)"]
+  },
+  {
+    "mt20id": ["PF192785"],
+    "prfnm": ["오즈의 마법사 [포항]"],
+    "prfpdfrom": ["2022.07.30"],
+    "prfpdto": ["2022.07.30"],
+    "fcltynm": ["포항시청 대잠홀 (포항시청 대잠홀)"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간"],
+    "prfage": ["24개월 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 30000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF192785_220614_112725.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF192785_220614_1127251.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF192785_220614_1127250.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001256"],
+    "dtguidance": ["토요일(11:00,14:00,16:00)"]
+  },
+  {
+    "mt20id": ["PF192722"],
+    "prfnm": ["겨울왕국: 겨울이야기 [영천]"],
+    "prfpdfrom": ["2022.07.16"],
+    "prfpdto": ["2022.07.16"],
+    "fcltynm": ["영천시민회관 (스타홀)"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간"],
+    "prfage": ["만 2세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 30000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF192722_220613_124959.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF192722_220613_1249592.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF192722_220613_1249591.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF192722_220613_1249590.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000546"],
+    "dtguidance": ["토요일(11:00,14:00,16:00)"]
+  },
+  {
+    "mt20id": ["PF192623"],
+    "prfnm": ["안동청소년오케스트라 희망&화합&행복: 가요, 모두 함께 가요!"],
+    "prfpdfrom": ["2022.07.27"],
+    "prfpdto": ["2022.07.27"],
+    "fcltynm": ["안동문화예술의전당 (백조홀)"],
+    "prfcast": ["반아민, 박소연, 한진 등"],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간 20분"],
+    "prfage": ["만 4세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 0,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF192623_220610_114703.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["클래식"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF192623_220610_0119222.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF192623_220610_1147030.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000537"],
+    "dtguidance": ["수요일(19:30)"]
+  },
+  {
+    "mt20id": ["PF192563"],
+    "prfnm": ["오즈의 마법사 [경주]"],
+    "prfpdfrom": ["2022.07.23"],
+    "prfpdto": ["2022.07.23"],
+    "fcltynm": ["서라벌문화회관 (서라벌문화회관)"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간"],
+    "prfage": ["전체 관람가"],
+    "entrpsnm": [" "],
+    "pcseguidance": 30000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF192563_220610_095427.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF192563_220610_0954270.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000867"],
+    "dtguidance": ["토요일(11:00,13:00,15:00)"]
+  },
+  {
+    "mt20id": ["PF192422"],
+    "prfnm": ["미니특공대: 애니멀트론 [포항]"],
+    "prfpdfrom": ["2022.08.06"],
+    "prfpdto": ["2022.08.07"],
+    "fcltynm": ["포항시청 대잠홀 (포항시청 대잠홀)"],
+    "prfcast": [" "],
+    "prfcrew": ["박준철, 이훈, 황지연 등"],
+    "prfruntime": ["1시간 5분"],
+    "prfage": ["20개월 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 70000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF192422_220608_114249.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF192422_220608_1142491.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF192422_220608_1142490.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001256"],
+    "dtguidance": ["토요일 ~ 일요일(11:00,14:00,16:00)"]
+  },
+  {
+    "mt20id": ["PF192296"],
+    "prfnm": ["빈센트 반 고흐 [안동]"],
+    "prfpdfrom": ["2022.07.15"],
+    "prfpdto": ["2022.07.16"],
+    "fcltynm": ["안동문화예술의전당 (웅부홀)"],
+    "prfcast": ["박민성, 윤은오"],
+    "prfcrew": ["한승원, 김종석, 최유선 등"],
+    "prfruntime": ["1시간 50분"],
+    "prfage": ["만 11세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 20000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF192296_220607_113617.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF192296_220607_1136170.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000537"],
+    "dtguidance": ["금요일(19:30), 토요일(19:00)"]
+  },
+  {
+    "mt20id": ["PF191946"],
+    "prfnm": ["인어공주 [경주]"],
+    "prfpdfrom": ["2022.07.23"],
+    "prfpdto": ["2022.07.23"],
+    "fcltynm": ["서라벌문화회관 (서라벌문화회관)"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간"],
+    "prfage": ["전체 관람가"],
+    "entrpsnm": [" "],
+    "pcseguidance": 30000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF191946_220530_131036.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF191946_220530_0110361.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF191946_220530_0110360.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000867"],
+    "dtguidance": ["토요일(11:00,13:00,15:00)"]
+  },
+  {
+    "mt20id": ["PF191940"],
+    "prfnm": ["꼬마버스 타요와 하하호호 노래자랑 [대구]"],
+    "prfpdfrom": ["2022.07.16"],
+    "prfpdto": ["2022.07.17"],
+    "fcltynm": ["천마아트센터 (그랜드홀)"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간 5분"],
+    "prfage": ["24개월 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 55000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF191940_220530_124541.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF191940_220530_1245410.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001337"],
+    "dtguidance": ["토요일 ~ 일요일(11:00,14:00,16:00)"]
+  },
+  {
+    "mt20id": ["PF189647"],
+    "prfnm": ["태양의 꽃"],
+    "prfpdfrom": ["2022.04.22"],
+    "prfpdto": ["2022.09.25"],
+    "fcltynm": ["경주세계문화엑스포 (문화센터공연장)"],
+    "prfcast": ["우다현, 장준환, 한성, 황인욱, 김유빈, 이동연, 박선우 등"],
+    "prfcrew": ["추정화, 허수현, 김병진 등"],
+    "prfruntime": ["1시간 40분"],
+    "prfage": ["만 5세 이상"],
+    "entrpsnm": ["(재)정동극장"],
+    "pcseguidance": 30000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF189647_220418_113926.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연중"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF189647_220418_1139260.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001081"],
+    "dtguidance": ["수요일 ~ 금요일(19:00), 토요일 ~ 일요일(19:00)"]
+  },
+  {
+    "mt20id": ["PF188447"],
+    "prfnm": ["인피니티 플라잉 (INFINITY FLYING) [경주]"],
+    "prfpdfrom": ["2022.04.08"],
+    "prfpdto": ["2022.12.25"],
+    "fcltynm": ["경주세계문화엑스포 (문화센터공연장)"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간 20분"],
+    "prfage": ["36개월 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 27000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF188447_220324_101657.jpg"
+    ],
+    "sty": [
+      "[줄거리]\r\n\r\n\r\nEpisode 1 _ 신라 도깨비, 화랑 무술 대회장에 나타나다!\r\n\r\n서기609년 신라 진평왕시대, 화랑무술대회장에 도깨비가 나타나 아수라장으로 만들고 시간의 문을 통해 현대로 도망간다.\r\n21세기 한 고등학교에 도착한 도깨비는 대회를 앞둔 치어리딩 팀을 만난다.\r\n\r\nEpisode 2 _ 시간의 문\r\n\r\n시간의 문을 통해 현대로 넘어온 화랑과 도깨비는 치어리딩 팀의 연습을 돕고, 화랑과 뚱녀는 사랑에 빠지게 되는데...\r\n\r\nEpisode 3 _ 전국응원대회\r\n\r\n화랑과 도깨비의 도움으로 치어리딩 팀은 전국 응원 대회에서 우승하게 된다.\r\n하지만 기쁨도 잠시, 화랑과 도깨비가 다시 시간의 문을 넘어 고대로 돌아갈 시간이 됐는데..."
+    ],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연중"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF188447_220324_1016570.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001081"],
+    "dtguidance": ["수요일 ~ 금요일(14:30), 토요일 ~ 일요일(14:30)"]
+  },
+  {
+    "mt20id": ["PF188335"],
+    "prfnm": ["조희창의 음악 오디세이, 기타의 히스토리"],
+    "prfpdfrom": ["2022.09.24"],
+    "prfpdto": ["2022.09.24"],
+    "fcltynm": ["포항문화예술회관 (소공연장)"],
+    "prfcast": ["조희창, 박윤우, 박종소, 고수정"],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간 20분"],
+    "prfage": ["만 7세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 20000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF188335_220322_100902.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["클래식"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF188335_220322_1009020.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001191"],
+    "dtguidance": ["토요일(17:00)"]
+  },
+  {
+    "mt20id": ["PF188334"],
+    "prfnm": ["조희창의 음악 오디세이, 책갈피 속의 클래식"],
+    "prfpdfrom": ["2022.11.26"],
+    "prfpdto": ["2022.11.26"],
+    "fcltynm": ["포항문화예술회관 (소공연장)"],
+    "prfcast": ["조희창, 임재홍, 김정은"],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간 20분"],
+    "prfage": ["만 7세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 20000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF188334_220322_100651.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["클래식"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF188334_220322_1006510.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001191"],
+    "dtguidance": ["토요일(17:00)"]
+  },
+  {
+    "mt20id": ["PF187972"],
+    "prfnm": ["금욜로 시리즈 Ⅴ , 나릿: 오늘 프로젝트 흥보가 X"],
+    "prfpdfrom": ["2022.10.28"],
+    "prfpdto": ["2022.10.28"],
+    "fcltynm": ["포항시청 대잠홀 (포항시청 대잠홀)"],
+    "prfcast": ["김수정 등"],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간"],
+    "prfage": ["만 7세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 10000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF187972_220314_124034.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["국악"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF187972_220314_0123141.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001256"],
+    "dtguidance": ["금요일(19:30)"]
+  }
+]

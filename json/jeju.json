@@ -1,0 +1,425 @@
+[
+  {
+    "mt20id": ["PF194246"],
+    "prfnm": ["SAC ON SCREEN, 굿모닝 독도 [제주]"],
+    "prfpdfrom": ["2022.07.25"],
+    "prfpdto": ["2022.07.25"],
+    "fcltynm": ["제주아트센터 (대극장)"],
+    "prfcast": ["류창우, 최형석, 이윤희, 안태준, 김지아, 선일, 전하영 등"],
+    "prfcrew": ["국민성, 장경섭, 박진규 등"],
+    "prfruntime": ["1시간 40분"],
+    "prfage": ["만 7세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 0,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF194246_220708_102335.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF194246_220708_1023351.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF194246_220708_1023350.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000262"],
+    "dtguidance": ["월요일(15:00)"]
+  },
+  {
+    "mt20id": ["PF194206"],
+    "prfnm": ["마술가게 [제주]"],
+    "prfpdfrom": ["2022.07.06"],
+    "prfpdto": ["2022.07.23"],
+    "fcltynm": ["제주문예회관 (대극장)"],
+    "prfcast": ["최종원, 이준, 이광호 외"],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간 20분"],
+    "prfage": ["만 7세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 0,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF194206_220707_110110.JPG"
+    ],
+    "sty": [" "],
+    "genrenm": ["연극"],
+    "prfstate": ["공연중"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF194206_220707_1102290.JPG"
+        ]
+      }
+    ],
+    "mt10id": ["FC000260"],
+    "dtguidance": ["금요일(19:00), 토요일(15:00)"]
+  },
+  {
+    "mt20id": ["PF193900"],
+    "prfnm": ["꼬마농부 라비 [제주]"],
+    "prfpdfrom": ["2022.07.20"],
+    "prfpdto": ["2022.07.24"],
+    "fcltynm": ["제주특별자치도 설문대여성문화센터 (공연장)"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["50분"],
+    "prfage": ["전체 관람가"],
+    "entrpsnm": [" "],
+    "pcseguidance": 5000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193900_220704_095506.png"
+    ],
+    "sty": [
+      "[줄거리]\r\n\r\n자연을 사랑하는 두더지 라비는 오늘도 당근 밭으로 아침산책을 갑니다.\r\n당근들과 인사를 나누며 행복한 시간을 보내는 라비의 머리 위로\r\n갑자기 검은 그림자가 드리웁니다. 바로 당근 밭의 주인아저씨인데요.\r\n웬일인지 아저씨는 잔뜩 화가나 있습니다.\r\n'네 이놈~~' 소리를 지르며 라비를 쫓아오기 시작했어요.\r\n깜짝 놀란 라비는 급하게 땅 속으로 몸을 숨깁니다.\r\n당근 밭을 망치는 해로운 짐승이란 억울한 오명을 쓴 라비는\r\n자신이 식물을 사랑한다는 것을 증명하기 위해 농부가 되겠다고 결심합니다."
+    ],
+    "genrenm": ["연극"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193900_220704_0955064.png",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193900_220704_0955063.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193900_220704_0955062.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193900_220704_0955061.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193900_220704_0955060.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000918"],
+    "dtguidance": ["수요일 ~ 금요일(10:30), 토요일 ~ 일요일(14:00)"]
+  },
+  {
+    "mt20id": ["PF193821"],
+    "prfnm": ["무용인 한마음 축제 [제주]"],
+    "prfpdfrom": ["2022.07.29"],
+    "prfpdto": ["2022.07.29"],
+    "fcltynm": ["제주아트센터 (대극장)"],
+    "prfcast": ["김진형, 홍란, 김현정, 유국종, 박다영, 현혜연, 정승묵 등"],
+    "prfcrew": ["김혜림, 임정희, 이윤정 등"],
+    "prfruntime": ["1시간 30분"],
+    "prfage": ["만 7세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 20000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193821_220630_142240.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["복합"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193821_220630_0222401.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193821_220630_0222400.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000262"],
+    "dtguidance": ["금요일(19:30)"]
+  },
+  {
+    "mt20id": ["PF193789"],
+    "prfnm": ["나포리 음악다방 [제주]"],
+    "prfpdfrom": ["2022.06.29"],
+    "prfpdto": ["2022.07.16"],
+    "fcltynm": ["제주문예회관 (대극장)"],
+    "prfcast": ["김현준, 권태진, 손난희, 강인대, 정열, 정가람, 신시아 등"],
+    "prfcrew": ["김동순, 배새암"],
+    "prfruntime": ["1시간 30분"],
+    "prfage": ["만 7세 이상"],
+    "entrpsnm": ["(재)구로문화재단"],
+    "pcseguidance": 0,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193789_220630_123614.jpg"
+    ],
+    "sty": [
+      "[공연소개]\r\n\r\n\r\n오랜 세월 동네를 지키며 한때 누군가의 아지트였던 서울의 근현대 발전사와 정서를 담고 있는 실존 장소인 나포리 음악다방이라는 공간을 배경으로 지역민의 실제 이야기를 바탕으로 대한민국 청춘들의 과거와 현재, 미래가 소통하는 이야기"
+    ],
+    "genrenm": ["연극"],
+    "prfstate": ["공연중"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193789_220630_1236140.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000260"],
+    "dtguidance": ["토요일(15:00)"]
+  },
+  {
+    "mt20id": ["PF193753"],
+    "prfnm": ["바다탐험대 옥토넛 시즌2: 대산호초 보호작전 [제주]"],
+    "prfpdfrom": ["2022.09.03"],
+    "prfpdto": ["2022.09.04"],
+    "fcltynm": ["한라아트홀 (대극장)"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간 5분"],
+    "prfage": ["20개월 이상"],
+    "entrpsnm": ["극단 마당세실"],
+    "pcseguidance": 60000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193753_220629_124844.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193753_220629_1248441.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193753_220629_1248440.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000724"],
+    "dtguidance": ["토요일 ~ 일요일(11:00,14:00,16:00)"]
+  },
+  {
+    "mt20id": ["PF193546"],
+    "prfnm": ["우디를 도와줘 [제주]"],
+    "prfpdfrom": ["2022.07.16"],
+    "prfpdto": ["2022.08.15"],
+    "fcltynm": ["캠퍼트리 호텔앤리조트 (탐라홀)"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간"],
+    "prfage": ["24개월 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 25000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193546_220627_114111.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193546_220627_1141110.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC003022"],
+    "dtguidance": [
+      "금요일(11:30,16:30,19:00), 토요일 ~ 일요일(11:30,14:00,16:30,19:00)"
+    ]
+  },
+  {
+    "mt20id": ["PF193488"],
+    "prfnm": ["리틀 고양이 [제주]"],
+    "prfpdfrom": ["2022.10.22"],
+    "prfpdto": ["2022.10.23"],
+    "fcltynm": ["한라아트홀 (대극장)"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["55분"],
+    "prfage": ["전체 관람가"],
+    "entrpsnm": [" "],
+    "pcseguidance": 45000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193488_220624_121110.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193488_220624_1211100.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000724"],
+    "dtguidance": ["토요일 ~ 일요일(11:00,14:00,16:00)"]
+  },
+  {
+    "mt20id": ["PF193371"],
+    "prfnm": ["이날치: 수궁가 [제주]"],
+    "prfpdfrom": ["2022.07.16"],
+    "prfpdto": ["2022.07.16"],
+    "fcltynm": ["제주특별자치도 설문대여성문화센터 (공연장)"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간 10분"],
+    "prfage": ["만 7세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 10000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193371_220623_122718.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["국악"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193371_220623_1227180.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000918"],
+    "dtguidance": ["토요일(14:00)"]
+  },
+  {
+    "mt20id": ["PF193370"],
+    "prfnm": ["김다미 & 김규연 듀오 리사이틀 [제주]"],
+    "prfpdfrom": ["2022.07.23"],
+    "prfpdto": ["2022.07.23"],
+    "fcltynm": ["서귀포예술의전당 (소극장)"],
+    "prfcast": ["김다미, 김규연"],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간 40분"],
+    "prfage": ["만 7세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 30000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193370_220623_120541.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["클래식"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193370_220623_1205410.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001231"],
+    "dtguidance": ["토요일(15:00)"]
+  },
+  {
+    "mt20id": ["PF193202"],
+    "prfnm": ["한뼘사이 [제주]"],
+    "prfpdfrom": ["2022.08.06"],
+    "prfpdto": ["2022.08.07"],
+    "fcltynm": ["한라아트홀 (대극장)"],
+    "prfcast": ["이궁아라, 최상배, 강민주, 서호영, 온정"],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간 40분"],
+    "prfage": ["만 12세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 50000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193202_220621_134429.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["연극"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193202_220621_0144292.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193202_220621_0144291.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193202_220621_0144290.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000724"],
+    "dtguidance": ["토요일 ~ 일요일(15:00,18:00)"]
+  },
+  {
+    "mt20id": ["PF192787"],
+    "prfnm": ["우리 아빠가 최고야 [제주]"],
+    "prfpdfrom": ["2022.07.30"],
+    "prfpdto": ["2022.07.31"],
+    "fcltynm": ["제주특별자치도 설문대여성문화센터 (공연장)"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간"],
+    "prfage": ["24개월 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 35000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF192787_220614_113701.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF192787_220614_1137010.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000918"],
+    "dtguidance": ["토요일 ~ 일요일(11:00,13:00,15:00)"]
+  },
+  {
+    "mt20id": ["PF191368"],
+    "prfnm": ["라푼젤 [제주]"],
+    "prfpdfrom": ["2022.08.20"],
+    "prfpdto": ["2022.08.21"],
+    "fcltynm": ["한라아트홀 (대극장)"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간"],
+    "prfage": ["24개월 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 40000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF191368_220519_133145.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF191368_220519_0131450.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000724"],
+    "dtguidance": ["토요일 ~ 일요일(11:00,14:00,16:00)"]
+  },
+  {
+    "mt20id": ["PF178963"],
+    "prfnm": ["오늘의 이야기"],
+    "prfpdfrom": ["2021.08.26"],
+    "prfpdto": ["2022.11.27"],
+    "fcltynm": ["함덕 메리굿 (함덕 메리굿)"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["20분"],
+    "prfage": ["전체 관람가"],
+    "entrpsnm": [" "],
+    "pcseguidance": 50000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF178963_210827_105309.PNG"
+    ],
+    "sty": [
+      "[공연소개]\r\n\r\n식전 뮤지컬 (러닝타임 20분) & 제주도 식재료를 활용한 코스요리"
+    ],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연중"],
+    "openrun": ["Y"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF178963_210827_1053290.PNG"
+        ]
+      }
+    ],
+    "mt10id": ["FC002826"],
+    "dtguidance": ["목요일 ~ 금요일(19:00), 토요일 ~ 일요일(19:00)"]
+  }
+]

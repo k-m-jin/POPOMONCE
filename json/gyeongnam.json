@@ -1,0 +1,1387 @@
+[
+  {
+    "mt20id": ["PF194266"],
+    "prfnm": ["판페라, 소리의 서막을 열다"],
+    "prfpdfrom": ["2022.07.22"],
+    "prfpdto": ["2022.07.23"],
+    "fcltynm": ["사천문화예술회관 (전시실)"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간"],
+    "prfage": ["전체 관람가"],
+    "entrpsnm": [" "],
+    "pcseguidance": 10000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF194266_220708_113428.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["복합"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF194266_220708_1134280.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000578"],
+    "dtguidance": ["금요일(19:30), 토요일(19:30)"]
+  },
+  {
+    "mt20id": ["PF194262"],
+    "prfnm": ["가요톱텐 [거제]"],
+    "prfpdfrom": ["2022.08.30"],
+    "prfpdto": ["2022.08.31"],
+    "fcltynm": ["거제문화예술회관 (대극장)"],
+    "prfcast": ["홍경민, 박규리, 이영호, 홍순목, 문준혁, 임선아, 박석주 등"],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간 50분"],
+    "prfage": ["만 7세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 50000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF194262_220708_112311.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF194262_220708_1123110.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000878"],
+    "dtguidance": ["화요일 ~ 수요일(19:30)"]
+  },
+  {
+    "mt20id": ["PF194192"],
+    "prfnm": ["제22회 밀양공연예술축제, 대학극전: 스튜디오 2"],
+    "prfpdfrom": ["2022.07.18"],
+    "prfpdto": ["2022.07.20"],
+    "fcltynm": ["밀양아리나(구, 밀양연극촌) (스튜디오2)"],
+    "prfcast": ["이창재, 이장원, 김지우, 윤시유, 장은준, 한다은, 안태호 등"],
+    "prfcrew": ["김만희, 권혁남, 이승민 등"],
+    "prfruntime": [" "],
+    "prfage": [" "],
+    "entrpsnm": [
+      "극단 범인의, 극동대학교 연극연기학과, 서일대학교 영화방송공연예술학과"
+    ],
+    "pcseguidance": 10000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF194192_220707_103213.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["연극"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF194192_220707_1032132.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF194192_220707_1032131.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF194192_220707_1032130.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001322"],
+    "dtguidance": ["월요일 ~ 수요일(14:30)"]
+  },
+  {
+    "mt20id": ["PF194183"],
+    "prfnm": ["제32회 거창국제연극제, 파마합시다"],
+    "prfpdfrom": ["2022.07.26"],
+    "prfpdto": ["2022.07.26"],
+    "fcltynm": ["거창 수승대 (축제극장)"],
+    "prfcast": ["권영옥, 정수현, 오영석, 이양호, 유혜빈, 오우영"],
+    "prfcrew": ["이윤혁, 박종보, 조재명 등"],
+    "prfruntime": ["1시간 20분"],
+    "prfage": ["만 11세 이상"],
+    "entrpsnm": ["극단 청년극장"],
+    "pcseguidance": 10000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF194183_220707_101258.jpg"
+    ],
+    "sty": [
+      "[시놉시스]\r\n\r\n\r\n할머니는 치매로 인해 장례식장 가는 일을 아들 졸업식에 가는 걸로 착각하고 예쁘게 파마들 해달라고 부탁한다. 아들이 죽기 전에 어머니를 그리며 써놓은 메모가 희생에 의해 읽히며 그 메모의 내용은 정수의 노래가 되어 울려 퍼진다."
+    ],
+    "genrenm": ["연극"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "mt10id": ["FC001436"],
+    "dtguidance": ["화요일(20:00)"]
+  },
+  {
+    "mt20id": ["PF194155"],
+    "prfnm": ["제32회 거창국제연극제, 산포면 내기리"],
+    "prfpdfrom": ["2022.07.31"],
+    "prfpdto": ["2022.07.31"],
+    "fcltynm": ["거창문화원 (상살미홀)"],
+    "prfcast": ["정경호, 차혜정, 김태리, 조주현, 김효신, 이태식, 김재만 등"],
+    "prfcrew": ["송한봉, 이원정, 정의순 등"],
+    "prfruntime": ["1시간 25분"],
+    "prfage": ["만 11세 이상"],
+    "entrpsnm": ["극단 파란만장"],
+    "pcseguidance": 0,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF194155_220706_110711.jpg"
+    ],
+    "sty": [
+      "[시놉시스]\r\n\r\n\r\n리어카에 장인어른의 관을 싣고 서산을 향해 한발 한발 길을 떠나는 박씨의 일가, 이들은 무사히 선산에 도착할수 있을 것인가."
+    ],
+    "genrenm": ["연극"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "mt10id": ["FC001391"],
+    "dtguidance": ["일요일(16:00)"]
+  },
+  {
+    "mt20id": ["PF194152"],
+    "prfnm": ["김해 영아티스트 콘서트 시즌4, 렉처콘서트"],
+    "prfpdfrom": ["2022.07.23"],
+    "prfpdto": ["2022.07.23"],
+    "fcltynm": ["김해서부문화센터 (하늬홀)"],
+    "prfcast": ["윤지원, 서혜은, 김수한, 서보람, 장서희, 오수민 등"],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간 30분"],
+    "prfage": ["만 7세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 0,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF194152_220706_113300.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["클래식"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF194152_220706_1133000.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001890"],
+    "dtguidance": ["토요일(17:00)"]
+  },
+  {
+    "mt20id": ["PF194145"],
+    "prfnm": ["명랑시장 [거창]"],
+    "prfpdfrom": ["2022.07.14"],
+    "prfpdto": ["2022.07.14"],
+    "fcltynm": ["거창문화센터 (공연장)"],
+    "prfcast": ["박현숙, 한범희, 강아림, 이충우, 임미정, 윤재웅, 장정선 등"],
+    "prfcrew": ["김정숙, 김정 등"],
+    "prfruntime": ["1시간 10분"],
+    "prfage": ["만 7세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 5000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF194145_220706_105206.png"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF194145_220706_1052061.png",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF194145_220706_1052060.png"
+        ]
+      }
+    ],
+    "mt10id": ["FC000879"],
+    "dtguidance": ["목요일(19:30)"]
+  },
+  {
+    "mt20id": ["PF194139"],
+    "prfnm": ["제32회 거창국제연극제, 유리"],
+    "prfpdfrom": ["2022.07.28"],
+    "prfpdto": ["2022.07.28"],
+    "fcltynm": ["거창문화원 (상살미홀)"],
+    "prfcast": ["강한별, 김진주, 임윤경, 여동윤, 박민규, 유정호"],
+    "prfcrew": ["박민규, 안태규, 신동희 등"],
+    "prfruntime": ["1시간 20분"],
+    "prfage": ["만 12세 이상"],
+    "entrpsnm": ["플레이규컴퍼니(PLAY GYU COMPANY)"],
+    "pcseguidance": 0,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF194139_220706_104414.jpg"
+    ],
+    "sty": [
+      "[시놉시스]\r\n\r\n\r\n\r\n어느 날의 시골, 가엾은 소녀가 죽임을 당한다.\r\n공교롭게 시골에 좌천된 유형사가 이번 사건을 맡게 되고\r\n유리의 엄마를 포함한 네 명의 마을 사람들이 용의자로 지목되는데..."
+    ],
+    "genrenm": ["연극"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF194139_220706_1044140.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001391"],
+    "dtguidance": ["목요일(16:00)"]
+  },
+  {
+    "mt20id": ["PF194131"],
+    "prfnm": ["제32회 거창국제연극제, 그 여자를 노리는 별별 시도"],
+    "prfpdfrom": ["2022.08.01"],
+    "prfpdto": ["2022.08.01"],
+    "fcltynm": ["거창문화원 (상살미홀)"],
+    "prfcast": ["김시유"],
+    "prfcrew": ["손현규, 유주영, 최인수 등"],
+    "prfruntime": ["1시간 40분"],
+    "prfage": ["만 13세 이상"],
+    "entrpsnm": ["창작집단 꼴"],
+    "pcseguidance": 0,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF194131_220706_113832.jpg"
+    ],
+    "sty": [
+      "[시놉시스]\r\n\r\n제목 중 ‘그녀’인 앤은 테러리스트인가, 자살 시도를 예술로 바꾼 예술가인가,\r\n여행자인가, 포르노 여배우인가, 영화 캐릭터인가, 아니면 자동차인가?"
+    ],
+    "genrenm": ["연극"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF194131_220706_1027450.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001391"],
+    "dtguidance": ["월요일(16:00)"]
+  },
+  {
+    "mt20id": ["PF194124"],
+    "prfnm": ["제22회 밀양공연예술축제, 대학극전: 스튜디오 1"],
+    "prfpdfrom": ["2022.07.18"],
+    "prfpdto": ["2022.07.20"],
+    "fcltynm": ["밀양아리나(구, 밀양연극촌) (스튜디오극장)"],
+    "prfcast": ["심명균, 원성준, 김예진, 김임현, 김덕종, 박제훈, 김사랑 등"],
+    "prfcrew": ["박찬우, 박건호, 강용진 등"],
+    "prfruntime": [" "],
+    "prfage": [" "],
+    "entrpsnm": [" "],
+    "pcseguidance": 10000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF194124_220706_100552.jpg"
+    ],
+    "sty": [
+      "<살아있는 이중생 각하>\r\n\r\n\r\n[시놉시스]\r\n\r\n\r\n호화롭지만 난잡한 집에 사는 주인공 이중생은 아들 하식을 일본군의 징용을 보내는 등 악질적인 친일을 하면서 돈을 모은 친일파이다. 광복 이후, 이중생은 혼란스러운 사회 분위기를 틈타 무허가 산림회사를 차려 국유림을 사유화하고, 달러 융자를 받을 목적으로 자신의 둘째 딸 하연을 미국 원조 기관 직원 란돌프의 정부로 이용하는 등 악행을 저지르며 장차 장관까지 꿈꾸고 있었다. 그러던 어느 날, 미국 원조 기관 직원 란돌프가 사기꾼이라는 것을 알게 되고 엎친 데 덮친 격으로 사기, 배임, 횡령, 공문서위조 및 탈세범으로 입건된다. 하지만, 변호사 최영후의 도움으로 옥살이를 하다 가석방되고 자신의 재산이 몰수되는 것을 막으려 거짓으로 자살극을 꾸미게 된다.\r\n\r\n\r\n\r\n<고등어>\r\n\r\n\r\n[시놉시스]\r\n\r\n정지호, 나는 학교에서 존재감 없이 존재하는 평범하지 못한 중학생이다. 내 유일한 친구는 빨강, 파랑, 노랑 일기장. 그 속에 내가 그리는 세계는 현실과는 너무나도 멀어 보이고 그 중심에는 강경주가 있다. 강경주, 그 애는 나와 다르다. 아무도 경주를 건드리지 못한다. 신비롭고 아름다운 그 애는 나의 친구가 되자는 제안을 받아준다. 그렇게 나의 세상이 만들어가던 와중, 경주의 세상이 무너지기 시작한다. 우리는 현실의 차가운 시선으로부터 벗어나고자 정말 살아 있는 고등어를 향한 무모한 여정을 떠난다.\r\n\r\n\r\n<어느계단이야기>\r\n\r\n\r\n[시놉시스]\r\n\r\n서울시 중심부에 35층짜리 주상복합건물이 있다. 88올림픽 이후 1991년 착공만으로도 서울의 강력한 경제적 역량의 상징이었던 이 건물은 1996년 개발업자가 사망하고, 뒤이어 1997년 IMF로 인해 건설이 중단되었다. 그렇게 1년째 골조와 마감 안 된 콘크리트가 그대로 노출된 채 세월을 견디고 있다. 갈 곳 잃은 사람들이 하나둘씩 모여 불법점유하기 시작하는데…"
+    ],
+    "genrenm": ["연극"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF194124_220706_1005521.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF194124_220706_1005520.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001322"],
+    "dtguidance": ["월요일 ~ 수요일(17:00)"]
+  },
+  {
+    "mt20id": ["PF194123"],
+    "prfnm": ["제22회 밀양공연예술축제, 차세대 연출가전: 스튜디오 2"],
+    "prfpdfrom": ["2022.07.11"],
+    "prfpdto": ["2022.07.14"],
+    "fcltynm": ["밀양아리나(구, 밀양연극촌) (스튜디오2)"],
+    "prfcast": ["정사사, 황재현, 이영중, 임수아, 강희석, 장세진, 김정원 등"],
+    "prfcrew": ["이여진, 서경희, 유수빈 등"],
+    "prfruntime": [" "],
+    "prfage": [" "],
+    "entrpsnm": ["극단 문지방, 극단 아라리, 극단 우아, 따뜻한사람"],
+    "pcseguidance": 10000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF194123_220706_100108.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["연극"],
+    "prfstate": ["공연중"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF194123_220706_1001083.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF194123_220706_1001082.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF194123_220706_1001081.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF194123_220706_1001080.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001322"],
+    "dtguidance": ["월요일 ~ 목요일(14:30)"]
+  },
+  {
+    "mt20id": ["PF194122"],
+    "prfnm": ["제22회 밀양공연예술축제, 우리동네 체육대회"],
+    "prfpdfrom": ["2022.07.28"],
+    "prfpdto": ["2022.07.28"],
+    "fcltynm": ["밀양아리나(구, 밀양연극촌) (스튜디오극장)"],
+    "prfcast": ["주요한, 손미나, 박시우, 천영훈, 강예슬, 정진영, 윤연경 등"],
+    "prfcrew": ["고대호, 장종도, 김종찬 등"],
+    "prfruntime": ["1시간 20분"],
+    "prfage": ["만 11세 이상"],
+    "entrpsnm": ["(사)극단 미소"],
+    "pcseguidance": 20000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF194122_220706_095636.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["연극"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF194122_220706_0956362.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF194122_220706_0956361.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF194122_220706_0956360.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001322"],
+    "dtguidance": ["목요일(14:30,17:00)"]
+  },
+  {
+    "mt20id": ["PF194111"],
+    "prfnm": ["제32회 거창국제연극제, 후산부 동구씨"],
+    "prfpdfrom": ["2022.07.25"],
+    "prfpdto": ["2022.07.25"],
+    "fcltynm": ["거창문화원 (상살미홀)"],
+    "prfcast": ["오민석, 박영기, 윤광희, 이인석, 이의령, 김태완, 승리배 등"],
+    "prfcrew": ["황이선, 양경진, 김혜지 등"],
+    "prfruntime": ["1시간 10분"],
+    "prfage": ["만 11세 이상"],
+    "entrpsnm": ["공상집단 뚱딴지"],
+    "pcseguidance": 0,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF194111_220706_093201.jpg"
+    ],
+    "sty": [
+      "[시놉시스]\r\n\r\n\r\n1988년 충청도 공주의 희락탄광이 붕괴했다.\r\n희락탄광 4명의 광부가 붕괴사고로 고립된다. 가족을 위해 석탄을 캐는 고된 노동을 감내했고 고립된 순간에도 웃고 떠들고 노래한다. 붕괴 20일째... 그들은 이제 의심하기 시작한다. 웃음은 사라지고 노래는 절규가 되고 말은 생존하기 위한 악다구니가 된다. 그들은 처음의 바람대로 무사히 구조될 수 있을까?"
+    ],
+    "genrenm": ["연극"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "mt10id": ["FC001391"],
+    "dtguidance": ["월요일(16:00)"]
+  },
+  {
+    "mt20id": ["PF194108"],
+    "prfnm": ["제32회 거창국제연극제, 챔버6 (Chamber 6)"],
+    "prfpdfrom": ["2022.08.04"],
+    "prfpdto": ["2022.08.04"],
+    "fcltynm": ["거창 수승대 (구연극장(구 거북극장))"],
+    "prfcast": [
+      "나타샤 파이 코스 미두, 에리 마노 우라, 이오 안나 파파 콘스탄티누"
+    ],
+    "prfcrew": ["나타샤 파이 코스미두 등"],
+    "prfruntime": ["1시간"],
+    "prfage": ["전체 관람가"],
+    "entrpsnm": [" "],
+    "pcseguidance": 10000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF194108_220706_092342.jpg"
+    ],
+    "sty": [
+      "[시놉시스]\r\n\r\n\r\n이 야만적인 세상에서 떠나고 계속 싸우고, 꿈꾸며, 부드러움으로 진리를 노래하고, 손을 내밀고, 필요한 사람에게 포옹을 제공하는 사람들에 관한 공연.\r\n세상을 구할 어머니 같은 사랑의 찬가."
+    ],
+    "genrenm": ["연극"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "mt10id": ["FC001436"],
+    "dtguidance": ["목요일(20:00)"]
+  },
+  {
+    "mt20id": ["PF194107"],
+    "prfnm": ["제32회 거창국제연극제, 나는 이렇게 들었다"],
+    "prfpdfrom": ["2022.08.03"],
+    "prfpdto": ["2022.08.03"],
+    "fcltynm": ["거창 수승대 (축제극장)"],
+    "prfcast": ["김헌근, 최동석, 박진희, 송광일, 강규안, 황윤희, 신경준 등"],
+    "prfcrew": ["이금철, 정대균, 고능석 등"],
+    "prfruntime": ["1시간 20분"],
+    "prfage": ["만 11세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 10000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF194107_220706_092159.jpg"
+    ],
+    "sty": [
+      "[시놉시스]\r\n\r\n\r\n가리울골 사람들은 홍삼을 구하기 위해 기상천외한 작전을 펼친다.\r\n‘현명한 만석꾼’이라는 새로운 이야기를 만들어서 인근에 퍼트리는데..."
+    ],
+    "genrenm": ["연극"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "mt10id": ["FC001436"],
+    "dtguidance": ["수요일(20:00)"]
+  },
+  {
+    "mt20id": ["PF194106"],
+    "prfnm": ["제32회 거창국제연극제, 월곡동 산 2번지"],
+    "prfpdfrom": ["2022.08.01"],
+    "prfpdto": ["2022.08.01"],
+    "fcltynm": ["거창 수승대 (달물빛극장(구 돌담극장))"],
+    "prfcast": ["장설하, 민기욱, 민선우, 손경락, 윤수현, 김훈민, 김향"],
+    "prfcrew": ["윤돈선, 김상봉, 이덕형 등"],
+    "prfruntime": ["1시간 30분"],
+    "prfage": ["전체 관람가"],
+    "entrpsnm": ["창작그룹가족"],
+    "pcseguidance": 10000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF194106_220706_091942.jpg"
+    ],
+    "sty": [
+      "[시놉시스]\r\n\r\n\r\n가족을 버리고 떠난 아버지를 그리워하고 미워하면서도 가족을 우선시하며 자식들에게도 그것을 강요하는 어머니. 그런 어머니가 지겹지만 자신의 꿈을 미루고 가족을 위해 공장에서 일하는 광석, 그리고 신체적 결함 때문에 밖에 나가지 않고 집을 도피처로 생각하는 딸 연이."
+    ],
+    "genrenm": ["연극"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "mt10id": ["FC001436"],
+    "dtguidance": ["월요일(20:00)"]
+  },
+  {
+    "mt20id": ["PF194105"],
+    "prfnm": ["제32회 거창국제연극제, 호야 내새끼"],
+    "prfpdfrom": ["2022.07.28"],
+    "prfpdto": ["2022.07.28"],
+    "fcltynm": ["거창 수승대 (달물빛극장(구 돌담극장))"],
+    "prfcast": ["석민호, 천정락, 이지영, 정창윤, 남준우, 김정현"],
+    "prfcrew": ["박영주, 김하나, 정철원 등"],
+    "prfruntime": ["1시간 20분"],
+    "prfage": ["만 7세 이상"],
+    "entrpsnm": ["(사)한울림 (극단한울림)"],
+    "pcseguidance": 10000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF194105_220706_091731.jpg"
+    ],
+    "sty": [
+      "[시놉시스]\r\n\r\n\r\n늙은 시골 부부가 오랫동안 기다려, 겨우 한 아이를 얻었다. 하지만 지적장애를 가지고 태어난 아이. 그러나 부부에겐 너무나 소중한 그 아이가 바로 호야다. 호야는 트로트를 그 무엇보다 좋아한다. 오늘도 일어나자마자 세수를 하고, 옷매무새를 다듬고는 곧바로 한의원으로 달려간다."
+    ],
+    "genrenm": ["연극"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "mt10id": ["FC001436"],
+    "dtguidance": ["목요일(20:00)"]
+  },
+  {
+    "mt20id": ["PF194102"],
+    "prfnm": ["제32회 거창국제연극제, 인계점"],
+    "prfpdfrom": ["2022.07.30"],
+    "prfpdto": ["2022.07.30"],
+    "fcltynm": ["거창문화원 (상살미홀)"],
+    "prfcast": ["맹상열, 장하늘, 전현서, 이지영, 민재완"],
+    "prfcrew": ["이성모, 박경찬, 류선영 등"],
+    "prfruntime": ["1시간 20분"],
+    "prfage": ["만 7세 이상"],
+    "entrpsnm": ["콘티(Con.T)"],
+    "pcseguidance": 0,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF194102_220705_141703.jpg"
+    ],
+    "sty": [
+      "[시놉시스]\r\n\r\n\r\n경기도의 한 외상센터에서의 병원과 동료를 지키려는 센터장과 병원사람들의 이야기"
+    ],
+    "genrenm": ["연극"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF194102_220705_0214390.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001391"],
+    "dtguidance": ["토요일(16:00)"]
+  },
+  {
+    "mt20id": ["PF194100"],
+    "prfnm": ["제32회 거창국제연극제, 동무동락"],
+    "prfpdfrom": ["2022.07.23"],
+    "prfpdto": ["2022.07.23"],
+    "fcltynm": ["거창 수승대 (축제극장)"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간 20분"],
+    "prfage": ["전체 관람가"],
+    "entrpsnm": ["서울시무용단"],
+    "pcseguidance": 10000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF194100_220705_141244.jpg"
+    ],
+    "sty": [
+      "[시놉시스]\r\n\r\n\r\n부채춤, 한량무 (흥과 멋), 남색끝동 등 여러 작품을 통해 사회가 나아가야 할 방향을 제시하는 좌표를 보여줄 예정입니다."
+    ],
+    "genrenm": ["무용"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "mt10id": ["FC001436"],
+    "dtguidance": ["토요일(20:00)"]
+  },
+  {
+    "mt20id": ["PF194097"],
+    "prfnm": ["제32회 거창국제연극제, 다크니스 품바"],
+    "prfpdfrom": ["2022.07.24"],
+    "prfpdto": ["2022.07.24"],
+    "fcltynm": ["거창 수승대 (축제극장)"],
+    "prfcast": ["김재덕, 이어린, 김한솔, 이운기, 김남훈, 조휘성, 정철한 등"],
+    "prfcrew": ["김재덕, 이장한, 이미진 등"],
+    "prfruntime": ["45분"],
+    "prfage": ["만 4세 이상"],
+    "entrpsnm": ["모던테이블"],
+    "pcseguidance": 10000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF194097_220705_141041.jpg"
+    ],
+    "sty": [
+      "[시놉시스]\r\n\r\n\r\n현대적 사운드 매체의 활용과 힘있는 무브먼트의 연계로 전통적 품바의 선율을 신명나는 한바탕놀음으로 풀어 재해석하였다. 암흑속에서 느껴지는 두려움을 이기기위해 무용수들은 끝없이 춤추고, 또한 노래한다. 디오니소스(축제)적인 몸부림임과 동시에, 이를 통해 두려움과 공포를 승화시키는 것입니다."
+    ],
+    "genrenm": ["무용"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "mt10id": ["FC001436"],
+    "dtguidance": ["일요일(20:00)"]
+  },
+  {
+    "mt20id": ["PF194073"],
+    "prfnm": ["제32회 거창국제연극제, YOVO"],
+    "prfpdfrom": ["2022.07.26"],
+    "prfpdto": ["2022.07.26"],
+    "fcltynm": ["거창 수승대 (구연극장(구 거북극장))"],
+    "prfcast": ["다니엘 이리자리"],
+    "prfcrew": ["다니엘 이리자리, 로버트 라이언스, 한정아"],
+    "prfruntime": ["50분"],
+    "prfage": ["전체 관람가"],
+    "entrpsnm": [" "],
+    "pcseguidance": 0,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF194073_220705_125205.jpg"
+    ],
+    "sty": [
+      "[시놉시스]\r\n\r\n\r\n다니엘 이리자리 감독의 뉴욕,폴란드,쿠바등 큰 호평을 받은 작품으로 대담하고 도전적이며, 자유로운 분위기 속에서 펼쳐지는 1인극"
+    ],
+    "genrenm": ["연극"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "mt10id": ["FC001436"],
+    "dtguidance": ["화요일(21:00)"]
+  },
+  {
+    "mt20id": ["PF194070"],
+    "prfnm": ["제32회 거창국제연극제, 쌈 구경 가자!"],
+    "prfpdfrom": ["2022.08.02"],
+    "prfpdto": ["2022.08.02"],
+    "fcltynm": ["거창 수승대 (구연극장(구 거북극장))"],
+    "prfcast": ["박종욱, 노병유, 이지수, 이상호, 고윤영, 김민성, 채성미 등"],
+    "prfcrew": ["박종욱, 이지수, 류정애 등"],
+    "prfruntime": ["40분"],
+    "prfage": ["만 4세 이상"],
+    "entrpsnm": ["발광엔터테인먼트"],
+    "pcseguidance": 10000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF194070_220705_123857.jpg"
+    ],
+    "sty": [
+      "[시놉시스]\r\n\r\n\r\n스트레스와 우울감에 고통받고 있는 현대인들에게 최고의 싸움구경을 선사할 조 선의 ‘꾼’ 들이 찾아온다."
+    ],
+    "genrenm": ["연극"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF194070_220705_1152300.png"
+        ]
+      }
+    ],
+    "mt10id": ["FC001436"],
+    "dtguidance": ["화요일(20:00)"]
+  },
+  {
+    "mt20id": ["PF194069"],
+    "prfnm": ["제32회 거창국제연극제, 싸운드 써커스"],
+    "prfpdfrom": ["2022.07.25"],
+    "prfpdto": ["2022.07.25"],
+    "fcltynm": ["거창 수승대 (구연극장(구 거북극장))"],
+    "prfcast": ["오동석, 박성준, 윤태홍"],
+    "prfcrew": ["유상통, 옥한나, 박성준 등"],
+    "prfruntime": ["1시간 25분"],
+    "prfage": ["전체 관람가"],
+    "entrpsnm": ["유상통프로젝트"],
+    "pcseguidance": 10000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF194069_220705_123704.jpg"
+    ],
+    "sty": [
+      "[시놉시스]\r\n\r\n\r\n신나는광대와 이상한광대는 관객들에게 재밌는 Show를 보이기위해서 준비를한다.\r\n그러다 이상한광대가 연주를하다 이상한 박자와 음계를 연주하고, 신나는광대는 박자에 맞게 연주하라고 다그친다. 그러다가 점차 박자와 음계가 나가자, 이상한광대를 무대밖으로 몰아낸다. 그리고 최선을 다하는 Show를 신나는광대 혼자서 잘 끝내자, 이게 격분한 이상한 광대가 스모그대포로 신나는광대를 향하여 쏜다."
+    ],
+    "genrenm": ["연극"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF194069_220705_1150330.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001436"],
+    "dtguidance": ["월요일(20:00)"]
+  },
+  {
+    "mt20id": ["PF194068"],
+    "prfnm": ["신명나는 국악한마당"],
+    "prfpdfrom": ["2022.07.16"],
+    "prfpdto": ["2022.07.16"],
+    "fcltynm": ["의령군민문화회관 (의령군민문화회관)"],
+    "prfcast": ["김덕수, 홍혜림, 송동운, 김영임, 진승훈, 권미희, 문도연 등"],
+    "prfcrew": [" "],
+    "prfruntime": [" "],
+    "prfage": ["만 7세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 25000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF194068_220705_114607.png"
+    ],
+    "sty": [" "],
+    "genrenm": ["국악"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF194068_220705_1146071.png",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF194068_220705_1146070.png"
+        ]
+      }
+    ],
+    "mt10id": ["FC000241"],
+    "dtguidance": ["토요일(19:00)"]
+  },
+  {
+    "mt20id": ["PF194066"],
+    "prfnm": ["제32회 거창국제연극제, 숙희의 비밀"],
+    "prfpdfrom": ["2022.08.02"],
+    "prfpdto": ["2022.08.02"],
+    "fcltynm": ["거창문화원 (상살미홀)"],
+    "prfcast": ["김태현, 강연호, 유현승, 안은샘, 이슬비, 권가영"],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간 10분"],
+    "prfage": ["전체 관람가"],
+    "entrpsnm": ["극단 난연"],
+    "pcseguidance": 0,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF194066_220705_124519.jpg"
+    ],
+    "sty": [
+      "[시놉시스]\r\n\r\n\r\n아버지 제삿날, 다섯 형제가 이른 제사를 치르기 위해 집으로 모인다.\r\n그런데 집에 엄마는 없고 제사상은 차리다 만 행세이다.\r\n엄마가 화려하게 꾸미고 들어오는 모습에 경악하며\r\n정말 엄마가 애인이 생겼다 추측한다.\r\n게다가 엄마가 헛구역질까지 하자 상상은 더 커져만 가는데..."
+    ],
+    "genrenm": ["연극"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "mt10id": ["FC001391"],
+    "dtguidance": ["화요일(16:00)"]
+  },
+  {
+    "mt20id": ["PF194061"],
+    "prfnm": ["제32회 거창국제연극제, 생각나라 과자집"],
+    "prfpdfrom": ["2022.08.01"],
+    "prfpdto": ["2022.08.01"],
+    "fcltynm": ["거창 수승대 (축제극장)"],
+    "prfcast": ["김민지, 이원찬, 김승환, 정윤희, 김유진"],
+    "prfcrew": ["박명우, 조길나, 전창훈 등"],
+    "prfruntime": ["1시간"],
+    "prfage": ["24개월 이상"],
+    "entrpsnm": ["(주)에이엠컬처"],
+    "pcseguidance": 0,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF194061_220705_112645.jpg"
+    ],
+    "sty": [
+      "[시놉시스]\r\n\r\n\r\n생각하는 모든 것이 동화로 만들어지는 생각나라 여행을 시작합니다! 기존의 ‘헨젤과 그레텔’과는 다른 ‘다시쓰는 헨젤과 그레텔’ 행복한 과자요정 키키, 생각나라를 독차지하려는 질로시, 그리고 수수께끼 팬더와 색깔요정이 나타나는 생각나라 속 여행을 떠납니다."
+    ],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF194061_220705_1119520.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001436"],
+    "dtguidance": ["월요일(20:00)"]
+  },
+  {
+    "mt20id": ["PF194051"],
+    "prfnm": ["제32회 거창국제연극제, 춘향전"],
+    "prfpdfrom": ["2022.07.29"],
+    "prfpdto": ["2022.07.29"],
+    "fcltynm": ["거창 수승대 (구연극장(구 거북극장))"],
+    "prfcast": ["서찬영, 배진형 등"],
+    "prfcrew": ["허수정, 구본광, 정예린 등"],
+    "prfruntime": ["1시간 30분"],
+    "prfage": ["만 4세 이상"],
+    "entrpsnm": ["CM코리아"],
+    "pcseguidance": 0,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF194051_220705_105514.jpg"
+    ],
+    "sty": [
+      "[시놉시스]\r\n\r\n\r\n우리 전통극 ‘춘향전’을 오페라와 판소리의 콜라보로 춘향이와 이도령의 사랑 이야기를 비롯한 이야기를 선보일 예정이다."
+    ],
+    "genrenm": ["복합"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "mt10id": ["FC001436"],
+    "dtguidance": ["금요일(20:00)"]
+  },
+  {
+    "mt20id": ["PF194050"],
+    "prfnm": ["제32회 거창국제연극제, 맥베스"],
+    "prfpdfrom": ["2022.07.26"],
+    "prfpdto": ["2022.07.26"],
+    "fcltynm": ["거창 수승대 (달물빛극장(구 돌담극장))"],
+    "prfcast": ["이상희, 라키아, 김수원, 김민규, 임요한, 김영건, 한다희 등"],
+    "prfcrew": ["박정의, 박영수, 박연용 등"],
+    "prfruntime": ["1시간 20분"],
+    "prfage": ["만 6세 이상"],
+    "entrpsnm": ["극단 초인"],
+    "pcseguidance": 0,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF194050_220705_105326.jpg"
+    ],
+    "sty": [
+      "[시놉시스]\r\n\r\n\r\n11세기 스코트랜드 왕실은 거대한 반란군과의 일전을 벌인다. 풍전등화의 위기 앞에서 국왕의 사촌이자 명장인 맥베스 장군과 그에 버금가는 용장 뱅코우 장군이 최전선에 나서서 반란군을 제압한다."
+    ],
+    "genrenm": ["연극"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "mt10id": ["FC001436"],
+    "dtguidance": ["화요일(20:00)"]
+  },
+  {
+    "mt20id": ["PF194048"],
+    "prfnm": ["제32회 거창국제연극제, 임금알"],
+    "prfpdfrom": ["2022.07.28"],
+    "prfpdto": ["2022.07.28"],
+    "fcltynm": ["거창 수승대 (축제극장)"],
+    "prfcast": ["황무영, 이미숙, 김예림, 김장동, 송은석, 현승철, 홍재이 등"],
+    "prfcrew": ["오태영, 이우천, 이상근 등"],
+    "prfruntime": ["1시간 30분"],
+    "prfage": ["만 12세 이상"],
+    "entrpsnm": ["극단 대학로극장"],
+    "pcseguidance": 0,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF194048_220705_104957.jpg"
+    ],
+    "sty": [
+      "[시놉시스]\r\n\r\n\r\n가난하지만 평생 글만 읽어 온 학갑 선생. 신라의 박혁거세, 고구려의 동명성왕, 가야의 김수로, 그밖에 김알지 석탈해 등이 알에서 태어나 왕이 됐다는 기록을 발견한다. 때문에 부인에게 알을 낳아 달라고 부탁한다. 하지만 사람이 어찌 알을 낳을 수 있겠는가. 학갑 선생은 포기하지 않고 플라스틱 가짜 알을 만들어 그 안에 아이를 넣고 알에서 태어난 아이라고 동네방네 선전하기 시작하는데..."
+    ],
+    "genrenm": ["연극"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "mt10id": ["FC001436"],
+    "dtguidance": ["목요일(20:00)"]
+  },
+  {
+    "mt20id": ["PF194046"],
+    "prfnm": ["제32회 거창국제연극제, 잠깐만"],
+    "prfpdfrom": ["2022.07.24"],
+    "prfpdto": ["2022.07.24"],
+    "fcltynm": ["거창 수승대 (달물빛극장(구 돌담극장))"],
+    "prfcast": ["고재경, 김혜숙, 이지혜"],
+    "prfcrew": ["고재경, 김지영, 박석광 등"],
+    "prfruntime": ["55분"],
+    "prfage": ["만 6세 이상"],
+    "entrpsnm": ["마임공작소 판"],
+    "pcseguidance": 0,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF194046_220705_104826.jpg"
+    ],
+    "sty": [
+      "[시놉시스]\r\n\r\n\r\n길거리 유랑극단의 여정을 마임, 무용, 음악, 미술 장르를 결합하여 만든 넌버벌 마임극이다."
+    ],
+    "genrenm": ["연극"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "mt10id": ["FC001436"],
+    "dtguidance": ["일요일(20:00)"]
+  },
+  {
+    "mt20id": ["PF194040"],
+    "prfnm": ["인어공주 [김해]"],
+    "prfpdfrom": ["2022.08.07"],
+    "prfpdto": ["2022.08.07"],
+    "fcltynm": ["김해 장유문화센터 (공연장)"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간"],
+    "prfage": ["전체 관람가"],
+    "entrpsnm": [" "],
+    "pcseguidance": 30000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF194040_220705_103709.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF194040_220705_1037091.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF194040_220705_1037090.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000711"],
+    "dtguidance": ["일요일(11:00,13:00,15:00)"]
+  },
+  {
+    "mt20id": ["PF194038"],
+    "prfnm": ["제22회 밀양공연예술축제, 차세대 연출가전: 스튜디오 1"],
+    "prfpdfrom": ["2022.07.11"],
+    "prfpdto": ["2022.07.14"],
+    "fcltynm": ["밀양아리나(구, 밀양연극촌) (스튜디오극장)"],
+    "prfcast": ["김민국, 노진경, 방진아, 백성현, 송하준, 육성민, 윤혜민 등"],
+    "prfcrew": ["백유진, 김시현, 김광훈 등"],
+    "prfruntime": [" "],
+    "prfage": [" "],
+    "entrpsnm": ["극단 배우는 사람들, 극단 파수꾼, 아트시나브로, 창작집단 꼴"],
+    "pcseguidance": 10000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF194038_220705_103325.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["연극"],
+    "prfstate": ["공연중"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF194038_220705_1033252.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF194038_220705_1033251.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF194038_220705_1033250.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001322"],
+    "dtguidance": ["월요일 ~ 목요일(17:00)"]
+  },
+  {
+    "mt20id": ["PF194029"],
+    "prfnm": ["제32회 거창국제연극제, 두드려라 맥베스!"],
+    "prfpdfrom": ["2022.08.05"],
+    "prfpdto": ["2022.08.05"],
+    "fcltynm": ["거창 수승대 (축제극장)"],
+    "prfcast": ["송영광, 박경진, 박득환 등"],
+    "prfcrew": ["정진각, 송영광, 송광호, 박득환, 송형섭, 유성준, 김자연 등"],
+    "prfruntime": ["1시간 20분"],
+    "prfage": ["만 6세 이상"],
+    "entrpsnm": ["극단 해를보는마음(극단 해보마)"],
+    "pcseguidance": 0,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF194029_220705_111755.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["연극"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "mt10id": ["FC001436"],
+    "dtguidance": ["금요일(20:00)"]
+  },
+  {
+    "mt20id": ["PF194028"],
+    "prfnm": ["제32회 거창국제연극제, 퓨마를 사살하라"],
+    "prfpdfrom": ["2022.07.23"],
+    "prfpdto": ["2022.07.23"],
+    "fcltynm": ["거창문화원 (상살미홀)"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간 15분"],
+    "prfage": ["만 11세 이상"],
+    "entrpsnm": ["극단 파수꾼"],
+    "pcseguidance": 0,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF194028_220705_100741.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["연극"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF194028_220705_1007410.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001391"],
+    "dtguidance": ["토요일(16:00)"]
+  },
+  {
+    "mt20id": ["PF194026"],
+    "prfnm": ["제32회 거창국제연극제, 한여름밤의 꿈"],
+    "prfpdfrom": ["2022.07.22"],
+    "prfpdto": ["2022.07.22"],
+    "fcltynm": ["거창 수승대 (특설무대)"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간"],
+    "prfage": ["전체 관람가"],
+    "entrpsnm": [" "],
+    "pcseguidance": 0,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF194026_220705_111924.jpg"
+    ],
+    "sty": [
+      "[시놉시스]\r\n\r\n\r\n1. 한여름밤의 요정\r\n- 마림바공연, 첼로, 보컬\r\n- 거창연극학교, 사다리 움직임 연구소)\r\n2. 대결 (거창타악공연 / 소리꾼 / 우주비행사)\r\n3. 한여름밤의 사랑 (CM코리아, 플라이팀)\r\n4. 광대놀음(사다리움직임 연구소)\r\n5. LED 스크린영상\r\n(코로나 19로 어지러워 진 인간세상을 표현한다.)\r\n6. 단절/치유 (포스, 문트리오 )\r\n7. 피날레\r\n- 당연한것들 합창-거창군어린이합창단, 거창군민참여\r\n- 불꽃드론 공연"
+    ],
+    "genrenm": ["복합"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "mt10id": ["FC001436"],
+    "dtguidance": ["금요일(20:00)"]
+  },
+  {
+    "mt20id": ["PF194024"],
+    "prfnm": ["피노키오의 모험 [통영]"],
+    "prfpdfrom": ["2022.07.31"],
+    "prfpdto": ["2022.07.31"],
+    "fcltynm": ["통영시민문화회관 (대극장)"],
+    "prfcast": ["지수한, 강지혜, 이재혁, 문남권 등"],
+    "prfcrew": ["문종인, 김도윤"],
+    "prfruntime": ["1시간 10분"],
+    "prfage": ["48개월 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 20000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF194024_220705_094912.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["클래식"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF194024_220705_0949120.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000247"],
+    "dtguidance": ["일요일(15:00)"]
+  },
+  {
+    "mt20id": ["PF194021"],
+    "prfnm": ["제32회 거창국제연극제, 해방의서울"],
+    "prfpdfrom": ["2022.07.30"],
+    "prfpdto": ["2022.07.30"],
+    "fcltynm": ["거창 수승대 (축제극장)"],
+    "prfcast": ["강지은, 김혁민, 박형준, 이원재, 이호열, 김은우, 안소영"],
+    "prfcrew": ["박근형, 이은준, 박희민 등"],
+    "prfruntime": ["1시간 30분"],
+    "prfage": ["만 11세 이상"],
+    "entrpsnm": ["극단 골목길"],
+    "pcseguidance": 10000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF194021_220705_094047.jpg"
+    ],
+    "sty": [
+      "[시놉시스]\r\n\r\n\r\n1945년 8월 어느 화창한 날\r\n창경원 동물원과 그 옆, 춘당지 연못을 배경으로 문예영화(선전영화) <사쿠라는 피었는데>를 촬영하는 조선 최고 배우들과 주변 사람들의 사랑과 예술에 대한 장면이 펼쳐진다.\r\n오늘 촬영은 춘당지에서 비극의 주인공들이 빠져 죽는 마지막 장면을 남기고 있다.\r\n배우들은 이번 일만 마치면 다음 영화촬영지인 만주에서 낭만을 즐기게 된다는 희망에 들떠 있다.\r\n그런데 갑자기 라디오에서 일왕의 ‘무조건 항복선언’이 들려오는데…"
+    ],
+    "genrenm": ["연극"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "mt10id": ["FC001436"],
+    "dtguidance": ["토요일(20:00)"]
+  },
+  {
+    "mt20id": ["PF194019"],
+    "prfnm": ["제32회 거창국제연극제, 허길동전"],
+    "prfpdfrom": ["2022.07.23"],
+    "prfpdto": ["2022.07.23"],
+    "fcltynm": ["거창 수승대 (달물빛극장(구 돌담극장))"],
+    "prfcast": ["정성호, 윤상호, 윤상현, 이성원, 조연진, 선정화, 손승희 등"],
+    "prfcrew": ["박일선, 이금구, 김관 등"],
+    "prfruntime": ["1시간 45분"],
+    "prfage": ["만 6세 이상"],
+    "entrpsnm": ["엘피 스토리"],
+    "pcseguidance": 10000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF194019_220705_093657.jpg"
+    ],
+    "sty": [
+      "[시놉시스]\r\n\r\n\r\n광해군은 마지막까지 허균에게 허균의 꿈을 자신과 함께 할 수 없냐고 설득을 합니다.\r\n하지만 허균은 자신의 역할은 여기까지라며 광해군에게 마지막 큰절을 올리며 긴 독대를 마치게되며 허균은 담담하게 자신의 꿈, 자신이 꿈꾼 세상과 함께 죽음을 맞이합니다."
+    ],
+    "genrenm": ["연극"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "mt10id": ["FC001436"],
+    "dtguidance": ["토요일(20:00)"]
+  },
+  {
+    "mt20id": ["PF193966"],
+    "prfnm": ["누가 내머리에 똥 쌌어? [통영]"],
+    "prfpdfrom": ["2022.08.15"],
+    "prfpdto": ["2022.08.15"],
+    "fcltynm": ["통영시민문화회관 (대극장)"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간"],
+    "prfage": ["전체 관람가"],
+    "entrpsnm": [" "],
+    "pcseguidance": 25000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193966_220704_125220.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193966_220704_1252200.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000247"],
+    "dtguidance": ["월요일(11:00,14:00,16:00)"]
+  },
+  {
+    "mt20id": ["PF193937"],
+    "prfnm": ["제40회 대한민국연극제, 밀양: 시추"],
+    "prfpdfrom": ["2022.07.27"],
+    "prfpdto": ["2022.07.27"],
+    "fcltynm": ["밀양아리랑아트센터 (소공연장)"],
+    "prfcast": ["표경빈, 임태현, 이제우, 권창민, 양정욱, 조휘령, 정세영"],
+    "prfcrew": ["박한별, 임예지, 조예나 등"],
+    "prfruntime": ["1시간 50분"],
+    "prfage": ["만 7세 이상"],
+    "entrpsnm": ["극단 문지방"],
+    "pcseguidance": 10000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193937_220704_143840.png"
+    ],
+    "sty": [" "],
+    "genrenm": ["연극"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193937_220704_1123260.png"
+        ]
+      }
+    ],
+    "mt10id": ["FC001675"],
+    "dtguidance": ["수요일(19:30)"]
+  },
+  {
+    "mt20id": ["PF193858"],
+    "prfnm": ["아기돼지 삼형제 [창원]"],
+    "prfpdfrom": ["2022.06.30"],
+    "prfpdto": ["2022.08.28"],
+    "fcltynm": ["창원과학체험관 (다목적강당)"],
+    "prfcast": [" "],
+    "prfcrew": ["이성호"],
+    "prfruntime": ["50분"],
+    "prfage": ["전체 관람가"],
+    "entrpsnm": [" "],
+    "pcseguidance": 16000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193858_220701_114036.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연중"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193858_220701_1140360.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC002179"],
+    "dtguidance": ["토요일 ~ 일요일(14:00,16:00)"]
+  },
+  {
+    "mt20id": ["PF193815"],
+    "prfnm": ["당 타이 손 피아노 리사이틀 [통영]"],
+    "prfpdfrom": ["2022.08.19"],
+    "prfpdto": ["2022.08.19"],
+    "fcltynm": ["통영국제음악당 (콘서트홀)"],
+    "prfcast": ["당타이손"],
+    "prfcrew": [" "],
+    "prfruntime": [" "],
+    "prfage": ["만 7세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 50000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193815_220630_135943.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["클래식"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193815_220630_0159431.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193815_220630_0159430.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001271"],
+    "dtguidance": ["금요일(19:30)"]
+  },
+  {
+    "mt20id": ["PF193809"],
+    "prfnm": ["국립발레단, 해적 [함안]"],
+    "prfpdfrom": ["2022.08.27"],
+    "prfpdto": ["2022.08.27"],
+    "fcltynm": ["함안문화예술회관 (대공연장)"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": [" "],
+    "prfage": ["만 4세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 0,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193809_220630_134827.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["무용"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193809_220630_0148270.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000584"],
+    "dtguidance": ["토요일(17:00)"]
+  },
+  {
+    "mt20id": ["PF193799"],
+    "prfnm": ["에스토니안 페스티벌 오케스트라 with 파보 예르비 [통영]"],
+    "prfpdfrom": ["2022.09.04"],
+    "prfpdto": ["2022.09.04"],
+    "fcltynm": ["통영국제음악당 (콘서트홀)"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": [" "],
+    "prfage": ["만 7세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 100000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193799_220630_131814.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["클래식"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193799_220630_0118140.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001271"],
+    "dtguidance": ["일요일(17:00)"]
+  },
+  {
+    "mt20id": ["PF193782"],
+    "prfnm": ["제40회 대한민국연극제, 밀양: 달빛에 젖어 잠들다"],
+    "prfpdfrom": ["2022.07.15"],
+    "prfpdto": ["2022.07.15"],
+    "fcltynm": ["밀양시청소년수련관 (해맑은 상상홀)"],
+    "prfcast": ["김형석, 진정원, 박준용, 김정형, 이태호, 전민수, 김영춘 등"],
+    "prfcrew": ["백운봉, 우덕상, 장민석 등"],
+    "prfruntime": ["1시간 20분"],
+    "prfage": ["전체 관람가"],
+    "entrpsnm": ["울산씨어터예술단"],
+    "pcseguidance": 10000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193782_220630_131355.png"
+    ],
+    "sty": [" "],
+    "genrenm": ["연극"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193782_220630_1121150.png"
+        ]
+      }
+    ],
+    "mt10id": ["FC002999"],
+    "dtguidance": ["금요일(19:30)"]
+  },
+  {
+    "mt20id": ["PF193779"],
+    "prfnm": ["클랑포룸 빈 [통영]"],
+    "prfpdfrom": ["2022.08.28"],
+    "prfpdto": ["2022.08.28"],
+    "fcltynm": ["통영국제음악당 (콘서트홀)"],
+    "prfcast": ["카롤린 멜처, 클랑포룸 빈, 에밀리오 포마리코 등"],
+    "prfcrew": [" "],
+    "prfruntime": [" "],
+    "prfage": ["만 7세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 80000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193779_220630_111343.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["클래식"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193779_220630_1113430.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001271"],
+    "dtguidance": ["일요일(15:00)"]
+  },
+  {
+    "mt20id": ["PF193771"],
+    "prfnm": ["히사이시 조 영화음악 콘서트 [창원(앵콜)]"],
+    "prfpdfrom": ["2022.08.21"],
+    "prfpdto": ["2022.08.21"],
+    "fcltynm": ["성산아트홀 (대극장)"],
+    "prfcast": ["김재원, 김영준, 고관수, 배성우 등"],
+    "prfcrew": [" "],
+    "prfruntime": ["2시간"],
+    "prfage": ["만 7세 이상"],
+    "entrpsnm": ["라이브러리컴퍼니"],
+    "pcseguidance": 120000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193771_220630_105530.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["클래식"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193771_220630_1055300.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000885"],
+    "dtguidance": ["일요일(14:00,18:00)"]
+  },
+  {
+    "mt20id": ["PF193761"],
+    "prfnm": ["발트 앙상블 [통영]"],
+    "prfpdfrom": ["2022.08.12"],
+    "prfpdto": ["2022.08.12"],
+    "fcltynm": ["통영국제음악당 (콘서트홀)"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": [" "],
+    "prfage": ["만 7세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 50000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193761_220630_103101.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["클래식"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193761_220630_1031010.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001271"],
+    "dtguidance": ["금요일(19:30)"]
+  },
+  {
+    "mt20id": ["PF193744"],
+    "prfnm": ["브레맨음악대: 함께 노래해요 [창원(앵콜)]"],
+    "prfpdfrom": ["2022.07.02"],
+    "prfpdto": ["2022.08.31"],
+    "fcltynm": ["창원 스타인웨이홀 (창원 스타인웨이홀)"],
+    "prfcast": [" "],
+    "prfcrew": ["이성호, 장민호, 이문호"],
+    "prfruntime": ["50분"],
+    "prfage": ["전체 관람가"],
+    "entrpsnm": [" "],
+    "pcseguidance": 16000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193744_220629_115708.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연중"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193744_220629_1157080.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC002868"],
+    "dtguidance": ["토요일 ~ 일요일(11:00)"]
+  },
+  {
+    "mt20id": ["PF193728"],
+    "prfnm": ["제40회 대한민국연극제, 밀양: 손은 행동한다"],
+    "prfpdfrom": ["2022.07.16"],
+    "prfpdto": ["2022.07.16"],
+    "fcltynm": ["밀양아리랑아트센터 (대공연장)"],
+    "prfcast": ["고현지, 이다운, 이수정, 유수인, 유미경, 조영길, 김정현 등"],
+    "prfcrew": ["김민호, 김태현, 이승원 등"],
+    "prfruntime": ["1시간 50분"],
+    "prfage": ["만 13세 이상"],
+    "entrpsnm": ["극단 예촌"],
+    "pcseguidance": 20000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193728_220629_124109.png"
+    ],
+    "sty": [" "],
+    "genrenm": ["연극"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193728_220629_1129170.png"
+        ]
+      }
+    ],
+    "mt10id": ["FC001675"],
+    "dtguidance": ["토요일(19:30)"]
+  }
+]

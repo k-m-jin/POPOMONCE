@@ -1,0 +1,500 @@
+[
+  {
+    "mt20id": ["PF194232"],
+    "prfnm": ["캐리TV 러브콘서트: KPOP [청주]"],
+    "prfpdfrom": ["2022.09.03"],
+    "prfpdto": ["2022.09.04"],
+    "fcltynm": ["청주예술의전당 (대공연장)"],
+    "prfcast": [" "],
+    "prfcrew": ["김양순, 유연희, 박현중 등"],
+    "prfruntime": ["1시간 5분"],
+    "prfage": ["24개월 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 66000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF194232_220708_094448.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF194232_220708_0944480.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF194232_220708_0945472.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000403"],
+    "dtguidance": ["토요일 ~ 일요일(11:00,14:00,16:30)"]
+  },
+  {
+    "mt20id": ["PF194216"],
+    "prfnm": ["경기휘모리잡가"],
+    "prfpdfrom": ["2022.07.23"],
+    "prfpdto": ["2022.07.23"],
+    "fcltynm": ["충주시문화회관 (충주시문화회관)"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간 10분"],
+    "prfage": ["전체 관람가"],
+    "entrpsnm": [" "],
+    "pcseguidance": 10000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF194216_220707_120415.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["국악"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF194216_220707_1235540.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000405"],
+    "dtguidance": ["토요일(19:00)"]
+  },
+  {
+    "mt20id": ["PF194204"],
+    "prfnm": ["앙상블 루체 기획연주, 바로크"],
+    "prfpdfrom": ["2022.07.24"],
+    "prfpdto": ["2022.07.24"],
+    "fcltynm": ["충주시문화회관 (충주시문화회관)"],
+    "prfcast": ["황은아, 차미란, 한동운 등"],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간 10분"],
+    "prfage": ["만 7세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 10000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF194204_220707_105751.png"
+    ],
+    "sty": [" "],
+    "genrenm": ["클래식"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF194204_220707_1057510.png"
+        ]
+      }
+    ],
+    "mt10id": ["FC000405"],
+    "dtguidance": ["일요일(19:00)"]
+  },
+  {
+    "mt20id": ["PF194062"],
+    "prfnm": ["소리창조 예화 콘서트"],
+    "prfpdfrom": ["2022.07.20"],
+    "prfpdto": ["2022.07.20"],
+    "fcltynm": ["충주시문화회관 (충주시문화회관)"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간 30분"],
+    "prfage": ["전체 관람가"],
+    "entrpsnm": [" "],
+    "pcseguidance": 0,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF194062_220705_112543.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["국악"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "mt10id": ["FC000405"],
+    "dtguidance": ["수요일(19:00)"]
+  },
+  {
+    "mt20id": ["PF193804"],
+    "prfnm": ["오즈의 마법사 [충주]"],
+    "prfpdfrom": ["2022.07.24"],
+    "prfpdto": ["2022.07.24"],
+    "fcltynm": ["호암예술관 (호암예술관)"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간"],
+    "prfage": ["전체 관람가"],
+    "entrpsnm": [" "],
+    "pcseguidance": 30000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193804_220630_133141.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193804_220630_0131411.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193804_220630_0131410.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000407"],
+    "dtguidance": ["일요일(11:00,13:00,15:00)"]
+  },
+  {
+    "mt20id": ["PF193741"],
+    "prfnm": ["신비아파트 시즌5: 감염된 도시의 비밀 [청주]"],
+    "prfpdfrom": ["2022.09.24"],
+    "prfpdto": ["2022.09.25"],
+    "fcltynm": ["청주예술의전당 (대공연장)"],
+    "prfcast": [" "],
+    "prfcrew": ["김철현, 윤성민, 정윤지 등"],
+    "prfruntime": ["1시간 10분"],
+    "prfage": ["24개월 이상"],
+    "entrpsnm": ["(주)CJ ENM, DS뮤지컬컴퍼니"],
+    "pcseguidance": 66000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193741_220629_115136.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193741_220629_1151360.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000403"],
+    "dtguidance": ["토요일(11:00,14:00,16:30), 일요일(11:00,14:00)"]
+  },
+  {
+    "mt20id": ["PF193672"],
+    "prfnm": ["국립국악관현악단, 격: 한국의 멋 [음성]"],
+    "prfpdfrom": ["2022.07.21"],
+    "prfpdto": ["2022.07.21"],
+    "fcltynm": ["음성문화예술회관 (대공연장)"],
+    "prfcast": ["김성진, 박애리, 김현수 등"],
+    "prfcrew": ["김성진"],
+    "prfruntime": ["1시간 20분"],
+    "prfage": ["만 7세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 30000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193672_220628_122649.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["복합"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193672_220628_0127031.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000761"],
+    "dtguidance": ["목요일(19:30)"]
+  },
+  {
+    "mt20id": ["PF193499"],
+    "prfnm": ["히사이시 조 영화음악 콘서트 [청주]"],
+    "prfpdfrom": ["2022.08.20"],
+    "prfpdto": ["2022.08.20"],
+    "fcltynm": ["청주예술의전당 (대공연장)"],
+    "prfcast": ["김재원, 김영준, 고관수, 배성우 등"],
+    "prfcrew": [" "],
+    "prfruntime": ["2시간"],
+    "prfage": ["만 7세 이상"],
+    "entrpsnm": ["라이브러리컴퍼니"],
+    "pcseguidance": 120000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193499_220627_094147.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["클래식"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193499_220627_0941470.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000403"],
+    "dtguidance": ["토요일(17:00)"]
+  },
+  {
+    "mt20id": ["PF193242"],
+    "prfnm": ["캐치! 티니핑: 프린세스 다이어리 [청주(앵콜)]"],
+    "prfpdfrom": ["2022.08.27"],
+    "prfpdto": ["2022.08.28"],
+    "fcltynm": ["청주예술의전당 (대공연장)"],
+    "prfcast": [" "],
+    "prfcrew": ["김철현, 윤성민, 정윤지 등"],
+    "prfruntime": ["1시간 10분"],
+    "prfage": ["24개월 이상"],
+    "entrpsnm": ["DS뮤지컬컴퍼니"],
+    "pcseguidance": 66000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193242_220622_101945.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193242_220622_1019451.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193242_220622_1019450.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000403"],
+    "dtguidance": ["토요일(11:00,14:00,16:30), 일요일(11:00,14:00)"]
+  },
+  {
+    "mt20id": ["PF193210"],
+    "prfnm": ["K-오페라 갈라콘서트: 비"],
+    "prfpdfrom": ["2022.07.12"],
+    "prfpdto": ["2022.07.12"],
+    "fcltynm": ["충주시문화회관 (충주시문화회관)"],
+    "prfcast": ["이성경, 김재빈, 이상엽 등"],
+    "prfcrew": ["김순화, 신현민, 강민호 등"],
+    "prfruntime": ["1시간 30분"],
+    "prfage": ["전체 관람가"],
+    "entrpsnm": [" "],
+    "pcseguidance": 10000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193210_220621_141102.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["오페라"],
+    "prfstate": ["공연중"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193210_220621_0213580.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000405"],
+    "dtguidance": ["화요일(16:00,19:30)"]
+  },
+  {
+    "mt20id": ["PF193205"],
+    "prfnm": ["엉덩이 탐정 [청주]"],
+    "prfpdfrom": ["2022.08.20"],
+    "prfpdto": ["2022.08.21"],
+    "fcltynm": [
+      "청주아트홀 (구. 청주시민회관) (청주아트홀 (구. 청주시민회관))"
+    ],
+    "prfcast": [" "],
+    "prfcrew": ["박정민, 류희천, 김진영 등"],
+    "prfruntime": ["1시간"],
+    "prfage": ["24개월 이상"],
+    "entrpsnm": ["(주)캐리소프트(캐리TV)"],
+    "pcseguidance": 60000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193205_220621_135058.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193205_220621_0150580.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001258"],
+    "dtguidance": ["토요일 ~ 일요일(11:00,14:00,16:30)"]
+  },
+  {
+    "mt20id": ["PF192945"],
+    "prfnm": ["오! 나의 귀신님 [청주]"],
+    "prfpdfrom": ["2022.08.04"],
+    "prfpdto": ["2022.09.04"],
+    "fcltynm": ["메가폴리스아트홀 (메가폴리스아트홀)"],
+    "prfcast": [
+      "신한솔, 현동석, 김지온, 최하연, 지혜연, 김하늘, 노명환, 이규화"
+    ],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간 30분"],
+    "prfage": ["만 7세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 40000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF192945_220616_145052.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["연극"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF192945_220616_0250520.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001106"],
+    "dtguidance": ["화요일 ~ 금요일(19:30), 토요일(14:00,17:00), 일요일(14:00)"]
+  },
+  {
+    "mt20id": ["PF192711"],
+    "prfnm": ["아머드 사우루스 [청주]"],
+    "prfpdfrom": ["2022.07.23"],
+    "prfpdto": ["2022.07.24"],
+    "fcltynm": ["청주예술의전당 (대공연장)"],
+    "prfcast": ["김양운, 조아름, 길지혁, 유은미, 김재민, 이서은, 홍지연 등"],
+    "prfcrew": ["이장환, 엄윤기, 김종해 등"],
+    "prfruntime": ["1시간 15분"],
+    "prfage": ["24개월 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 66000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF192711_220613_115900.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF192711_220613_1159000.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF192711_220613_0125482.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000403"],
+    "dtguidance": ["토요일 ~ 일요일(11:00,14:00,16:30)"]
+  },
+  {
+    "mt20id": ["PF192557"],
+    "prfnm": ["미니특공대: 애니멀트론 [청주]"],
+    "prfpdfrom": ["2022.07.16"],
+    "prfpdto": ["2022.07.17"],
+    "fcltynm": ["청주예술의전당 (대공연장)"],
+    "prfcast": [" "],
+    "prfcrew": ["박준철, 고병일, 이훈 등"],
+    "prfruntime": ["1시간 5분"],
+    "prfage": ["20개월 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 70000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF192557_220610_094311.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF192557_220610_0943110.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000403"],
+    "dtguidance": ["토요일 ~ 일요일(11:00,14:00,16:00)"]
+  },
+  {
+    "mt20id": ["PF192235"],
+    "prfnm": ["목 짧은 기린 지피 [청주]"],
+    "prfpdfrom": ["2022.08.27"],
+    "prfpdto": ["2022.08.28"],
+    "fcltynm": [
+      "청주아트홀 (구. 청주시민회관) (청주아트홀 (구. 청주시민회관))"
+    ],
+    "prfcast": [" "],
+    "prfcrew": ["고정욱, 장지영 등"],
+    "prfruntime": ["55분"],
+    "prfage": ["전체 관람가"],
+    "entrpsnm": [" "],
+    "pcseguidance": 50000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF192235_220603_132927.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF192235_220603_0129270.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001258"],
+    "dtguidance": ["토요일(11:00,14:00,16:00), 일요일(11:00,14:00)"]
+  },
+  {
+    "mt20id": ["PF190288"],
+    "prfnm": ["돼지책 [청주]"],
+    "prfpdfrom": ["2022.07.30"],
+    "prfpdto": ["2022.07.30"],
+    "fcltynm": [
+      "청주아트홀 (구. 청주시민회관) (청주아트홀 (구. 청주시민회관))"
+    ],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["55분"],
+    "prfage": ["24개월 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 30000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF190288_220429_112420.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF190288_220429_1124200.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001258"],
+    "dtguidance": ["토요일(11:30,14:00,16:00)"]
+  },
+  {
+    "mt20id": ["PF189888"],
+    "prfnm": ["아기돼지야 준비해!"],
+    "prfpdfrom": ["2022.04.23"],
+    "prfpdto": ["2022.07.31"],
+    "fcltynm": ["소극장 쇠내골 (소극장 쇠내골)"],
+    "prfcast": ["박선령, 조재문, 이혜림, 허선우, 이문수, 이진재"],
+    "prfcrew": ["이병호, 박선령, 이미라 등"],
+    "prfruntime": ["1시간"],
+    "prfage": ["전체 관람가"],
+    "entrpsnm": ["극단 하이(SNG 씨어터, 하이뮤지컬컴퍼니)"],
+    "pcseguidance": 30000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF189888_220421_115934.png"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연중"],
+    "openrun": ["Y"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF189888_220421_1159340.png"
+        ]
+      }
+    ],
+    "mt10id": ["FC001688"],
+    "dtguidance": ["토요일 ~ 일요일(14:00)"]
+  }
+]

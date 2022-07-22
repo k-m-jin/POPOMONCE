@@ -1,0 +1,392 @@
+[
+  {
+    "mt20id": ["PF193694"],
+    "prfnm": ["첼로와 케찹 [세종]"],
+    "prfpdfrom": ["2022.07.23"],
+    "prfpdto": ["2022.07.24"],
+    "fcltynm": ["세종 음악창작소 누리락 (공연장)"],
+    "prfcast": ["조한나, 이대권"],
+    "prfcrew": ["이대권, 이지후, 송정하 등"],
+    "prfruntime": ["1시간 15분"],
+    "prfage": ["만 16세 이상"],
+    "entrpsnm": ["휴먼스토리"],
+    "pcseguidance": 20000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193694_220629_101055.gif"
+    ],
+    "sty": [
+      "[작품 소개]\r\n\r\n\r\n사랑하다 헤어지면 무엇이 남을까? 시간의 흐름에 따라 남겨지는 것도 변하겠지만 헤어진 직후에는 뜨거웠던 사랑의 순간보다 더 치열한 격정의 시간을 홀로 견뎌내야 한다. 원망, 후회, 그리움, 미련, 감사 등의 복잡한 마음의 기억은 뜨거운 몸의 기억과 뒤섞여 많이 아프다.\r\n<첼로와 케찹>은 작가의 초기 작품으로 작가 자신의 20대 감성이 아픈 생살처럼 생생하게 묻어난다. 이 작품에서 작가는 헤어졌지만 정신적으로 아직 상당히 얽혀있는 두 남녀를 무대 공간의 독특한 사용을 통해 표현하고 있다. 첼리스트 남자와 은행원 여자는 첼로와 케찹과 같은 이질적인 조합으로 만나서 사랑을 하고 헤어졌다. 그저그런 사랑을 하고 헤어진 줄 알았는데, 남자는 남자의 공간에서 여자는 여자의 공간에서 자신들의 사랑을 반추하면서 끝내버린 그 사랑의 크기가 상당함을 알게 되어 각자 쩔쩔맨다. 사랑은 언제 완결되는 걸까?"
+    ],
+    "genrenm": ["연극"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193694_220629_1010550.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC002784"],
+    "dtguidance": ["토요일 ~ 일요일(16:00)"]
+  },
+  {
+    "mt20id": ["PF193502"],
+    "prfnm": ["한여름 밤의 세레나데 [세종]"],
+    "prfpdfrom": ["2022.07.15"],
+    "prfpdto": ["2022.07.15"],
+    "fcltynm": ["비오케이아트센터(BOK아트센터) (다목적공연장)"],
+    "prfcast": ["안용주, 김지명, 곽기현, 김정은, 임아림, 임현섭, 이유경 등"],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간 20분"],
+    "prfage": ["만 8세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 10000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193502_220627_095105.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["클래식"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193502_220627_0951054.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193502_220627_0951053.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193502_220627_0951052.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193502_220627_0951051.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193502_220627_0951050.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC002305"],
+    "dtguidance": ["금요일(19:30)"]
+  },
+  {
+    "mt20id": ["PF193124"],
+    "prfnm": ["스테이지 인 세종 시즌 1, 국악과 오케스트라의 앙상블: 세종실락"],
+    "prfpdfrom": ["2022.07.17"],
+    "prfpdto": ["2022.07.17"],
+    "fcltynm": ["세종예술의전당 (대공연장)"],
+    "prfcast": ["지유진, 고애니 등"],
+    "prfcrew": ["조성환, 고애니, 김영덕 등"],
+    "prfruntime": ["1시간 40분"],
+    "prfage": ["만 7세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 20000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193124_220620_142531.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["복합"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193124_220620_0225310.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC002877"],
+    "dtguidance": ["일요일(17:00)"]
+  },
+  {
+    "mt20id": ["PF193118"],
+    "prfnm": [
+      "스테이지 인 세종 시즌 1, 가야금과 노래하는 세종: 여름 금의 소리"
+    ],
+    "prfpdfrom": ["2022.07.21"],
+    "prfpdto": ["2022.07.21"],
+    "fcltynm": ["세종예술의전당 (대공연장)"],
+    "prfcast": ["강정숙, 남상일, 오경희, 이지영, 서영례 등"],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간 40분"],
+    "prfage": ["만 7세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 20000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193118_220620_140305.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["국악"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193118_220620_0203050.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC002877"],
+    "dtguidance": ["목요일(19:30)"]
+  },
+  {
+    "mt20id": ["PF193050"],
+    "prfnm": [
+      "스테이지 인 세종 시즌 1, 평화와 위로를 주는 음악회: 모차르트 레퀴엠"
+    ],
+    "prfpdfrom": ["2022.07.23"],
+    "prfpdto": ["2022.07.23"],
+    "fcltynm": ["세종예술의전당 (대공연장)"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간 30분"],
+    "prfage": ["만 7세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 20000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193050_220620_101141.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["클래식"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193050_220620_1010430.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC002877"],
+    "dtguidance": ["토요일(19:00)"]
+  },
+  {
+    "mt20id": ["PF192817"],
+    "prfnm": ["국립현대무용단, HIP合(힙합) [세종]"],
+    "prfpdfrom": ["2022.08.27"],
+    "prfpdto": ["2022.08.27"],
+    "fcltynm": ["세종예술의전당 (대공연장)"],
+    "prfcast": ["이재영, 권혁, 김소연, 김혜진, 변혜림, 양진영, 정철인 등"],
+    "prfcrew": ["이재영, 이진희, 정철인 등"],
+    "prfruntime": ["2시간"],
+    "prfage": ["만 7세 이상"],
+    "entrpsnm": ["(재)국립현대무용단"],
+    "pcseguidance": 30000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF192817_220614_134043.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["무용"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF192817_220614_0140430.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC002877"],
+    "dtguidance": ["토요일(17:00)"]
+  },
+  {
+    "mt20id": ["PF192816"],
+    "prfnm": ["국립합창단, 나의 나라 [세종]"],
+    "prfpdfrom": ["2022.07.14"],
+    "prfpdto": ["2022.07.14"],
+    "fcltynm": ["세종예술의전당 (대공연장)"],
+    "prfcast": ["윤의중, 남경읍, 고영열, 하윤주 등"],
+    "prfcrew": ["우효원, 엄숙정"],
+    "prfruntime": ["1시간 30분"],
+    "prfage": ["만 7세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 30000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF192816_220614_133803.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["클래식"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF192816_220614_0138030.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC002877"],
+    "dtguidance": ["목요일(19:30)"]
+  },
+  {
+    "mt20id": ["PF192813"],
+    "prfnm": ["국립국악관현악단, 격: 한국의 멋"],
+    "prfpdfrom": ["2022.08.24"],
+    "prfpdto": ["2022.08.24"],
+    "fcltynm": ["세종예술의전당 (대공연장)"],
+    "prfcast": ["김성진, 김현수, 박애리, 방승환 등"],
+    "prfcrew": ["김성진"],
+    "prfruntime": ["1시간 20분"],
+    "prfage": ["만 7세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 30000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF192813_220614_132952.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["국악"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF192813_220614_0129520.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC002877"],
+    "dtguidance": ["수요일(19:30)"]
+  },
+  {
+    "mt20id": ["PF192812"],
+    "prfnm": ["광복 77주년 기념 공연, The Symphony: 코레아의 신부"],
+    "prfpdfrom": ["2022.08.20"],
+    "prfpdto": ["2022.08.20"],
+    "fcltynm": ["세종예술의전당 (대공연장)"],
+    "prfcast": ["아드리엘 김 등"],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간 40분"],
+    "prfage": ["만 7세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 50000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF192812_220614_132735.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["클래식"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF192812_220614_0127350.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF192812_220614_0135422.PNG"
+        ]
+      }
+    ],
+    "mt10id": ["FC002877"],
+    "dtguidance": ["토요일(17:00)"]
+  },
+  {
+    "mt20id": ["PF192805"],
+    "prfnm": ["스타인웨이 위너콘서트 인 코리아 Ⅲ"],
+    "prfpdfrom": ["2022.09.25"],
+    "prfpdto": ["2022.09.25"],
+    "fcltynm": ["세종예술의전당 (대공연장)"],
+    "prfcast": ["알림 바이셈바예프"],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간 50분"],
+    "prfage": ["만 7세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 40000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF192805_220614_130900.gif"
+    ],
+    "sty": [
+      "[프로그램]\r\n \r\n\r\n하이든 변주곡 F 단조, HAYDN Variations in F minor\r\n쇼팽 소나타 2번, CHOPIN Sonata No.2\r\nINTERMISSION\r\n리스트 초절 기교 연습곡, LISZT 12 Etudes d’execution transcendantes S.139\r\nIII. “Paysage”\r\nIV. “Mazeppa”\r\nV. “Feux Follets”\r\nIX. “Ricordanza”\r\nX. Allegro agitato molto\r\nXI. “Harmonies du soir”\r\nXII. “Chasse-neige”\r\n \r\n\r\n# 프로그램은 출연자의 사정으로 인하여 변경될 수 있습니다."
+    ],
+    "genrenm": ["클래식"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF192805_220614_0109000.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC002877"],
+    "dtguidance": ["일요일(17:00)"]
+  },
+  {
+    "mt20id": ["PF192795"],
+    "prfnm": ["오버더떼창: 문전본풀이 [세종]"],
+    "prfpdfrom": ["2022.09.03"],
+    "prfpdto": ["2022.09.03"],
+    "fcltynm": ["세종예술의전당 (대공연장)"],
+    "prfcast": ["박인혜, 양승은, 이예린, 한아윤, 황지영, 이해원"],
+    "prfcrew": ["박인혜, 이경화, 이은채 등"],
+    "prfruntime": ["1시간 35분"],
+    "prfage": ["만 7세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 20000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF192795_220614_120036.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["국악"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF192795_220614_1200360.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC002877"],
+    "dtguidance": ["토요일(17:00)"]
+  },
+  {
+    "mt20id": ["PF192777"],
+    "prfnm": ["알피 [세종]"],
+    "prfpdfrom": ["2022.07.30"],
+    "prfpdto": ["2022.07.31"],
+    "fcltynm": ["세종예술의전당 (대공연장)"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간 5분"],
+    "prfage": ["36개월 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 30000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF192777_220614_105803.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF192777_220614_1058030.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC002877"],
+    "dtguidance": ["토요일 ~ 일요일(11:00,14:00,16:30)"]
+  },
+  {
+    "mt20id": ["PF192772"],
+    "prfnm": ["에쿠우스 [세종]"],
+    "prfpdfrom": ["2022.09.29"],
+    "prfpdto": ["2022.09.30"],
+    "fcltynm": ["세종예술의전당 (대공연장)"],
+    "prfcast": ["장두이, 김시유, 김예림, 차유경, 이양숙, 서광일, 은경균 등"],
+    "prfcrew": ["이한승, 신종한, 김태근 등"],
+    "prfruntime": ["2시간"],
+    "prfage": ["만 16세 이상"],
+    "entrpsnm": ["극단 실험극장"],
+    "pcseguidance": 30000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF192772_220614_103448.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["연극"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF192772_220622_0131570.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC002877"],
+    "dtguidance": ["목요일 ~ 금요일(19:30)"]
+  }
+]

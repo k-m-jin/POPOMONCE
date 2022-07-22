@@ -1,0 +1,527 @@
+[
+  {
+    "mt20id": ["PF194250"],
+    "prfnm": ["깃털피리  [순천]"],
+    "prfpdfrom": ["2022.07.28"],
+    "prfpdto": ["2022.07.28"],
+    "fcltynm": ["순천문화예술회관 (대극장)"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간"],
+    "prfage": ["만 4세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 6000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF194250_220708_105555.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF194250_220708_1055550.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000493"],
+    "dtguidance": ["목요일(11:00,14:00)"]
+  },
+  {
+    "mt20id": ["PF194233"],
+    "prfnm": ["캐리TV 러브콘서트: KPOP [순천]"],
+    "prfpdfrom": ["2022.09.24"],
+    "prfpdto": ["2022.09.25"],
+    "fcltynm": ["순천문화예술회관 (대극장)"],
+    "prfcast": [" "],
+    "prfcrew": ["김양순, 유연희, 박현중 등"],
+    "prfruntime": ["1시간 5분"],
+    "prfage": ["24개월 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 66000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF194233_220708_094817.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF194233_220708_0948171.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF194233_220708_0948170.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000493"],
+    "dtguidance": ["토요일 ~ 일요일(11:00,14:00,16:30)"]
+  },
+  {
+    "mt20id": ["PF194018"],
+    "prfnm": ["헬로카봇 시즌 6, 흔들흔들 댄스파티 [여수]"],
+    "prfpdfrom": ["2022.08.06"],
+    "prfpdto": ["2022.08.07"],
+    "fcltynm": ["예울마루 (대극장)"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간"],
+    "prfage": ["24개월 이상"],
+    "entrpsnm": ["(주)하쿠나마타타"],
+    "pcseguidance": 66000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF194018_220705_093127.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF194018_220705_0931270.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000826"],
+    "dtguidance": ["토요일(11:00,14:00,16:30), 일요일(11:00,14:00)"]
+  },
+  {
+    "mt20id": ["PF194013"],
+    "prfnm": ["바로크를 추앙하다"],
+    "prfpdfrom": ["2022.07.24"],
+    "prfpdto": ["2022.07.24"],
+    "fcltynm": ["예울마루 (소극장)"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간 10분"],
+    "prfage": ["만 7세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 30000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF194013_220704_141419.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["클래식"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF194013_220704_0214190.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000826"],
+    "dtguidance": ["일요일(17:00)"]
+  },
+  {
+    "mt20id": ["PF193927"],
+    "prfnm": ["쌈 구경 가자! [보성]"],
+    "prfpdfrom": ["2022.07.21"],
+    "prfpdto": ["2022.07.21"],
+    "fcltynm": ["보성군문화예술회관 (보성군문화예술회관)"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간"],
+    "prfage": ["전체관람가"],
+    "entrpsnm": [" "],
+    "pcseguidance": 10000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193927_220704_110624.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["국악"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193927_220704_1106240.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001398"],
+    "dtguidance": ["목요일(19:30)"]
+  },
+  {
+    "mt20id": ["PF193572"],
+    "prfnm": ["더퀸: 선덕여왕의 귀환 [순천]"],
+    "prfpdfrom": ["2022.08.13"],
+    "prfpdto": ["2022.08.14"],
+    "fcltynm": ["순천문화예술회관 (대극장)"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간 10분"],
+    "prfage": ["36개월 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 45000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193572_220627_122429.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193572_220627_1224294.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193572_220627_1224293.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193572_220627_1224292.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193572_220627_1224291.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193572_220627_1224290.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000493"],
+    "dtguidance": ["토요일 ~ 일요일(11:00,14:00)"]
+  },
+  {
+    "mt20id": ["PF193525"],
+    "prfnm": ["오즈의 마법사 [목포]"],
+    "prfpdfrom": ["2022.08.28"],
+    "prfpdto": ["2022.08.28"],
+    "fcltynm": ["목포시민문화체육센터 (소공연장)"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간"],
+    "prfage": ["24개월 이상"],
+    "entrpsnm": ["극단 국민"],
+    "pcseguidance": 35000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193525_220627_110703.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193525_220627_1107030.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000491"],
+    "dtguidance": ["일요일(11:00,13:00,15:00)"]
+  },
+  {
+    "mt20id": ["PF193494"],
+    "prfnm": ["궁: 장녹수전 [목포]"],
+    "prfpdfrom": ["2022.07.16"],
+    "prfpdto": ["2022.07.16"],
+    "fcltynm": ["목포문화예술회관 (목포문화예술회관)"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간 30분"],
+    "prfage": ["만 7세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 30000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193494_220624_132006.jpg"
+    ],
+    "sty": [" "],
+    "genrenm": ["무용"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193494_220624_0120063.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193494_220624_0120062.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193494_220624_0120061.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193494_220624_0120060.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001185"],
+    "dtguidance": ["토요일(19:30)"]
+  },
+  {
+    "mt20id": ["PF193311"],
+    "prfnm": ["헬로!오페라, 사랑의 묘약 [여수]"],
+    "prfpdfrom": ["2022.08.19"],
+    "prfpdto": ["2022.08.20"],
+    "fcltynm": ["예울마루 (대극장)"],
+    "prfcast": ["송성철, 권은주, 정능화, 김종표, 박의현, 정한나"],
+    "prfcrew": ["이소영, 이강호"],
+    "prfruntime": ["1시간 20분"],
+    "prfage": ["만 7세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 50000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193311_220623_094448.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["오페라"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193311_220623_0944480.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000826"],
+    "dtguidance": ["금요일 ~ 토요일(19:30), 토요일(17:00)"]
+  },
+  {
+    "mt20id": ["PF193241"],
+    "prfnm": ["콩순이 시즌2: 우리들 음악회 [순천]"],
+    "prfpdfrom": ["2022.08.20"],
+    "prfpdto": ["2022.08.21"],
+    "fcltynm": ["순천문화예술회관 (대극장)"],
+    "prfcast": [" "],
+    "prfcrew": ["김철현, 윤성민, 정윤지 등"],
+    "prfruntime": ["1시간 5분"],
+    "prfage": ["20개월 이상"],
+    "entrpsnm": ["DS뮤지컬컴퍼니, 영실업"],
+    "pcseguidance": 50000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193241_220622_101730.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193241_220622_1017300.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000493"],
+    "dtguidance": ["토요일(11:00,14:00,16:30), 일요일(11:00,14:00)"]
+  },
+  {
+    "mt20id": ["PF193186"],
+    "prfnm": ["오즈의 마법사 [목포]"],
+    "prfpdfrom": ["2022.08.28"],
+    "prfpdto": ["2022.08.28"],
+    "fcltynm": ["목포시민문화체육센터 (소공연장)"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간"],
+    "prfage": ["24개월 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 35000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193186_220621_112421.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193186_220621_1124211.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193186_220621_1124210.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000491"],
+    "dtguidance": ["일요일(11:00,13:00,15:00)"]
+  },
+  {
+    "mt20id": ["PF193008"],
+    "prfnm": ["캔터빌의 유령 [여수]"],
+    "prfpdfrom": ["2022.08.19"],
+    "prfpdto": ["2022.08.20"],
+    "fcltynm": ["예울마루 (소극장)"],
+    "prfcast": ["김성현, 가임ㄴ서, 유정민, 설재영, 김유민, 최용수, 최한나 등"],
+    "prfcrew": ["오미영, 유자홍, 조선형 등"],
+    "prfruntime": ["1시간 10분"],
+    "prfage": ["48개월 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 30000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF193008_220617_132230.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF193008_220617_0122300.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000826"],
+    "dtguidance": ["금요일(11:00,14:00), 토요일(11:00,14:00)"]
+  },
+  {
+    "mt20id": ["PF192947"],
+    "prfnm": ["오즈의 마법사 [여수]"],
+    "prfpdfrom": ["2022.08.07"],
+    "prfpdto": ["2022.08.07"],
+    "fcltynm": ["여수시민회관 (대공연장)"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간"],
+    "prfage": ["24개월 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 40000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF192947_220616_150024.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF192947_220616_0300240.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC001242"],
+    "dtguidance": ["일요일(11:00,13:00,15:00)"]
+  },
+  {
+    "mt20id": ["PF192946"],
+    "prfnm": ["오즈의 마법사 [순천]"],
+    "prfpdfrom": ["2022.08.06"],
+    "prfpdto": ["2022.08.06"],
+    "fcltynm": ["순천문화예술회관 (대극장)"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간"],
+    "prfage": ["24개월 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 40000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF192946_220616_145707.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF192946_220616_0257071.jpg",
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF192946_220616_0257070.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000493"],
+    "dtguidance": ["토요일(11:00,13:00,15:00)"]
+  },
+  {
+    "mt20id": ["PF192687"],
+    "prfnm": ["누가 내 머리에 똥쌌어? [목포]"],
+    "prfpdfrom": ["2022.07.23"],
+    "prfpdto": ["2022.07.23"],
+    "fcltynm": ["목포시민문화체육센터 (대공연장)"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간"],
+    "prfage": ["24개월 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 40000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF192687_220613_110912.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF192687_220613_1109120.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000491"],
+    "dtguidance": ["토요일(11:00,14:00,16:00)"]
+  },
+  {
+    "mt20id": ["PF192230"],
+    "prfnm": ["지킬앤하이드 [여수]"],
+    "prfpdfrom": ["2022.08.12"],
+    "prfpdto": ["2022.08.14"],
+    "fcltynm": ["예울마루 (대극장)"],
+    "prfcast": ["신성록, 전동석, 정유지, 최수진, 이지혜, 김봉환, 윤영석 등"],
+    "prfcrew": ["신춘수, 조정만, 이수진 등"],
+    "prfruntime": ["2시간 50분"],
+    "prfage": ["만 13세 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 150000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF192230_220603_130628.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF192230_220603_0106280.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000826"],
+    "dtguidance": ["금요일(19:30), 토요일(14:00,19:00), 일요일(14:00)"]
+  },
+  {
+    "mt20id": ["PF191861"],
+    "prfnm": ["알사탕 [순천]"],
+    "prfpdfrom": ["2022.07.23"],
+    "prfpdto": ["2022.07.24"],
+    "fcltynm": ["순천문화예술회관 (대극장)"],
+    "prfcast": [" "],
+    "prfcrew": ["백희나, 전수양, 장희선 등"],
+    "prfruntime": ["1시간"],
+    "prfage": ["24개월 이상"],
+    "entrpsnm": ["할리퀸크리에이션즈(주)"],
+    "pcseguidance": 50000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF191861_220527_125426.gif"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "styurls": [
+      {
+        "styurl": [
+          "http://www.kopis.or.kr/upload/pfmIntroImage/PF_PF191861_220527_1254260.jpg"
+        ]
+      }
+    ],
+    "mt10id": ["FC000493"],
+    "dtguidance": ["토요일 ~ 일요일(11:00,14:00,16:00)"]
+  },
+  {
+    "mt20id": ["PF191826"],
+    "prfnm": ["알피"],
+    "prfpdfrom": ["2022.07.22"],
+    "prfpdto": ["2022.07.23"],
+    "fcltynm": ["예울마루 (대극장)"],
+    "prfcast": [" "],
+    "prfcrew": [" "],
+    "prfruntime": ["1시간"],
+    "prfage": ["48개월 이상"],
+    "entrpsnm": [" "],
+    "pcseguidance": 30000,
+    "poster": [
+      "http://www.kopis.or.kr/upload/pfmPoster/PF_PF191826_220527_104903.PNG"
+    ],
+    "sty": [" "],
+    "genrenm": ["뮤지컬"],
+    "prfstate": ["공연예정"],
+    "openrun": ["N"],
+    "mt10id": ["FC000826"],
+    "dtguidance": ["금요일(11:00,14:00), 토요일(11:00,14:00)"]
+  }
+]
