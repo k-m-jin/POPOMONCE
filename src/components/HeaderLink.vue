@@ -88,8 +88,8 @@
         return this.$store.state.user.profileImg;
       },
       isAdmin() {
-        console.log(this.$store.state.isAdmin);
-        return this.$store.state.isAdmin;
+        console.log(this.$store.state.admin);
+        return this.$store.state.admin;
       },
     },
     methods: {
