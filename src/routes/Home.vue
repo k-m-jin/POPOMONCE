@@ -143,13 +143,13 @@
                   <span>MEMBER</span>
                   <p>
                     <br />
-                    김휘린
+                    <a href="https://github.com/whilini">김휘린</a>
                     <br />
-                    조수경
+                    <a href="https://github.com/doradora523">조수경</a>
                     <br />
-                    김명진
+                    <a href="https://github.com/k-m-jin">김명진</a>
                     <br />
-                    정한결
+                    <a href="https://github.com/gyeol2678">정한결</a>
                   </p>
                 </div>
               </div>            
@@ -261,6 +261,14 @@
             }
           }
           .main__textBox {
+            a {
+              text-decoration: none;
+              color: #fff;
+              &:hover{
+                cursor: pointer;
+                text-shadow: 1px 1px 2px #eee;
+              }
+            }
             width: 50%;
             height: 100%;
             // position: absolute;

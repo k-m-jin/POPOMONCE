@@ -3,42 +3,61 @@
     <h2>공연 구매 내역</h2>
     <div class="ticket_listbox">
       <ul class="ticket_list">
-        <li class="ticket_info">
+        <li
+          v-for="payment in payments"
+          :key="payment.id"
+          class="ticket_info">
           <div class="ticket_title_wrap">
-            <h4 class="performance_date">2022.07.21(목)</h4>
+            <h4 class="performance_date">
+              {{ payment.product.title.split('@')[1] }}
+            </h4>
             <div class="circle_big">
               <div class="circle_sm"></div>
             </div>
             <div class="title_wrap">
-              <h3 class="title">title</h3>
-              <span class="price">14,000원</span>
-              <span class="reservation_info">예약정보: 000000</span>
+              <h3 class="title">
+                공연명: {{ payment.product.title.split('@')[0] }}
+              </h3>
+              <span class="reservation_info">예약정보: {{ payment.detailId }}</span>
             </div>
           </div>
           <div class="ticket_card">
             <div class="info_area">
-              <div class="thumbnail">thumbnail</div>
+              <div class="thumbnail">
+                <img
+                  :src="payment.product.thumbnail"
+                  alt="poster" />
+              </div>
               <div class="info">
-                <p>공연일시 : <span>start - end</span></p>
+                <p>공연일시 : <span>{{ payment.product.title.split('@')[1] }}</span></p>
                 <p>
-                  공연시간 : <span>08:50 ~ 10:50</span><span> (2시간)</span>
+                  공연시간 : <span>{{ payment.product.title.split('@')[3] }}</span>
                 </p>
-                <p>공연장 : <span>region description</span></p>
-                <div class="paid_toggle" @click="openPaid">결제내역</div>
+                <p>공연장 : <span> {{ payment.product.description.split('@')[2] }}</span></p>
+                <div
+                  class="paid_toggle"
+                  @click="openPaid(payment.detailId)">
+                  결제내역
+                </div>
               </div>
 
-              <transition v-show="paidOpen" name="openFade" class="paid">
+              <transition
+                v-show="paidOpen"
+                name="openFade"
+                class="paid">
                 <div class="paid_info">
-                  <p>결제일시 : <span>timepaid</span></p>
+                  <p>결제일시 : <span>{{ payment.timePaid.split('.')[0].replace('T',' ') }}</span></p>
                   <div class="paid_check">
-                    <p>결제취소 : <span>Y/N</span></p>
-                    <p>결제완료 : <span>Y/N</span></p>
+                    <p>결제취소 : <span>{{ payment.isCanceled ? '취소' : '' }}</span></p>
+                    <p>결제완료 : <span>{{ payment.done ? '결제 완료' : '결제 미완료' }}</span></p>
                   </div>
-                  <p>총 결제 금액 : <span>product.price</span></p>
+                  <p>총 결제 금액 : <span>{{ payment.product.price }}</span></p>
                   <div class="paid_bank">
                     <p>결제 정보</p>
-                    <span>account.bankName</span>
-                    <span>accountNumber</span>
+                    <span v-if="paymentDetail">
+                      <span>{{ paymentDetail.account && paymentDetail.account.bankName }}</span>
+                      <span>{{ paymentDetail.account && paymentDetail.account.accountNumber }}</span>  
+                    </span>
                   </div>
                 </div>
               </transition>
@@ -55,20 +74,31 @@
     data() {
       return {
         paidOpen: false,
+        // paymentDetail :[]
       };
-    },
-    created() {
-      this.$store.dispatch('payment/paymentAll');
     },
     computed: {
       payments() {
-        console.log(this.$store.state.user.paidInfo);
-        return this.$store.state.user.paidInfo;
+        console.log(this.$store.state.payment.paidInfo);
+        return this.$store.state.payment.paidInfo;
       },
+      paymentDetail(){
+        console.log('결제 상세',this.$store.state.payment.paidInfoDetail);
+        return this.$store.state.payment.paidInfoDetail;
+      }
+    },
+    created() {
+      this.$store.dispatch('payment/paymentAll');
+      // this.$store.dispatch('payment/paymentDetail');
+      
     },
     methods: {
-      openPaid() {
+      async openPaid(id) {
         this.paidOpen = !this.paidOpen;
+        console.log(id)
+        await this.$store.dispatch('payment/paymentDetail',id);
+        this.paidInfoDetail = this.$store.state.payment.paidInfoDetail
+        console.log('this',this.paidInfoDetail)
       },
     },
   };
@@ -81,14 +111,14 @@
     position: relative;
     text-align: center;
     background-color: rgb(27, 27, 31);
+    padding-bottom: 350px;
     font-size: 14px;
     line-height: 30px;
     letter-spacing: 0.5px;
-    padding-bottom: 350px;
     h2 {
       color: #eee;
       font-size: 24px;
-      padding: 200px 0 100px;
+      padding-bottom: 2rem;
     }
     .ticket_listbox {
       border-radius: 30px;
@@ -123,12 +153,12 @@
               position: relative;
             }
             .circle_big {
-              position: relative;
+              position:relative;
               top: 2px;
               right: 2.5%;
               width: 20px;
               height: 20px;
-              background-color: #e5294b;
+              background-color: #E5294B;
               border-radius: 50%;
               .circle_sm {
                 position: absolute;
@@ -149,18 +179,19 @@
               .title {
                 font-size: 22px;
                 font-weight: 600;
+                text-align: left;
                 margin-right: 20px;
-                position: relative;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                flex-grow: 1;
               }
-              .price {
-                font-size: 16px;
-                font-weight: 700;
-                margin-right: 30px;
-              }
+              
               .reservation_info {
                 font-size: 14px;
                 font-weight: 500;
                 color: #222;
+                flex-shrink: 0;
               }
             }
           }
@@ -177,18 +208,20 @@
               align-items: center;
               .thumbnail {
                 border: 1px solid #000;
+                border-radius: 10px;
                 overflow: hidden;
                 width: 150px;
                 height: 200px;
                 margin-left: 20px;
-                border-radius: 10px;
+                img{
+                  width: inherit;
+                }
               }
               .info {
                 display: flex;
                 flex-direction: column;
                 text-align: start;
-                margin-left: 50px;
-
+                margin-left: 4%;
                 .paid_toggle {
                   background-color: rgb(18, 18, 19);
                   color: #fff;
@@ -198,12 +231,13 @@
                   letter-spacing: 2px;
                   border: 1px solid rgb(18, 18, 19);
                   border-radius: 20px;
-                  transition: all 0.3s;
+                  transition: all .3s;
                   cursor: pointer;
                   &:hover {
                     background-color: transparent;
                     color: rgb(18, 18, 19);
                   }
+                  width: 100px;
                 }
               }
               .paid {
@@ -212,7 +246,7 @@
                 text-align: start;
                 font-size: 14px;
                 line-height: 25px;
-                .paid_info {
+                 .paid_info {
                   margin-left: 50px;
                   margin-right: 20px;
                   .paid_check {

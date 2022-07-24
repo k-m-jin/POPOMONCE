@@ -3,7 +3,6 @@
     <showDetail />
     <showPoster />
     <showTicketing />
-    <!-- <button class="btn">예매하기</button> -->
   </div>
 </template>
 <script>

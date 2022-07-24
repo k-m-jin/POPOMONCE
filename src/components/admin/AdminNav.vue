@@ -13,13 +13,16 @@
         </router-link>
       </el-button>
     </div>
-    <div class="logined">
-      관리자 계정입니다
-    </div>
+    <div class="logined">관리자 계정입니다</div>
+    <el-button class="header__btn" @click="logout">
+      <el-icon class="el-icon--left"> <switch-button /> </el-icon>로그아웃
+    </el-button>
   </div>
 </template>
 
 <script>
+  import { SwitchButton } from '@element-plus/icons-vue';
+
   export default {
     data() {
       return {
@@ -41,6 +44,12 @@
           },
         ],
       };
+    },
+    components: { SwitchButton },
+    methods: {
+      logout() {
+        this.$store.dispatch('user/logout');
+      },
     },
   };
 </script>
@@ -80,6 +89,16 @@
     .logined {
       font-size: 14px;
       color: #fff;
+      margin-right: 20px;
+    }
+    .header__btn {
+      background-color: transparent;
+      border: 1px solid rgb(120, 120, 120);
+      border-radius: 8px;
+      &:hover {
+        color: #fff;
+        font-weight: 700;
+      }
     }
   }
 </style>
