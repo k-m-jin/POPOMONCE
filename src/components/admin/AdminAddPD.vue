@@ -4,10 +4,11 @@
       label-width="230px"
       class="product-add__form"
       status-icon
-      @keydown.enter="submit"
-    >
+      @keydown.enter="submit">
       <el-form-item class="add__title">
-        <div class="form-title">공연 추가</div>
+        <div class="form-title">
+          공연 추가
+        </div>
       </el-form-item>
       <el-form-item
         label="공연 이름"
@@ -16,9 +17,10 @@
           required: true,
           message: '공연 이름은 필수 항목 입니다.',
           trigger: 'blur',
-        }"
-      >
-        <el-input v-model="title" type="text" />
+        }">
+        <el-input
+          v-model="title"
+          type="text" />
       </el-form-item>
       <el-form-item
         label="가격"
@@ -27,9 +29,10 @@
           required: true,
           message: '공연 가격은 필수 항목 입니다.',
           trigger: 'blur',
-        }"
-      >
-        <el-input v-model="price" type="number" />
+        }">
+        <el-input
+          v-model="price"
+          type="number" />
       </el-form-item>
       <el-form-item
         label="상세 설명"
@@ -38,13 +41,11 @@
           required: true,
           message: '공연 상세설명은 필수 항목 입니다.',
           trigger: 'blur',
-        }"
-      >
+        }">
         <el-input
           v-model="description"
           type="textarea"
-          :autosize="{ minRows: 3, maxRows: 5 }"
-        />
+          :autosize="{ minRows: 3, maxRows: 5 }" />
       </el-form-item>
       <el-form-item
         label="검색 태그"
@@ -53,21 +54,18 @@
           required: true,
           message: '공연 태그가 없으면 검색 유입이 적습니다.',
           trigger: 'blur',
-        }"
-      >
+        }">
         <el-select
           v-model="age"
           class="add__tags"
           clearable
           placeholder="나이 제한"
-          size="large"
-        >
+          size="large">
           <el-option
             v-for="item in ageOptions"
             :key="item"
             :label="item"
-            :value="item"
-          />
+            :value="item" />
         </el-select>
         <el-select
           v-model="genre"
@@ -75,46 +73,42 @@
           clearable
           :multiple="true"
           placeholder="장르"
-          size="large"
-        >
+          size="large">
           <el-option
             v-for="item in genreOptions"
             :key="item"
             :label="item"
-            :value="item"
-          />
+            :value="item" />
         </el-select>
         <el-select
           v-model="openrun"
           class="add__tags"
           clearable
           placeholder="오픈런"
-          size="large"
-        >
+          size="large">
           <el-option
             v-for="item in openrunOptions"
             :key="item"
             :label="item"
-            :value="item"
-          />
+            :value="item" />
         </el-select>
         <el-select
           v-model="region"
           class="add__tags"
           clearable
           placeholder="지역"
-          size="large"
-        >
+          size="large">
           <el-option
             v-for="item in regionOptions"
             :key="item"
             :label="item"
-            :value="item"
-          />
+            :value="item" />
         </el-select>
       </el-form-item>
       <div class="img-container">
-        <el-form-item label="썸네일 이미지" class="form__composition">
+        <el-form-item
+          label="썸네일 이미지"
+          class="form__composition">
           <el-upload
             ref="thumbnailFileList"
             :file-list="thumbnailFileList"
@@ -122,8 +116,7 @@
             :auto-upload="false"
             :on-change="handleAvatarSuccess('thumbnailFileList')"
             :limit="1"
-            list-type="picture-card"
-          >
+            list-type="picture-card">
             <el-icon>
               <Plus />
             </el-icon>
@@ -132,13 +125,11 @@
                 <img
                   class="el-upload-list__item-thumbnail"
                   :src="file.url"
-                  alt=""
-                />
+                  alt="" />
                 <span class="el-upload-list__item-actions">
                   <span
                     class="el-upload-list__item-delete"
-                    @click="handleAvatarRemove('thumbnailFileList')"
-                  >
+                    @click="handleAvatarRemove('thumbnailFileList')">
                     <el-icon><Delete /></el-icon>
                   </span>
                 </span>
@@ -146,7 +137,9 @@
             </template>
           </el-upload>
         </el-form-item>
-        <el-form-item label="상세 이미지" class="form__composition">
+        <el-form-item
+          label="상세 이미지"
+          class="form__composition">
           <el-upload
             ref="detailFileList"
             :file-list="detailFileList"
@@ -154,8 +147,7 @@
             :auto-upload="false"
             :on-change="handleAvatarSuccess('detailFileList')"
             :limit="1"
-            list-type="picture-card"
-          >
+            list-type="picture-card">
             <el-icon>
               <Plus />
             </el-icon>
@@ -164,13 +156,11 @@
                 <img
                   class="el-upload-list__item-thumbnail"
                   :src="file.url"
-                  alt=""
-                />
+                  alt="" />
                 <span class="el-upload-list__item-actions">
                   <span
                     class="el-upload-list__item-delete"
-                    @click="handleAvatarRemove('detailFileList')"
-                  >
+                    @click="handleAvatarRemove('detailFileList')">
                     <el-icon><Delete /></el-icon>
                   </span>
                 </span>
@@ -180,7 +170,10 @@
         </el-form-item>
       </div>
       <el-form-item>
-        <el-button class="product-add__btn" type="primary" @click="submit">
+        <el-button
+          class="product-add__btn"
+          type="primary"
+          @click="submit">
           공연 추가하기
         </el-button>
       </el-form-item>

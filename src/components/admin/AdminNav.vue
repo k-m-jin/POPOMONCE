@@ -7,14 +7,15 @@
         class="header__btn"
         :type="nav.type"
         round
-        size="large"
-      >
+        size="large">
         <router-link :to="nav.href">
           {{ nav.name }}
         </router-link>
       </el-button>
     </div>
-    <div class="logined">관리자 계정입니다</div>
+    <div class="logined">
+      관리자 계정입니다
+    </div>
   </div>
 </template>
 

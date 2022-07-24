@@ -7,15 +7,15 @@
         disableOnInteraction: false,
       }"
       :modules="modules"
-      :slidesPerView="1"
-      class="mySwiper"
-    >
+      :slides-per-view="1"
+      class="mySwiper">
       <swiper-slide
         v-for="(poster, idx) in posters"
         :key="poster"
-        class="posterBox"
-      >
-        <img :src="poster.thumbnail" class="image" />
+        class="posterBox">
+        <img
+          :src="poster.thumbnail"
+          class="image" />
         <div class="posterCard">
           <h3>{{ poster.tags[1] }}</h3>
           <h2>{{ poster.title.split('@')[0] }}</h2>
@@ -98,6 +98,7 @@
       width: 100%;
       height: 100%;
       margin-top: 60px;
+      box-shadow: 3px 0px 10px rgba(192, 192, 192, 0.5);
       .swiper-wrapper {
         .swiper-slide {
           width: 100%;

@@ -2,15 +2,22 @@
   <div class="admin-allsales">
     <el-container>
       <el-row>
-        <el-col v-for="pf in products" :key="pf.id" :span="6">
-          <el-skeleton style="width: 240px" :loading="loading" animated>
+        <el-col
+          v-for="pf in products"
+          :key="pf.id"
+          :span="6">
+          <el-skeleton
+            style="width: 240px"
+            :loading="loading"
+            animated>
             <template #template>
               <el-skeleton-item
                 variant="image"
-                style="width: 240px; height: 240px"
-              />
+                style="width: 240px; height: 240px" />
               <div style="padding: 14px">
-                <el-skeleton-item variant="h3" style="width: 50%" />
+                <el-skeleton-item
+                  variant="h3"
+                  style="width: 50%" />
                 <div
                   style="
                     display: flex;
@@ -18,13 +25,13 @@
                     justify-items: space-between;
                     margin-top: 16px;
                     height: 16px;
-                  "
-                >
-                  <el-skeleton-item variant="text" style="margin-right: 16px" />
+                  ">
                   <el-skeleton-item
                     variant="text"
-                    style="width: 30%; background-color: #303030"
-                  />
+                    style="margin-right: 16px" />
+                  <el-skeleton-item
+                    variant="text"
+                    style="width: 30%; background-color: #303030" />
                 </div>
               </div>
             </template>
@@ -33,17 +40,22 @@
                 <el-card
                   shadow="hover"
                   :body-style="{ padding: '0px', border: 'none' }"
-                  class="card__body"
-                >
+                  class="card__body">
                   <div class="card__poster">
-                    <img :src="pf.thumbnail" class="image" />
+                    <img
+                      :src="pf.thumbnail"
+                      class="image" />
                   </div>
-                  <div class="card__description" style="padding: 14px">
+                  <div
+                    class="card__description"
+                    style="padding: 14px">
                     <div class="card__title">
                       {{ pf.title.split('@')[0] }}
                     </div>
                     <div class="card__tags">
-                      <div v-for="(tag, i) in pf.tags" :key="i">
+                      <div
+                        v-for="(tag, i) in pf.tags"
+                        :key="i">
                         {{ tag + ' ' }}
                       </div>
                     </div>
@@ -53,7 +65,9 @@
                       }}
                     </div>
                     <div class="bottom">
-                      <el-button type="info" class="button">
+                      <el-button
+                        type="info"
+                        class="button">
                         <router-link :to="`/admin/edit/${pf.id}`">
                           수정하기
                         </router-link>
@@ -96,6 +110,13 @@
         return (this.count += 2);
       },
     },
+    mounted() {
+      window.addEventListener('scroll', this.onScroll);
+      this.$store.dispatch('admin/showProducts');
+    },
+    beforeUnmount() {
+      window.removeEventListener('scroll', this.onScroll);
+    },
     methods: {
       onScroll() {
         const docElement = document.documentElement;
@@ -110,13 +131,6 @@
           this.offset = currentOffset;
         }
       },
-    },
-    mounted() {
-      window.addEventListener('scroll', this.onScroll);
-      this.$store.dispatch('admin/showProducts');
-    },
-    beforeUnmount() {
-      window.removeEventListener('scroll', this.onScroll);
     },
   };
 </script>
@@ -137,7 +151,6 @@
         border: none;
       }
       .card__body {
-        height: 450px;
         border-radius: 10px;
         color: #141414;
         .card__poster {

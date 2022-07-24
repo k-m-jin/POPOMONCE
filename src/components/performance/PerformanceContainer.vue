@@ -1,9 +1,14 @@
 <template>
-  <div class="Performance-container">
+  <div
+    class="Performance-container">
     <Poster class="poster" />
-    <section class="performance-section">
-      <Search class="search" />
-      <PerformanceCardList v-if="isSearched" class="performanceCardList" />
+    <section
+      class="performance-section">
+      <Search
+        class="search" />
+      <PerformanceCardList
+        v-if="isSearched"
+        class="performanceCardList" />
     </section>
   </div>
 </template>
@@ -26,7 +31,7 @@
     },
     created() {
       this.$store.commit('performance/resetList');
-    },
+    }
   };
 </script>
 
@@ -53,12 +58,7 @@
       right: 0;
 
       .search {
-        width: 70%;
-        height: 100%;
-        position: fixed;
-        top: 0;
-        right: 0;
-        z-index: 2;
+        width: 50vw;
       }
 
       .performanceCardList {

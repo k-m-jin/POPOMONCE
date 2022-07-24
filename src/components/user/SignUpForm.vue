@@ -233,10 +233,10 @@
       width: 400px;
       margin: 0 auto;
       .signup__title {
-        font-size: 26px;
+        font-size: 20px;
         font-weight: 700;
-        padding-bottom: 100px;
         position: relative;
+        bottom:100px;
         display: block;
         text-align: center;
       }
@@ -272,15 +272,18 @@
           display: flex;
           justify-content: center;
           margin-bottom: 40px;
-          font-size: 30px;
+          font-size: 24px;
           font-weight: 600;
         }
         .successSignUp__btn {
           margin: 20px auto;
           padding: 22px 25px;
           border-radius: 9px;
-          font-size: 20px;
-          width: 190px;
+          font-size: 15px;
+          color:#000;
+          width: 130px;
+          background-color: #B8AC8F;
+          border:1px solid #B8AC8F;
         }
       }
     }

@@ -1,6 +1,8 @@
 <template>
   <div class="box">
-    <button @click="searchShow">상세조회</button>
+    <button @click="searchShow">
+      상세조회
+    </button>
     <swiper
       :direction="'vertical'"
       :pagination="{
@@ -11,13 +13,11 @@
         disableOnInteraction: false,
       }"
       :modules="modules"
-      class="swiper-container"
-    >
+      class="swiper-container">
       <swiper-slide
         v-for="(detail, key) in details"
         :key="key"
-        class="swiper-slide"
-      >
+        class="swiper-slide">
         <div class="detail-info">
           {{ key }}
         </div>
