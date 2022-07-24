@@ -97,7 +97,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(28, 27, 31);
+    background-color: rgb(27, 27, 31);
     .pageWrap {
       width: 60%;
       height: 80%;
@@ -105,9 +105,8 @@
       position: relative;
       top: 25px;
       background-color: #fff;
-      overflow: hidden;
+      overflow-y: auto;
       border-radius: 20px;
-
       h2 {
         font-size: 20px;
         color: #fff;
@@ -116,12 +115,10 @@
         line-height: 60px;
         background-color: #000;
       }
-
       .bookingInfo {
         width: 30%;
         height: 100%;
         border-right: 1px solid #fff;
-
         .bookingInfo__details {
           .poster {
             width: 100%;
@@ -139,7 +136,7 @@
               background-color: #ddd;
             }
             ::after {
-              content: '';
+              content: “”;
               width: 100%;
               height: 1px;
               background-color: #aaa;
@@ -147,7 +144,6 @@
               bottom: 0;
             }
           }
-
           .tags {
             display: flex;
             flex-direction: column;
@@ -175,33 +171,33 @@
           width: 100%;
           background-color: #eee;
           padding: 40px 100px;
-          letter-spacing: 1.5px;
+          letter-spacing: 1.2px;
           h3 {
             text-indent: -30px;
             font-size: 15px;
             font-weight: 800;
-            margin-bottom: 20px;
+            margin-bottom: 25px;
           }
-
           .payment__select__bank {
             display: flex;
             flex-wrap: wrap;
+            justify-content: center;
             div {
               display: flex;
               justify-content: center;
               font-size: 16px;
               line-height: 30px;
-              width: 250px;
-              height: 100px;
+              width: 38%;
+              height: 90px;
               background-color: #fff;
-              border-radius: 5px;
+              border: 1px solid #fff;
+              border-radius: 20px;
               margin: 10px;
               cursor: pointer;
               display: flex;
               flex-direction: column;
               align-items: center;
               transition: all 0.4s;
-
               p {
                 color: #aaa;
                 font-size: 14px;
@@ -215,10 +211,9 @@
                 }
               }
               &:hover {
-                color: #fff;
-                background-color: #3d6151;
+                border: 1px solid #fe253f;
                 p {
-                  color: #fff;
+                  color: #fe253f;
                 }
               }
             }
@@ -226,16 +221,15 @@
         }
         .payment__button {
           width: 100%;
-          height: 100%;
-          background-color: #3d6151;
+          height: 74px;
+          background-color: #fe253f;
           color: #efefef;
           font-size: 20px;
           font-weight: 800;
-          line-height: 70px;
+          line-height: 74px;
           text-align: center;
           cursor: pointer;
           transition: all 0.2s;
-
           &:hover {
             font-size: 18px;
           }
