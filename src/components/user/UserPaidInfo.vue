@@ -80,7 +80,7 @@
     height: 100%;
     position: relative;
     text-align: center;
-    background-color: rgb(18, 18, 19);
+    background-color: rgb(27, 27, 31);
     font-size: 14px;
     line-height: 30px;
     letter-spacing: 0.5px;
