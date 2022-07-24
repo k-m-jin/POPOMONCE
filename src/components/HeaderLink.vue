@@ -4,7 +4,7 @@
       <div class="main">
         <router-link to="/"> Home </router-link>
       </div>
-      <div v-if="!isAdmin" class="admin-header-link">
+      <div v-if="isAdmin" class="admin-header-link">
         <AdminNav />
       </div>
       <div v-else class="user">
