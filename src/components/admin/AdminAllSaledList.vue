@@ -113,6 +113,7 @@
       .saled__poster {
         width: 200px;
         flex-shrink: 0;
+        
         img {
           width: 100%;
         }

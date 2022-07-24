@@ -29,7 +29,7 @@
   .body {
     width: 100vw;
     height: 100vh;
-    background-color: #444;
+    background-color: rgb(27, 27, 31);
     color: aliceblue;
     display: flex;
     justify-content: space-around;

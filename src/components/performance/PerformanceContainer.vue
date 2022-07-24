@@ -56,7 +56,8 @@
       position: absolute;
       top: 0;
       right: 0;
-
+      background-color: rgb(27, 27, 31);
+      
       .search {
         width: 50vw;
       }

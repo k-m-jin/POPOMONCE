@@ -64,7 +64,7 @@ export default createRouter({
     {
       name: 'paymentpage',
       path: '/paymentpage',
-      component: PaymentPage,
+      component: PaymentPage, 
     },
   ],
 });

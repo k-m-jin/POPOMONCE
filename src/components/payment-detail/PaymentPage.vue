@@ -69,8 +69,9 @@
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-color:rgb(28, 27, 31);
+    align-items: center;    
+    background-color: rgb(27, 27, 31);
+
     .pageWrap {
       width: 60%;
       height: 80%;
@@ -168,7 +169,8 @@
               width: 250px;
               height: 100px;
               background-color: #fff;
-              border-radius: 5px;
+              border: 2px solid #fff;
+              border-radius: 20px;
               margin: 10px;
               cursor: pointer;
               display: flex;
@@ -189,10 +191,9 @@
                 }
               }
             &:hover {
-              color: #fff;
-              background-color: #3D6151;
+              border: 2px solid #FE253F;
               p {
-                color: #fff;
+                color:#FE253F;
               }
             }
             }
@@ -201,7 +202,7 @@
         .payment__button {
           width: 100%;
           height: 100%;
-          background-color: #3D6151;
+          background-color: #FE253F;
           color: #efefef;
           font-size: 20px;
           font-weight: 800;
