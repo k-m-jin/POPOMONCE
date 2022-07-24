@@ -14,7 +14,7 @@ router.beforeEach(async () => {
   const accessToken = window.sessionStorage.getItem('token');
   if (!accessToken) return;
   try {
-    const res = await axios({
+    const { data } = await axios({
       url: CHECK_POINT,
       method: 'POST',
       headers: {
@@ -22,13 +22,14 @@ router.beforeEach(async () => {
         Authorization: `Bearer ${accessToken}`,
       },
     });
-    Object.keys(res.data).forEach((key) => {
-      store.state.user[key] = res.data[key];
+    Object.keys(data).forEach((key) => {
+      store.state.user[key] = data[key];
     });
     store.state.user.isLogin = true;
 
-    if (res.email === 'manager22@management.admin') {
+    if (data.email === 'manager22@management.admin') {
       store.state.admin = true;
+      console.log(store.state.admin);
     }
   } catch (err) {
     console(err);

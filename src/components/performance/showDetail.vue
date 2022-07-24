@@ -1,8 +1,5 @@
 <template>
   <div class="box">
-    <button @click="searchShow">
-      상세조회
-    </button>
     <swiper
       :direction="'vertical'"
       :pagination="{

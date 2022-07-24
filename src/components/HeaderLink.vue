@@ -6,9 +6,7 @@
           Home
         </router-link>
       </div>
-      <div
-        v-if="isAdmin"
-        class="admin-header-link">
+      <div v-if="isAdmin" class="admin-header-link">
         <AdminNav />
       </div>
       <div
@@ -46,12 +44,8 @@
                       <wallet-filled />
                     </el-icon>내 계좌 정보 확인
                   </el-dropdown-item>
-                  <el-dropdown-item
-                    divided
-                    class="drop-down">
-                    <router-link
-                      class="router-link"
-                      to="/userPaidInfo">
+                  <el-dropdown-item divided class="drop-down">
+                    <router-link class="router-link" to="/paidlist">
                       <el-icon class="el-icon--left">
                         <shopping-cart />
                       </el-icon>내 구매 목록 확인
@@ -109,7 +103,8 @@
         return this.$store.state.user.profileImg;
       },
       isAdmin() {
-        return this.$store.state.isAdmin;
+        console.log(this.$store.state.admin);
+        return this.$store.state.admin;
       },
     },
     methods: {

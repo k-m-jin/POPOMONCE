@@ -52,6 +52,68 @@ export default {
       });
       commit('accountList', data);
     },
+    async disconnect(context, accountId) {
+      try {
+        const accessToken = window.sessionStorage.getItem('token');
+        await axios({
+          url: 'https://asia-northeast3-heropy-api.cloudfunctions.net/api/account',
+          method: 'delete',
+          headers: {
+            'content-type': 'application/json',
+            apikey: 'FcKdtJs202204',
+            username: 'TeamTwo',
+            Authorization: accessToken,
+          },
+          data: {
+            accountId,
+            signature: true,
+          },
+        });
+      } catch (error) {
+        console.log(error);
+      }
+    },
+    async buy(context, { productId, accountId }) {
+      const accessToken = window.sessionStorage.getItem('token');
+      try {
+        await axios({
+          url: 'https://asia-northeast3-heropy-api.cloudfunctions.net/api/products/buy',
+          method: 'post',
+          headers: {
+            'content-type': 'application/json',
+            apikey: 'FcKdtJs202204',
+            username: 'TeamTwo',
+            Authorization: accessToken,
+          },
+          data: {
+            productId,
+            accountId,
+          },
+        });
+      } catch (error) {
+        console.log(error);
+      }
+    },
+    async refund(context, detailId) {
+      const accessToken = window.sessionStorage.getItem('token');
+      try {
+        await axios({
+          url: 'https://asia-northeast3-heropy-api.cloudfunctions.net/api/products/cancel',
+          method: 'post',
+          headers: {
+            'content-type': 'application/json',
+            apikey: 'FcKdtJs202204',
+            username: 'TeamTwo',
+            Authorization: accessToken,
+          },
+          data: {
+            detailId,
+          },
+        });
+      } catch (error) {
+        console.log(error);
+      }
+    },
     async paymentAll({ state, commit }) {
       try {
         state.loading = true;
