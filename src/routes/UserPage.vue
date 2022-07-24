@@ -8,5 +8,6 @@
   .user {
     height: 100vh;
     background-color: rgb(27, 27, 31);
+
   }
 </style>
