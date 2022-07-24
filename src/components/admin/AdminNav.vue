@@ -7,7 +7,8 @@
         class="header__btn"
         :type="nav.type"
         round
-        size="large">
+        size="large"
+      >
         <router-link :to="nav.href">
           {{ nav.name }}
         </router-link>
@@ -47,8 +48,9 @@
     },
     components: { SwitchButton },
     methods: {
-      logout() {
-        this.$store.dispatch('user/logout');
+      async logout() {
+        await this.$store.dispatch('user/logout');
+        this.$store.state.admin = false;
       },
     },
   };

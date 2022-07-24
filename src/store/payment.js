@@ -13,6 +13,7 @@ export default {
       bankList: [],
       accountList: [],
       paidInfo: [],
+      loading: false,
     };
   },
   mutations: {
@@ -40,17 +41,24 @@ export default {
       });
       commit('bankList', data);
     },
-    async accountList({ commit }) {
+    async accountList({ state, commit }) {
       const accessToken = window.sessionStorage.getItem('token');
-      const { data } = await axios({
-        url: 'https://asia-northeast3-heropy-api.cloudfunctions.net/api/account',
-        method: 'GET',
-        headers: {
-          ...headers,
-          Authorization: `Bearer ${accessToken}`,
-        },
-      });
-      commit('accountList', data);
+      state.loading = true;
+      try {
+        const { data } = await axios({
+          url: 'https://asia-northeast3-heropy-api.cloudfunctions.net/api/account',
+          method: 'GET',
+          headers: {
+            ...headers,
+            Authorization: `Bearer ${accessToken}`,
+          },
+        });
+        commit('accountList', data);
+      } catch (error) {
+        console.log(error);
+      } finally {
+        state.loading = false;
+      }
     },
     async disconnect(context, accountId) {
       try {

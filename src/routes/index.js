@@ -63,7 +63,7 @@ export default createRouter({
     },
     {
       name: 'paymentpage',
-      path: '/paymentpage',
+      path: '/paymentpage/:reservationId',
       component: PaymentPage,
     },
   ],

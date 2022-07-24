@@ -29,9 +29,8 @@ router.beforeEach(async () => {
 
     if (data.email === 'manager22@management.admin') {
       store.state.admin = true;
-      console.log(store.state.admin);
     }
   } catch (err) {
-    console(err);
+    console.log(err);
   }
 });

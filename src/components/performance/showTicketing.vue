@@ -5,18 +5,17 @@
         :range="[
           new Date(startDate[0], startDate[1] - 1, startDate[2]),
           new Date(endDate[0], endDate[1] - 1, endDate[2]),
-        ]" />
+        ]"
+      />
     </div>
-    <div class="price">
-      가격 : {{ price }}
-    </div>
+    <div class="price">가격 : {{ price }}</div>
     <div class="date">
       {{ startDate }}
     </div>
     <div class="date">
       {{ endDate }}
     </div>
-    <el-button>결제하기</el-button>
+    <el-button @click="goReservate">결제하기</el-button>
   </el-card>
 </template>
 <script>
@@ -40,6 +39,11 @@
         this.endDate =
           this.$store.state.performance.detailData['공연 종료일'].split('.');
         return;
+      },
+    },
+    methods: {
+      goReservate() {
+        this.$router.push(`/paymentpage/${this.$route.params.detailId}`);
       },
     },
   };
