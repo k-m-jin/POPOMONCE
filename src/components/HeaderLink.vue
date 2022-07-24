@@ -36,7 +36,7 @@
                     >내 계좌 정보 확인
                   </el-dropdown-item>
                   <el-dropdown-item divided class="drop-down">
-                    <router-link class="router-link" to="/userPaidInfo">
+                    <router-link class="router-link" to="/paidlist">
                       <el-icon class="el-icon--left">
                         <shopping-cart /> </el-icon
                       >내 구매 목록 확인
@@ -88,6 +88,7 @@
         return this.$store.state.user.profileImg;
       },
       isAdmin() {
+        console.log(this.$store.state.isAdmin);
         return this.$store.state.isAdmin;
       },
     },
