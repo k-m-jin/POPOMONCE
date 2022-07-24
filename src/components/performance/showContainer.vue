@@ -1,5 +1,8 @@
 <template>
   <div class="body">
+    <i
+      class="fa-solid fa-arrow-left"
+      @click="back"></i>
     <showDetail />
     <showPoster />
     <showTicketing />
@@ -23,6 +26,11 @@
         this.$route.params.detailId,
       );
     },
+    methods:{
+      back(){
+        this.$router.go(-1)
+      }
+    }
   };
 </script>
 
@@ -37,10 +45,11 @@
     align-items: center;
     position: relative;
     overflow: auto;
-    .btn {
-      position: absolute;
-      right: 0;
-      background-color: #444;
+    i {
+      position: fixed;
+      left: 30px;
+      top: 90px;
+      
     }
   }
 </style>
