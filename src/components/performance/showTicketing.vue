@@ -5,10 +5,11 @@
         :range="[
           new Date(startDate[0], startDate[1] - 1, startDate[2]),
           new Date(endDate[0], endDate[1] - 1, endDate[2]),
-        ]"
-      />
+        ]" />
     </div>
-    <div class="price">가격 : {{ price }}</div>
+    <div class="price">
+      가격 : {{ price }}
+    </div>
     <div class="date">
       {{ startDate }}
     </div>
@@ -50,6 +51,7 @@
     align-items: center;
   }
   .box-card {
+    margin-top: 60px;
     width: 480px;
     height: 90vh;
     display: flex;

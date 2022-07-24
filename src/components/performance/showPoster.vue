@@ -1,7 +1,10 @@
 <template>
   <div class="container">
     <div class="img">
-      <img :src="poster" alt="상세이미지" class="poster" />
+      <img
+        :src="poster"
+        alt="상세이미지"
+        class="poster" />
     </div>
   </div>
 </template>
@@ -37,6 +40,7 @@
   .container {
     width: 30vw;
     height: 90vh;
+    margin-top: 60px;
     .img {
       border-radius: 4px;
       height: inherit;

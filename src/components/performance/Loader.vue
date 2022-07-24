@@ -54,17 +54,17 @@ body {
         width: $width;
         height: $height;
         border-radius: 50%;
-        background-color: rgb(16, 15, 18);
+        background-color: #fff;
         transform-origin: 50%;
         animation: bounce 500ms alternate infinite ease;
         }
       }
     }
     .text {
-      color: rgb(16, 15, 18);
+      color: #fff;
       display: inline-block;
       margin-left: 5px;
-      font-size: 20px;
+      font-size: 18px;
     }
   }
 }

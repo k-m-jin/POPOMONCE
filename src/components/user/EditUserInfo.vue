@@ -250,8 +250,8 @@
           flex-direction: column;
           .delete-btn {
             margin-bottom: 16px;
-            border: 1px solid #797a53;
-            background-color: #797a53;
+            border: 1px solid #3D6151;
+            background-color: #3D6151;
             color: #fff;
             .delete-btn__icon {
               margin-right: 5px;

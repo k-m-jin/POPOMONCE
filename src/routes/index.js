@@ -13,6 +13,7 @@ import PerformanceContainer from '~/components/performance/PerformanceContainer'
 import showContainer from '~/components/performance/showContainer';
 import UserPaidInfo from '~/components/user/UserPaidInfo';
 import Payment from './Payment';
+import PaymentPage from './PaymentPage';
 
 export default createRouter({
   history: createWebHistory(),
@@ -59,6 +60,11 @@ export default createRouter({
       name: 'payment',
       path: '/payment',
       component: Payment,
+    },
+    {
+      name: 'paymentpage',
+      path: '/paymentpage',
+      component: PaymentPage,
     },
   ],
 });

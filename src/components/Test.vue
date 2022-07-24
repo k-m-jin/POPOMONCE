@@ -2,7 +2,11 @@
   <!-- <div class="test" @click="requestDetail">request Detail</div> -->
   <!-- <div class="test" @click="collectIds">collect ids</div> -->
   <!-- <div class="test" @click="axiosTest">axiosTest</div> -->
-  <div class="test" @click="collectPoster">get poster</div>
+  <div
+    class="test"
+    @click="collectPoster">
+    get poster
+  </div>
 </template>
 
 <script>
@@ -15,13 +19,13 @@
         test: '',
       };
     },
-    mounted() {
-      this.everyProduct();
-    },
     computed: {
       regions() {
         return this.$store.state.product.regions;
       },
+    },
+    mounted() {
+      this.everyProduct();
     },
     methods: {
       async collectIds() {

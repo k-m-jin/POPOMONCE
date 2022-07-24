@@ -4,13 +4,11 @@
       <div
         v-for="traded in tradedList"
         :key="traded.detailId"
-        class="saled-card"
-      >
+        class="saled-card">
         <div class="saled__poster">
           <img
             :src="traded.product.thumbnail"
-            :alt="traded.product.thumbnail"
-          />
+            :alt="traded.product.thumbnail" />
         </div>
         <div class="saled__description">
           <div class="saled__title">
@@ -25,7 +23,7 @@
               공연 기간:
               {{
                 traded.product.title.split('@')[1] ===
-                traded.product.title.split('@')[2]
+                  traded.product.title.split('@')[2]
                   ? traded.product.title.split('@')[1]
                   : traded.product.title.split('@')[1] +
                     ' - ' +
@@ -50,15 +48,15 @@
           <el-button
             type="primary"
             plain
-            @click="isCanceled(traded.detailId, traded.isCanceled)"
-            >{{ traded.isCanceled ? '거래 재개' : '거래 취소' }}</el-button
-          >
+            @click="isCanceled(traded.detailId, traded.isCanceled)">
+            {{ traded.isCanceled ? '거래 재개' : '거래 취소' }}
+          </el-button>
           <el-button
             type="primary"
             plain
-            @click="isDone(traded.detailId, traded.done)"
-            >{{ traded.done ? '확정 취소' : '거래 확정' }}</el-button
-          >
+            @click="isDone(traded.detailId, traded.done)">
+            {{ traded.done ? '확정 취소' : '거래 확정' }}
+          </el-button>
         </div>
       </div>
     </el-scrollbar>

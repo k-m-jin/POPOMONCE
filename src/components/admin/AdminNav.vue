@@ -7,8 +7,7 @@
         class="header__btn"
         :type="nav.type"
         round
-        size="large"
-      >
+        size="large">
         <router-link :to="nav.href">
           {{ nav.name }}
         </router-link>
