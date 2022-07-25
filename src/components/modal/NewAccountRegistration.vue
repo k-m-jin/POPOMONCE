@@ -7,26 +7,47 @@
         <p>( 1은행 1계좌 )</p>
       </div>
       <div class="account-form">
-        <select v-model="bankCode" class="account-select">
-          <option :value="null" disabled hidden>은행명</option>
+        <select
+          v-model="bankCode"
+          class="account-select">
+          <option
+            :value="null"
+            disabled
+            hidden>
+            은행명
+          </option>
           <option
             v-for="bank in ableBankList"
             :key="bank.code"
             :label="bank.name"
             :value="bank.code"
-            :disabled="bank.disabled"
-          ></option>
+            :disabled="bank.disabled"></option>
         </select>
         <input
           v-model="accountNumber"
           class="account-number"
+          name="account"
           type="text"
           placeholder="계좌번호를 입력해주세요"
           minlength="12"
-          maxlength="13"
-          @keyup.enter="apply"
-        />
+          maxlength="13" />
         <p>하이픈기호(-)를 생략하여 숫자만 입력해주세요</p>
+
+        <input
+          v-model="phoneNumber"
+          class="phone-number"
+          name="phone"
+          type="tel"
+          placeholder="휴대폰 번호를 입력해주세요"
+          minlength="11"
+          maxlength="11" />
+
+
+        <el-checkbox
+          v-model="checked"
+          class="check-agreement">
+          계좌 등록에 동의합니다.
+        </el-checkbox>
       </div>
     </div>
     <div class="add-btn">
@@ -39,7 +60,9 @@
     data() {
       return {
         accountNumber: '',
+        phoneNumber: '',
         bankCode: null,
+        checked: true
       };
     },
     computed: {
@@ -60,6 +83,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: auto;
     h2 {
       font-size: 20px;
       line-height: 60px;
@@ -97,8 +121,8 @@
         align-items: center;
 
         .account-select,
-        .account-number {
-          margin: 60px 0 0;
+        .account-number,.phone-number {
+          margin: 40px 0 0;
           border: none;
           border-bottom: 1px solid #ccc;
           padding: 10px;
@@ -111,10 +135,13 @@
         .account-select {
           letter-spacing: 1em;
         }
-        .account-number {
+        .account-number,.phone-number {
           letter-spacing: 0.5em;
         }
-
+        .check-agreement {
+          margin-top: 80px;
+          color: #fe253f;
+        }
         p {
           margin-top: 20px;
           font-size: 10px;
@@ -128,8 +155,7 @@
       height: 50px;
       background-color: #fe253f;
       border-radius: 50%;
-      position: absolute;
-      bottom: 20px;
+      margin: 40px 0 20px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -141,6 +167,7 @@
       p {
         color: #fff;
         font-size: 16px;
+        line-height: 50px;
         font-weight: 900;
         text-align: center;
         transition: all 0.3s;
