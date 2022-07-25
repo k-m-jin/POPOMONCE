@@ -1,8 +1,6 @@
 <template>
   <div class="body">
-    <i
-      class="fa-solid fa-arrow-left"
-      @click="back"></i>
+    <i class="fa-solid fa-arrow-left" @click="back"></i>
     <showDetail />
     <showPoster />
     <showTicketing />
@@ -25,11 +23,11 @@
         this.$route.params.detailId,
       );
     },
-    methods:{
-      back(){
-        this.$router.go(-1)
-      }
-    }
+    methods: {
+      back() {
+        this.$router.go(-1);
+      },
+    },
   };
 </script>
 
@@ -48,7 +46,7 @@
       position: fixed;
       left: 30px;
       top: 90px;
-      
+      cursor: pointer;
     }
   }
 </style>

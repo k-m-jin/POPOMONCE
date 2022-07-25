@@ -357,6 +357,7 @@ export default {
       for (const key in payload) {
         state[key] = payload[key];
       }
+      state.isLoading = false;
     },
   },
 
@@ -393,40 +394,46 @@ export default {
         console.log(err);
       }
     },
-    async searchShow({ commit }, performancesId) {
-      const { data } = await axios({
-        url: `https://asia-northeast3-heropy-api.cloudfunctions.net/api/products/${performancesId}`,
-        method: 'GET',
-        headers,
-      });
+    async searchShow({ state, commit }, performancesId) {
+      try {
+        state.isLoading = true;
+        const { data } = await axios({
+          url: `https://asia-northeast3-heropy-api.cloudfunctions.net/api/products/${performancesId}`,
+          method: 'GET',
+          headers,
+        });
 
-      const data1 = data.title.split(/\/|@/);
-      const description = data.description.split(/\/|@/);
-      const showDetail = [...data1, ...description];
+        const data1 = data.title.split(/\/|@/);
+        const description = data.description.split(/\/|@/);
+        const showDetail = [...data1, ...description];
 
-      commit('setState', { showDetail });
+        commit('setState', { showDetail });
 
-      const detailData = {
-        title: showDetail[0],
-        startDate: showDetail[1],
-        endDate: showDetail[2],
-        runtime: showDetail[3],
-        producer: showDetail[4],
-        crew: showDetail[5],
-        cast: showDetail[6],
-        story: showDetail[7],
-        concertHall: showDetail[8],
-        showTime: showDetail[9],
-        poster: data.photo,
-        mainPoster: data.thumbnail,
-      };
+        const detailData = {
+          title: showDetail[0],
+          startDate: showDetail[1],
+          price: data.price,
+          endDate: showDetail[2],
+          runtime: showDetail[3],
+          producer: showDetail[4],
+          crew: showDetail[5],
+          cast: showDetail[6],
+          story: showDetail[7],
+          concertHall: showDetail[8],
+          showTime: showDetail[9],
+          poster: data.photo,
+          mainPoster: data.thumbnail,
+        };
 
-      commit('setState', { detailData });
+        commit('setState', { detailData });
 
-      const detailPoster = data.photo;
-      commit('setState', { detailPoster });
-      const price = data.price;
-      commit('setState', { price });
+        const detailPoster = data.photo;
+        commit('setState', { detailPoster });
+        const price = data.price;
+        commit('setState', { price });
+      } catch (error) {
+        console.log(error);
+      }
     },
   },
 };
