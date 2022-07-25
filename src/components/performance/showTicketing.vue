@@ -3,25 +3,15 @@
     v-if="!isLoading"
     class="box-card">
     <div class="calender-box">
-      <!-- 원래코드 -->
-      <!-- <el-calendar
-        v-model="value" 
-        :range="[
-          new Date(startDate[0], startDate[1] - 1, startDate[2]),
-          new Date(endDate[0], endDate[1] - 1, endDate[2]),
-        ]" /> -->
-
-      <!-- 시도하다 실패한 코드 -->
       <el-calendar
+        v-model="selectedDay"
         :range="[
           new Date(startDate[0], startDate[1] - 1, startDate[2]),
           new Date(endDate[0], endDate[1] - 1, endDate[2]),
         ]">
         <template #dateCell="{ data }">
           <p
-            :isSelected="data.isSelected ? true : false"
-            :class="data.isSelected ? 'is-selected' : ''"
-            @click="!isSelected">
+            :class="data.isSelected ? 'is-selected' : ''">
             {{ data.day.split('-').slice(2).join('-') }}
             {{ data.isSelected ? '✔️' : '' }}
           </p>
@@ -33,8 +23,8 @@
         결제금액 : {{ price }} 원
       </div>
       <el-button
-        :class="isSelected ? 'buy-btn' : ''"
-        :disabled="!isSelected"
+        :class="selectedDay ? 'buy-btn' : ''"
+        :disabled="!selectedDay"
         @click="goReservate">
         결제하기
       </el-button>
@@ -45,10 +35,7 @@
   export default {
     data() {
       return {
-        // selectDate: (val) => {
-        //   calendar.value.selectDate(val);          
-        // },
-        isSelected: false,
+         selectedDay: ''
       };
     },
     computed: {
@@ -73,6 +60,7 @@
         });
         return end;
       },
+
     },
 
     methods: {
