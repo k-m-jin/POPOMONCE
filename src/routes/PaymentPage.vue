@@ -134,14 +134,18 @@
     align-items: center;
     background-color: rgb(27, 27, 31);
     .pageWrap {
+      max-width: 80%;
       width: 60%;
       max-height: 80%;
       display: flex;
       position: relative;
       top: 25px;
-      background-color: #fff;
-      overflow-y: auto;
       border-radius: 20px;
+      background-color: #fff;
+      overflow-y: scroll;
+      &::-webkit-scrollbar {
+        display: none;
+      }
       h2 {
         font-size: 20px;
         color: #fff;
