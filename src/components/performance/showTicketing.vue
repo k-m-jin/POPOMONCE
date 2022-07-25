@@ -5,17 +5,14 @@
         :range="[
           new Date(startDate[0], startDate[1] - 1, startDate[2]),
           new Date(endDate[0], endDate[1] - 1, endDate[2]),
-        ]"
-      />
+        ]" />
     </div>
-    <div class="price">가격 : {{ price }}</div>
-    <div class="date">
-      {{ startDate }}
+    <div class="info">
+      <div class="price">
+        가격 : {{ price }} 원
+      </div>
+      <el-button @click="goReservate">결제하기</el-button>
     </div>
-    <div class="date">
-      {{ endDate }}
-    </div>
-    <el-button @click="goReservate">결제하기</el-button>
   </el-card>
 </template>
 <script>
@@ -66,6 +63,11 @@
         height: 400px;
         --el-calendar-cell-width: 30px;
       }
+    }
+    .info{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
     }
     .date {
       height: 2rem;
