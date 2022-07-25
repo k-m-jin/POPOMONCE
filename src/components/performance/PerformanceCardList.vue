@@ -1,11 +1,17 @@
 <template>
   <div class="container">
     <Loader v-if="isLoading" />
-    <div v-for="card in list" v-else :key="card.id" class="cards">
+    <div
+      v-for="card in list"
+      v-else
+      :key="card.id"
+      class="cards">
       <div class="card_box">
         <router-link :to="`detail/${card.id}`">
           <div class="card_poster">
-            <img :src="card.thumbnail" class="image" />
+            <img
+              :src="card.thumbnail"
+              class="image" />
           </div>
           <div class="card_info">
             <p>{{ card.tags[1] }}</p>
@@ -22,7 +28,9 @@
           </div>
         </router-link>
       </div>
-      <div v-if="list.length === 0" class="no_results">
+      <div
+        v-if="list.length === 0"
+        class="no_results">
         No Search Results Found
       </div>
     </div>
@@ -58,12 +66,13 @@
       width: 300px;
       height: 400px;
       margin: 2%;
-      box-shadow: 5px 10px 10px #ccc;
+      box-shadow: 5px 5px 10px rgb(69, 69, 69);
       .card_box {
         position: absolute;
         width: 100%;
         height: 100%;
         z-index: 3;
+        overflow: hidden;
         &:hover {
           cursor: pointer;
         }
@@ -73,6 +82,10 @@
           height: 100%;
           overflow: hidden;
           background-size: cover;
+          transition: all .5s;
+          &:hover {
+            transform: scale(1.05);
+          }
 
           .image {
             width: 100%;

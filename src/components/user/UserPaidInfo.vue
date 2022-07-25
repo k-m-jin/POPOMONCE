@@ -110,7 +110,7 @@
     height: 100%;
     position: relative;
     text-align: center;
-
+    background-color: rgb(27, 27, 31);
     padding-bottom: 350px;
     font-size: 14px;
     line-height: 30px;

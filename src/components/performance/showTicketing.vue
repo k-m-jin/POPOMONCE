@@ -11,7 +11,7 @@
       <div class="price">
         가격 : {{ price }} 원
       </div>
-      <el-button>결제하기</el-button>
+      <el-button @click="goReservate">결제하기</el-button>
     </div>
   </el-card>
 </template>
@@ -38,6 +38,11 @@
         return;
       },
     },
+    methods: {
+      goReservate() {
+        this.$router.push(`/paymentpage/${this.$route.params.detailId}`);
+      },
+    },
   };
 </script>
 <style lang="scss" scoped>
@@ -47,6 +52,7 @@
     align-items: center;
   }
   .box-card {
+    margin-top: 60px;
     width: 480px;
     height: 90vh;
     display: flex;

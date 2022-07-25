@@ -1,97 +1,96 @@
 <template>
-  <div v-loading="loading" class="product-edit">
+  <div
+    v-loading="loading"
+    class="product-edit">
     <div>
       <el-form
         label-width="200px"
         class="product-edit__form"
         status-icon
-        @keydown.enter="submit"
-      >
+        @keydown.enter="submit">
         <el-form-item class="edit__title">
-          <div class="form-title">공연 수정</div>
+          <div class="form-title">
+            공연 수정
+          </div>
         </el-form-item>
-        <el-form-item label="공연 이름" class="form__composition">
+        <el-form-item
+          label="공연 이름"
+          class="form__composition">
           <el-input
             v-model="title"
             type="text"
-            :placeholder="oldDetail.title"
-          />
+            :placeholder="oldDetail.title" />
         </el-form-item>
-        <el-form-item label="가격" class="form__composition">
+        <el-form-item
+          label="가격"
+          class="form__composition">
           <el-input
             v-model="price"
             type="number"
-            :placeholder="oldDetail.price"
-          />
+            :placeholder="oldDetail.price" />
         </el-form-item>
-        <el-form-item label="상세 설명" class="form__composition">
+        <el-form-item
+          label="상세 설명"
+          class="form__composition">
           <el-input
             v-model="description"
             type="textarea"
             :placeholder="oldDetail.description"
-            :autosize="{ minRows: 3, maxRows: 5 }"
-          />
+            :autosize="{ minRows: 3, maxRows: 5 }" />
         </el-form-item>
-        <el-form-item label="검색 태그" class="form__composition">
+        <el-form-item
+          label="검색 태그"
+          class="form__composition">
           <el-select
             v-model="age"
             class="edit__tags"
             :placeholder="oldDetail.tags && oldDetail.tags[0]"
-            size="large"
-          >
+            size="large">
             <el-option
               v-for="item in ageOptions"
               :key="item"
               :label="item"
-              :value="item"
-            />
+              :value="item" />
           </el-select>
           <el-select
             v-model="genre"
             class="edit__tags"
             :placeholder="oldDetail.tags && oldDetail.tags[1]"
-            size="large"
-          >
+            size="large">
             <el-option
               v-for="item in genreOptions"
               :key="item"
               :label="item"
-              :value="item"
-            />
+              :value="item" />
           </el-select>
           <el-select
             v-model="openrun"
             class="edit__tags"
             placeholder="오픈런"
-            size="large"
-          >
+            size="large">
             <el-option
               v-for="item in openrunOptions"
               :key="item"
               :label="item"
-              :value="item"
-            />
+              :value="item" />
           </el-select>
           <el-select
             v-model="region"
             class="edit__tags"
             :placeholder="oldDetail.tags && oldDetail.tags[3]"
-            size="large"
-          >
+            size="large">
             <el-option
               v-for="item in regionOptions"
               :key="item"
               :label="item"
-              :value="item"
-            />
+              :value="item" />
           </el-select>
         </el-form-item>
         <div class="img-container">
           <el-form-item
             id="thumbnailFileList"
             label="썸네일 이미지"
-            class="form__composition"
-          >
+            class="form__composition">
             <el-upload
               ref="thumbnailFileList"
               :file-list="thumbnailFileList"
@@ -99,8 +98,7 @@
               :auto-upload="false"
               :on-change="handleAvatarSuccess('thumbnailFileList')"
               :limit="1"
-              list-type="picture-card"
-            >
+              list-type="picture-card">
               <el-icon>
                 <Plus />
               </el-icon>
@@ -109,13 +107,11 @@
                   <img
                     class="el-upload-list__item-thumbnail"
                     :src="file.url"
-                    alt=""
-                  />
+                    alt="" />
                   <span class="el-upload-list__item-actions">
                     <span
                       class="el-upload-list__item-delete"
-                      @click="handleAvatarRemove('thumbnailFileList')"
-                    >
+                      @click="handleAvatarRemove('thumbnailFileList')">
                       <el-icon><Delete /></el-icon>
                     </span>
                   </span>
@@ -126,8 +122,7 @@
           <el-form-item
             id="detailFileList"
             label="상세 이미지"
-            class="form__composition"
-          >
+            class="form__composition">
             <el-upload
               ref="detailFileList"
               :file-list="detailFileList"
@@ -135,8 +130,7 @@
               :auto-upload="false"
               :on-change="handleAvatarSuccess('detailFileList')"
               :limit="1"
-              list-type="picture-card"
-            >
+              list-type="picture-card">
               <el-icon>
                 <Plus />
               </el-icon>
@@ -145,13 +139,11 @@
                   <img
                     class="el-upload-list__item-detail"
                     :src="file.url"
-                    alt=""
-                  />
+                    alt="" />
                   <span class="el-upload-list__item-actions">
                     <span
                       class="el-upload-list__item-delete"
-                      @click="handleAvatarRemove('detailFileList')"
-                    >
+                      @click="handleAvatarRemove('detailFileList')">
                       <el-icon><Delete /></el-icon>
                     </span>
                   </span>
@@ -166,22 +158,26 @@
             size="large"
             class="is-soldout"
             active-text="매진"
-            inactive-text="판매"
-          />
+            inactive-text="판매" />
         </el-form-item>
         <el-form-item>
           <el-button
             class="product-edit__btn"
             type="primary"
-            :disabled="isDone"
-          >
+            :disabled="isDone">
             {{ isDone ? '편집됨' : '편집하기' }}
           </el-button>
-          <el-button @click="deletePf" class="product-edit__btn" type="danger">
+          <el-button
+            class="product-edit__btn"
+            type="danger"
+            @click="deletePf">
             {{ isDeleted ? '삭제됨' : '삭제하기' }}
             {{ isDone ? '편집됨' : '편집하기' }}
           </el-button>
-          <el-button class="product-edit__btn" type="danger" @click="deletePf">
+          <el-button
+            class="product-edit__btn"
+            type="danger"
+            @click="deletePf">
             {{ isDeleted ? '삭제됨' : '삭제하기' }}
           </el-button>
         </el-form-item>
@@ -305,9 +301,6 @@
         };
       },
     },
-    created() {
-      this.$store.dispatch('admin/showDetail', this.$route.params.id);
-    },
     computed: {
       oldDetail() {
         return this.$store.state.admin.willEdit;
@@ -315,6 +308,9 @@
       loading() {
         return this.$store.state.admin.loading;
       },
+    },
+    created() {
+      this.$store.dispatch('admin/showDetail', this.$route.params.id);
     },
     methods: {
       handleAvatarRemove(fileList) {

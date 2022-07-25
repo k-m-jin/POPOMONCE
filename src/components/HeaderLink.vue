@@ -4,7 +4,7 @@
       <div class="main">
         <router-link to="/"> Home </router-link>
       </div>
-      <div v-if="!isAdmin" class="admin-header-link">
+      <div v-if="isAdmin" class="admin-header-link">
         <AdminNav />
       </div>
       <div v-else class="user">
@@ -27,23 +27,26 @@
                       class="router-link"
                       :to="`/user/mypage/${userName}`"
                     >
-                      <el-icon class="el-icon--left"> <info-filled /> </el-icon
+                      <el-icon class="el-icon--left">
+                        <info-filled /> </el-icon
                       >회원 정보 수정
                     </router-link>
                   </el-dropdown-item>
                   <el-dropdown-item divided class="drop-down">
-                    <el-icon class="el-icon--left"> <wallet-filled /> </el-icon
+                    <el-icon class="el-icon--left">
+                      <wallet-filled /> </el-icon
                     >내 계좌 정보 확인
                   </el-dropdown-item>
                   <el-dropdown-item divided class="drop-down">
-                    <router-link class="router-link" to="/userPaidInfo">
+                    <router-link class="router-link" to="/paidlist">
                       <el-icon class="el-icon--left">
                         <shopping-cart /> </el-icon
                       >내 구매 목록 확인
                     </router-link>
                   </el-dropdown-item>
                   <el-dropdown-item divided class="drop-down" @click="logout">
-                    <el-icon class="el-icon--left"> <switch-button /> </el-icon
+                    <el-icon class="el-icon--left">
+                      <switch-button /> </el-icon
                     >로그아웃
                   </el-dropdown-item>
                 </el-dropdown-menu>
@@ -88,7 +91,7 @@
         return this.$store.state.user.profileImg;
       },
       isAdmin() {
-        return this.$store.state.isAdmin;
+        return this.$store.state.admin;
       },
     },
     methods: {

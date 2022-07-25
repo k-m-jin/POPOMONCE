@@ -110,7 +110,7 @@
                   <p>
                     한 곳에서 편리하게
                     <br />
-                    궁금했던 공연 상세 정보를 찾고 
+                    궁금했던 공연의 정보를 찾고 
                     <br />
                     빠르게 예매하세요
                   </p>
@@ -213,10 +213,25 @@
     }
   }
 
+
   .swiper {
     width: 100vw;
     height: 100vh;
   }
+
+
+  // .swiper-slide-active {
+  //   .section {
+  //     .main {
+  //       .main_wrap {
+  //         .main__img {
+  //           transform: translate3d(0, 0, 0);
+  //         }
+  //       }
+  //     }
+  //   }
+  // }
+
   .swiper-slide {
     position: relative;
     .section {
@@ -231,9 +246,14 @@
           display: flex;
           justify-content: center;
           align-items: center;
+          transform: translate 1s;
           .main__img {
             width: 50%;
             height: 100%;
+            // position: absolute;
+            // right: 0;
+            // transform: translate3d(0, 100%, 0);
+
             .img{
               width: 100%;
               height: 100%;
@@ -251,6 +271,9 @@
             }
             width: 50%;
             height: 100%;
+            // position: absolute;
+            // left: 0;
+
             .main__text {
               height: 82%;
               padding: 15%;
@@ -288,7 +311,7 @@
       }
     }
     .section_1 {
-      background-color: #102e28;
+      background-color: #797a53;
       .main {
         .main_wrap {
           .main__img {
@@ -297,7 +320,6 @@
             }
           }
           .main__textBox {
-            background-color: #797a53;
             .main__text {
               .text__1 {
                 color: #fff;
@@ -374,7 +396,6 @@
           .main__img {
             .img{
               background-image: url(https://concerthouse.daegu.go.kr/icms/file/getImage.do?atchFileId=FILE_000000000042767uUDZhgVQ&fileSn=0);
-              
             }
           }
           .main__text {
