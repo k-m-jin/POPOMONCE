@@ -42,6 +42,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow-y: scroll;
+    &::-webkit-scrollbar {
+      display: none;
+    }
     h2 {
       font-size: 20px;
       line-height: 60px;

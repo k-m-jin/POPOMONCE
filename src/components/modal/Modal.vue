@@ -70,8 +70,8 @@ export default {
     position: relative;
     max-width: 500px;
     width: 80%;
-    min-height: 500px;
-    height: 70%;
+    max-height: 90%;
+    height: 80%;
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
     background-color: #fff;
     border-radius: 20px;
