@@ -63,8 +63,8 @@
           </div>
           <div v-else>Loading...</div>
         </div>
+        <div class="payment__button">결제하기</div>
       </div>
-      <div class="payment__button">결제하기</div>
     </div>
   </div>
 </template>
