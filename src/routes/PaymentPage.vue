@@ -135,7 +135,7 @@
     background-color: rgb(27, 27, 31);
     .pageWrap {
       width: 60%;
-      height: 80%;
+      max-height: 80%;
       display: flex;
       position: relative;
       top: 25px;
@@ -151,13 +151,17 @@
         background-color: #000;
       }
       .bookingInfo {
-        width: 30%;
+        width: 35%;
         height: 100%;
         border-right: 1px solid #fff;
         .bookingInfo__details {
           .poster {
-            width: 100%;
-            height: 350px;
+            width: 60%;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            margin-top: 30px;
+            border-radius: 10px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -180,12 +184,11 @@
             }
           }
           .tags {
-            display: flex;
-            flex-direction: column;
             padding: 40px 30px;
             font-size: 16px;
             line-height: 30px;
             position: relative;
+            top: 10px;
             h3 {
               font-size: 22px;
               font-weight: 700;
@@ -200,8 +203,7 @@
         }
       }
       .payment {
-        width: 70%;
-        height: 100%;
+        width: 65%;
         background-color: #f8f8f8;
         .payment__select {
           width: 100%;
@@ -223,7 +225,8 @@
               justify-content: center;
               font-size: 16px;
               line-height: 30px;
-              width: 38%;
+              min-width: 200px;
+              width: 40%;
               height: 90px;
               background-color: #fff;
               border: 1px solid #fff;
