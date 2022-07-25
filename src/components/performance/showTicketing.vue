@@ -1,16 +1,15 @@
 <template>
-  <el-card class="box-card">
+  <el-card v-if="!isLoading" class="box-card">
     <div class="calender-box">
       <el-calendar
         :range="[
           new Date(startDate[0], startDate[1] - 1, startDate[2]),
           new Date(endDate[0], endDate[1] - 1, endDate[2]),
-        ]" />
+        ]"
+      />
     </div>
     <div class="info">
-      <div class="price">
-        가격 : {{ price }} 원
-      </div>
+      <div class="price">가격 : {{ price }} 원</div>
       <el-button @click="goReservate">결제하기</el-button>
     </div>
   </el-card>
@@ -19,23 +18,34 @@
   export default {
     data() {
       return {
-        startDate: [],
-        endDate: [],
+        // startDate: [],
+        // endDate: [],
         selectDate: (val) => {
           calendar.value.selectDate(val);
         },
       };
     },
     computed: {
+      isLoading() {
+        return this.$store.state.performance.isLoading;
+      },
       price() {
         return this.$store.state.performance.price;
       },
-      getDate() {
-        this.startDate =
-          this.$store.state.performance.detailData['공연 시작일'].split('.');
-        this.endDate =
-          this.$store.state.performance.detailData['공연 종료일'].split('.');
-        return;
+      startDate() {
+        const res =
+          this.$store.state.performance.detailData.startDate.split('.');
+        const start = res.map((d) => {
+          return Number(d);
+        });
+        return start;
+      },
+      endDate() {
+        const res = this.$store.state.performance.detailData.endDate.split('.');
+        const end = res.map((d) => {
+          return Number(d);
+        });
+        return end;
       },
     },
     methods: {
@@ -64,7 +74,7 @@
         --el-calendar-cell-width: 30px;
       }
     }
-    .info{
+    .info {
       display: flex;
       align-items: center;
       flex-direction: column;

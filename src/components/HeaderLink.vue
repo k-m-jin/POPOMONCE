@@ -27,14 +27,12 @@
                       class="router-link"
                       :to="`/user/mypage/${userName}`"
                     >
-                      <el-icon class="el-icon--left">
-                        <info-filled /> </el-icon
+                      <el-icon class="el-icon--left"> <info-filled /> </el-icon
                       >회원 정보 수정
                     </router-link>
                   </el-dropdown-item>
                   <el-dropdown-item divided class="drop-down">
-                    <el-icon class="el-icon--left">
-                      <wallet-filled /> </el-icon
+                    <el-icon class="el-icon--left"> <wallet-filled /> </el-icon
                     >내 계좌 정보 확인
                   </el-dropdown-item>
                   <el-dropdown-item divided class="drop-down">
@@ -45,8 +43,7 @@
                     </router-link>
                   </el-dropdown-item>
                   <el-dropdown-item divided class="drop-down" @click="logout">
-                    <el-icon class="el-icon--left">
-                      <switch-button /> </el-icon
+                    <el-icon class="el-icon--left"> <switch-button /> </el-icon
                     >로그아웃
                   </el-dropdown-item>
                 </el-dropdown-menu>
@@ -91,7 +88,8 @@
         return this.$store.state.user.profileImg;
       },
       isAdmin() {
-        return this.$store.state.admin;
+        console.log(this.$store.state.isAdmin);
+        return this.$store.state.isAdmin;
       },
     },
     methods: {
