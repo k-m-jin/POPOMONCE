@@ -10,19 +10,97 @@
         disableOnInteraction: false,
       }"
       :modules="modules"
-      class="swiper-container"
-    >
-      <swiper-slide
+      class="swiper-container">
+      <!-- <swiper-slide
         v-for="(detail, key) in details"
         :key="key"
-        class="swiper-slide"
-      >
+        class="swiper-slide">
         <div class="detail-info">
           {{ key }}
         </div>
         <div class="detail">
           {{ detail }}
         </div>
+      </swiper-slide> -->
+      <swiper-slide v-if="details.title">
+        <p class="Kategorie">
+          공연 제목
+        </p>
+        <p class="detail">
+          {{ details.title }}
+        </p>
+      </swiper-slide>
+      <swiper-slide v-if="details.startDate">
+        <p class="Kategorie">
+          공연 시작일
+        </p>
+        <p class="detail">
+          {{ details.startDate }}
+        </p>
+      </swiper-slide>
+      <swiper-slide v-if="details.endDate">
+        <p class="Kategorie">
+          공연 종료일
+        </p>
+        <p class="detail">
+          {{ details.endDate }}
+        </p>
+      </swiper-slide>
+      <swiper-slide v-if="details.runtime">
+        <p class="Kategorie">
+          런타임
+        </p>
+        <p class="detail">
+          {{ details.runtime }}
+        </p>
+      </swiper-slide>
+      <swiper-slide v-if="details.producer">
+        <p class="Kategorie">
+          제작사
+        </p>
+        <p class="detail">
+          {{ details.producer }}
+        </p>
+      </swiper-slide>
+      <swiper-slide v-if="details.crew">
+        <p class="Kategorie">
+          제작진
+        </p>
+        <p class="detail">
+          {{ details.crew }}
+        </p>
+      </swiper-slide>
+      <swiper-slide v-if="details.cast">
+        <p class="Kategorie">
+          공연진
+        </p>
+        <p class="detail">
+          {{ details.cast }}
+        </p>
+      </swiper-slide>
+      <swiper-slide v-if="details.story">
+        <p class="Kategorie">
+          줄거리
+        </p>
+        <p class="detail">
+          {{ details.story }}
+        </p>
+      </swiper-slide>
+      <swiper-slide v-if="details.concertHall">
+        <p class="Kategorie">
+          공연장
+        </p>
+        <p class="detail">
+          {{ details.concertHall }}
+        </p>
+      </swiper-slide>
+      <swiper-slide v-if="details.showTime">
+        <p class="Kategorie">
+          공연 시간
+        </p>
+        <p class="detail">
+          {{ details.showTime }}
+        </p>
       </swiper-slide>
     </swiper>
   </div>
@@ -49,11 +127,6 @@
     computed: {
       details() {
         const details = this.$store.state.performance.detailData;
-        Object.entries(details).forEach(([k, v]) => {
-          if (!v.trim()) {
-            delete details[k];
-          }
-        });
         return details;
       },
     },
@@ -68,10 +141,9 @@
       width: 100%;
       display: flex;
       flex-direction: column;
-      /* background-color: orange; */
       justify-content: center;
       align-items: center;
-      .detail-info {
+      .Kategorie {
         font-size: 1rem;
       }
       .detail {
