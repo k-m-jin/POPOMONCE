@@ -1,16 +1,23 @@
 <template>
-  <el-card v-if="!isLoading" class="box-card">
+  <el-card
+    v-if="!isLoading"
+    class="box-card">
     <div class="calender-box">
       <el-calendar
         :range="[
           new Date(startDate[0], startDate[1] - 1, startDate[2]),
           new Date(endDate[0], endDate[1] - 1, endDate[2]),
-        ]"
-      />
+        ]" />
     </div>
     <div class="info">
-      <div class="price">가격 : {{ price }} 원</div>
-      <el-button @click="goReservate">결제하기</el-button>
+      <div class="price">
+        결제금액 : {{ price }} 원
+      </div>
+      <el-button
+        class="buy-btn"
+        @click="goReservate">
+        결제하기
+      </el-button>
     </div>
   </el-card>
 </template>
@@ -76,8 +83,29 @@
     }
     .info {
       display: flex;
-      align-items: center;
       flex-direction: column;
+
+      .price {
+        font-size: 16px;
+        font-weight: 500;
+        color: #fe253f;
+        text-align: end;
+        margin-right: 20px;
+        margin-bottom: 30px;
+      }
+      .buy-btn {
+        height: 50px;
+        border: 1px solid #fe253f;
+        background-color: #fe253f;
+        color: #fff;
+        font-size: 16px;
+        letter-spacing: 0.5em;
+        &:hover {
+          border: 1px solid #fe253f;
+          color: #fe253f;
+          background-color: #fff;
+        }
+      }
     }
     .date {
       height: 2rem;

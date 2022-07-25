@@ -15,9 +15,7 @@
             <p>공연장소 : {{}}</p>
             <h4>
               결제금액 :
-              <span :style="{ fontSize: 22 + 'px', fontWeight: 800 }"
-                >10,000원{{}}</span
-              >
+              <span :style="{ fontSize: 22 + 'px', fontWeight: 800 }">10,000원{{}}</span>
             </h4>
           </div>
         </div>
@@ -26,7 +24,9 @@
         <h2>결제수단</h2>
         <div class="payment__select">
           <h3>간편계좌이체</h3>
-          <div v-if="!loading" class="payment__select__bank">
+          <div
+            v-if="!loading"
+            class="payment__select__bank">
             <div>{{ myBanks }}</div>
             <div>
               <h4>KB국민은행</h4>
@@ -56,24 +56,55 @@
               <h4>NH농협은행</h4>
               <p>111-11-11111-1</p>
             </div>
-            <div>
+            <div
+              class="openModal"
+              @click="toggleModal">
               <p><i class="fa-solid fa-plus"></i></p>
               신규계좌등록
             </div>
           </div>
-          <div v-else>Loading...</div>
+          <div v-else>
+            Loading...
+          </div>
         </div>
-        <div class="payment__button">결제하기</div>
+        <div
+          class="payment__button">
+          결제하기
+        </div>
+        <Modal
+          :modal-active="modalActive"
+          @close="toggleModal">
+          <div class="modal-content">
+            <!-- <ManagingAccount /> -->
+            <NewAccountRegistration />
+          </div>
+        </Modal>
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import Modal from '../components/modal/Modal.vue'
+import ManagingAccount from '../components/modal/ManagingAccount.vue';
+import NewAccountRegistration from '../components/modal/NewAccountRegistration.vue';
+import { ref } from 'vue'
+
   export default {
-    created() {
-      this.$store.dispatch('payment/accountList');
-    },
+  components: {
+    Modal,
+    ManagingAccount,
+    NewAccountRegistration
+},
+  setup() {
+    const modalActive = ref(false);
+
+    const toggleModal = () => {
+      modalActive.value = !modalActive.value;
+    }
+
+    return { modalActive, toggleModal }
+  },
     computed: {
       loading() {
         return this.$store.state.payment.loading;
@@ -86,6 +117,9 @@
         console.log(this.$store.state.payment.accountList);
         return this.$store.state.payment.accountList;
       },
+    },
+    created() {
+      this.$store.dispatch('payment/accountList');
     },
   };
 </script>
@@ -166,6 +200,7 @@
       }
       .payment {
         width: 70%;
+        height: 100%;
         background-color: #f8f8f8;
         .payment__select {
           width: 100%;
