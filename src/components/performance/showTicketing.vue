@@ -3,18 +3,38 @@
     v-if="!isLoading"
     class="box-card">
     <div class="calender-box">
+      <!-- 원래코드 -->
+      <!-- <el-calendar
+        v-model="value" 
+        :range="[
+          new Date(startDate[0], startDate[1] - 1, startDate[2]),
+          new Date(endDate[0], endDate[1] - 1, endDate[2]),
+        ]" /> -->
+
+      <!-- 시도하다 실패한 코드 -->
       <el-calendar
         :range="[
           new Date(startDate[0], startDate[1] - 1, startDate[2]),
           new Date(endDate[0], endDate[1] - 1, endDate[2]),
-        ]" />
+        ]">
+        <template #dateCell="{ data }">
+          <p
+            :isSelected="data.isSelected ? true : false"
+            :class="data.isSelected ? 'is-selected' : ''"
+            @click="!isSelected">
+            {{ data.day.split('-').slice(2).join('-') }}
+            {{ data.isSelected ? '✔️' : '' }}
+          </p>
+        </template>
+      </el-calendar>
     </div>
     <div class="info">
       <div class="price">
         결제금액 : {{ price }} 원
       </div>
       <el-button
-        class="buy-btn"
+        :class="isSelected ? 'buy-btn' : ''"
+        :disabled="!isSelected"
         @click="goReservate">
         결제하기
       </el-button>
@@ -25,11 +45,10 @@
   export default {
     data() {
       return {
-        // startDate: [],
-        // endDate: [],
-        selectDate: (val) => {
-          calendar.value.selectDate(val);
-        },
+        // selectDate: (val) => {
+        //   calendar.value.selectDate(val);          
+        // },
+        isSelected: false,
       };
     },
     computed: {
@@ -55,6 +74,7 @@
         return end;
       },
     },
+
     methods: {
       goReservate() {
         this.$router.push(`/paymentpage/${this.$route.params.detailId}`);
@@ -79,6 +99,9 @@
         width: inherit;
         height: 400px;
         --el-calendar-cell-width: 30px;
+        .range{
+
+        }
       }
     }
     .info {
