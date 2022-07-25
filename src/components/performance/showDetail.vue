@@ -11,17 +11,6 @@
       }"
       :modules="modules"
       class="swiper-container">
-      <!-- <swiper-slide
-        v-for="(detail, key) in details"
-        :key="key"
-        class="swiper-slide">
-        <div class="detail-info">
-          {{ key }}
-        </div>
-        <div class="detail">
-          {{ detail }}
-        </div>
-      </swiper-slide> -->
       <swiper-slide v-if="details.title">
         <p class="Kategorie">
           공연 제목
@@ -127,6 +116,11 @@
     computed: {
       details() {
         const details = this.$store.state.performance.detailData;
+        Object.entries(details).forEach(([k, v]) => {
+          if (!v.trim()) {
+            delete details[k];
+          }
+        });
         return details;
       },
     },
