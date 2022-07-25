@@ -267,7 +267,6 @@ export default {
     isLoading: false,
     detailData: {},
     showDetail: {},
-    detailPoster: '',
     price: 0,
   }),
   mutations: {
@@ -356,9 +355,6 @@ export default {
       }
 
       commit('setState', { detailData })
-
-      const detailPoster = data.photo
-      commit('setState', { detailPoster })
       const price = data.price
       commit('setState', { price })
     },
