@@ -12,14 +12,18 @@
           <h4>KB국민은행</h4>
           <p>111-111-1111-1</p>
         </div>
-        <button class="del">삭제</button>
+        <button class="del">
+          삭제
+        </button>
       </div>
       <div class="account">
         <div class="account--details">
           <h4>신한은행</h4>
           <p>111-111-1111-1</p>
         </div>
-        <button class="del">삭제</button>
+        <button class="del">
+          삭제
+        </button>
       </div>
     </div>
     <div class="add-btn">
@@ -119,7 +123,7 @@
       background-color: #fe253f;
       border-radius: 50%;
       position: absolute;
-      bottom: 20px;
+      bottom: 30px;
       display: flex;
       justify-content: center;
       align-items: center;

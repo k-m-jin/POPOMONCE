@@ -5,7 +5,9 @@
         <h2>예매정보</h2>
         <div class="bookingInfo__details">
           <div class="poster">
-            <img :src="myChoice.mainPoster" :alt="myChoice.title" />
+            <img
+              :src="myChoice.mainPoster"
+              :alt="myChoice.title" />
           </div>
           <div class="tags">
             <h3>{{ myChoice.title }}</h3>
@@ -14,9 +16,7 @@
             <p>공연장소 : {{ myChoice.concertHall }}</p>
             <h4>
               결제금액 :
-              <span :style="{ fontSize: 22 + 'px', fontWeight: 800 }"
-                >{{ myChoice.price }} 원</span
-              >
+              <span :style="{ fontSize: 22 + 'px', fontWeight: 800 }">{{ myChoice.price }} 원</span>
             </h4>
           </div>
         </div>
@@ -25,23 +25,38 @@
         <h2>결제수단</h2>
         <div class="payment__select">
           <h3>간편계좌이체</h3>
-          <div v-if="!loading" class="payment__select__bank">
-            <div v-for="bank in ableBankList" :key="bank.id" class="bank-card">
+          <div
+            v-if="!loading"
+            class="payment__select__bank">
+            <div
+              v-for="bank in ableBankList"
+              :key="bank.id"
+              class="bank-card">
               <h4>{{ bank.name }}</h4>
-              <div v-if="bank.disabled" class="bank-detail">
+              <div
+                v-if="bank.disabled"
+                class="bank-detail">
                 <p>{{ bank.accountNumber }}</p>
                 <p>잔액: {{ bank.balance }} 원</p>
               </div>
             </div>
-            <div class="bank-card new-bank" @click="toggleModal">
+            <div
+              class="bank-card new-bank"
+              @click="toggleModal">
               <p><i class="fa-solid fa-plus"></i></p>
               신규계좌등록
             </div>
           </div>
-          <div v-else>Loading...</div>
+          <div v-else>
+            Loading...
+          </div>
         </div>
-        <div class="payment__button">결제하기</div>
-        <Modal :modal-active="modalActive" @close="toggleModal">
+        <div class="payment__button">
+          결제하기
+        </div>
+        <Modal
+          :modal-active="modalActive"
+          @close="toggleModal">
           <div class="modal-content">
             <!-- <ManagingAccount /> -->
             <NewAccountRegistration />
@@ -73,10 +88,6 @@
 
       return { modalActive, toggleModal };
     },
-    created() {
-      this.$store.dispatch('payment/bankList');
-      this.$store.dispatch('payment/accountList');
-    },
     computed: {
       loading() {
         return this.$store.state.payment.loading;
@@ -106,6 +117,10 @@
 
         return result;
       },
+    },
+    created() {
+      this.$store.dispatch('payment/bankList');
+      this.$store.dispatch('payment/accountList');
     },
   };
 </script>
