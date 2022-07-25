@@ -38,21 +38,48 @@
               </div>
             </div>
           </div>
-          <div v-else>Loading...</div>
+          <div v-else>
+            Loading...
+          </div>
         </div>
-        <div class="payment__button">결제하기</div>
+        <div
+          class="payment__button">
+          결제하기
+        </div>
+        <Modal
+          :modal-active="modalActive"
+          @close="toggleModal">
+          <div class="modal-content">
+            <!-- <ManagingAccount /> -->
+            <NewAccountRegistration />
+          </div>
+        </Modal>
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import Modal from '../components/modal/Modal.vue'
+import ManagingAccount from '../components/modal/ManagingAccount.vue';
+import NewAccountRegistration from '../components/modal/NewAccountRegistration.vue';
+import { ref } from 'vue'
+
   export default {
-    data() {
-      return {
-        bankList: {},
-      };
-    },
+  components: {
+    Modal,
+    ManagingAccount,
+    NewAccountRegistration
+},
+  setup() {
+    const modalActive = ref(false);
+
+    const toggleModal = () => {
+      modalActive.value = !modalActive.value;
+    }
+
+    return { modalActive, toggleModal }
+  },
     created() {
       this.$store.dispatch('payment/bankList');
       this.$store.dispatch('payment/accountList');
@@ -87,7 +114,6 @@
         return result;
       },
     },
-    mounted() {},
   };
 </script>
 
@@ -167,6 +193,7 @@
       }
       .payment {
         width: 70%;
+        height: 100%;
         background-color: #f8f8f8;
         .payment__select {
           width: 100%;
