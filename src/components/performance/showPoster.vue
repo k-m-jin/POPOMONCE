@@ -13,7 +13,7 @@
   export default {
     computed: {
       poster() {
-        return this.$store.state.performance.detailPoster;
+        return this.$store.state.performance.detailData.poster;
       },
     },
   };

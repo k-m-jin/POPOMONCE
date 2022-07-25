@@ -332,7 +332,6 @@ export default {
     isLoading: false,
     detailData: {},
     showDetail: {},
-    detailPoster: '',
     price: 0,
   }),
   mutations: {
@@ -424,13 +423,9 @@ export default {
           poster: data.photo,
           mainPoster: data.thumbnail,
         };
-
-        commit('setState', { detailData });
-
-        const detailPoster = data.photo;
-        commit('setState', { detailPoster });
-        const price = data.price;
-        commit('setState', { price });
+      commit('setState', { detailData })
+      const price = data.price
+      commit('setState', { price })
       } catch (error) {
         console.log(error);
       }
