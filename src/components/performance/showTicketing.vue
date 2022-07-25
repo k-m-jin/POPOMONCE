@@ -74,6 +74,7 @@
     height: 90vh;
     display: flex;
     justify-content: center;
+    align-items: center;
     .calender-box {
       .calender {
         width: inherit;
@@ -90,8 +91,7 @@
         font-weight: 500;
         color: #fe253f;
         text-align: end;
-        margin-right: 20px;
-        margin-bottom: 30px;
+        margin: 20px;
       }
       .buy-btn {
         height: 50px;

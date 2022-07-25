@@ -378,13 +378,13 @@
             }
           }
           .main__text {
-              .text__1 {
-                color: #efbc3c;
-                text-shadow: 1px 1px 2px #999;
-              }
-              .text__2 {
-                color: #444;
-              }
+            .text__1 {
+              color: #efbc3c;
+              text-shadow: 1px 1px 2px #999;
+            }
+            .text__2 {
+              color: #444;
+            }
           }
         }
       }
@@ -399,46 +399,44 @@
             }
           }
           .main__text {
-              .text__1 {
-                color: #eee;
-                text-shadow: 1px 1px 2px #333;
-              }
-              .text__2 {
-                color: #ddd;
-              }
+            .text__1 {
+              color: #eee;
+              text-shadow: 1px 1px 2px #333;
+            }
+            .text__2 {
+              color: #ddd;
+            }
           }
         }
       }
     }
     .section_4 {
-      background-color: rgb(22, 22, 22);
+      background-color: #161616;
       .main {
         .main_wrap {
           .main__img {
             .img{
-              background-color: rgb(61, 97, 81);
+              background-color: #3D6151;
             }
           }
           .main__text {
-              .text__1 {
-                color: #fff;
+            .text__1 {
+              color: #fff;
+            }
+            .text__2 {
+              color: #ddd;
+              text-shadow: 1px 1px 2px #333;
+              p {
+                font-size: 1.1vw;
               }
-              .text__2 {
-                color: #ddd;
-                text-shadow: 1px 1px 2px #333;
-                p {
-                  font-size: 1.1vw;
-                }
-              }
+            }
           }
         }
       }
     }
   }
-  .swiper-slide-active {
-  }
-  
-  .swiper-pagination-vertical.swiper-pagination-bullets, .swiper-vertical>.swiper-pagination-bullets {
+  .swiper-pagination-vertical.swiper-pagination-bullets,
+  .swiper-vertical>.swiper-pagination-bullets {
     right: 20px;
   }
   .swiper-pagination {

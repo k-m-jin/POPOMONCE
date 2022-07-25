@@ -201,26 +201,26 @@
       width: 100%;
       height: 55px;
       flex-shrink: 0;
-      transition: all 0.9s;
+      transition: all 0.8s;
       &.searching {
         width: 60%;
-        height: 30px;
-        bottom: 345px;
+        height: 35px;
+        bottom: 360px;
         transition: all 0.8s;
       }
       .form-control {
-        width: 100%;
-        padding-right: 8%;
-        height: 100%;
-        color: #fff;
-        border: 1px solid #000;
-        border-radius: 30px;
-        background-color: #000;
-        text-indent: 20px;
-        flex-shrink: 0;
         display: block;
         overflow: hidden;
+        width: 100%;
+        height: 100%;
+        color: #fff;
+        background-color: #000;
+        border: 1px solid #000;
+        border-radius: 30px;
+        padding-right: 8%;
+        flex-shrink: 0;
         font-size: 16px;
+        text-indent: 20px;
         text-overflow: ellipsis;
         white-space: nowrap;
         &:focus {
@@ -234,7 +234,7 @@
         transform: translateY(-50%);
         width: 10%;
         font-size: 20px;
-        color: #efefef;
+        color: #fff;
         background-color: transparent;
         border: none;
         cursor: pointer;
@@ -257,9 +257,9 @@
         height: 30px;
         color: #fff;
         background-color: #000;
+        text-align: center;
         border: 1px solid #444;
         border-radius: 30px;
-        text-align: center;
         margin: 0 5px;
         &:focus {
           outline: none;
