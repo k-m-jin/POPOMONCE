@@ -32,23 +32,16 @@
                 <p>{{ bank.accountNumber }}</p>
                 <p>잔액: {{ bank.balance }} 원</p>
               </div>
-              <div v-else class="new-bank">
-                <p><i class="fa-solid fa-plus"></i></p>
-                신규계좌등록
-              </div>
+            </div>
+            <div class="bank-card new-bank" @click="toggleModal">
+              <p><i class="fa-solid fa-plus"></i></p>
+              신규계좌등록
             </div>
           </div>
-          <div v-else>
-            Loading...
-          </div>
+          <div v-else>Loading...</div>
         </div>
-        <div
-          class="payment__button">
-          결제하기
-        </div>
-        <Modal
-          :modal-active="modalActive"
-          @close="toggleModal">
+        <div class="payment__button">결제하기</div>
+        <Modal :modal-active="modalActive" @close="toggleModal">
           <div class="modal-content">
             <!-- <ManagingAccount /> -->
             <NewAccountRegistration />
@@ -60,26 +53,26 @@
 </template>
 
 <script>
-import Modal from '../components/modal/Modal.vue'
-import ManagingAccount from '../components/modal/ManagingAccount.vue';
-import NewAccountRegistration from '../components/modal/NewAccountRegistration.vue';
-import { ref } from 'vue'
+  import Modal from '../components/modal/Modal.vue';
+  import ManagingAccount from '../components/modal/ManagingAccount.vue';
+  import NewAccountRegistration from '../components/modal/NewAccountRegistration.vue';
+  import { ref } from 'vue';
 
   export default {
-  components: {
-    Modal,
-    ManagingAccount,
-    NewAccountRegistration
-},
-  setup() {
-    const modalActive = ref(false);
+    components: {
+      Modal,
+      ManagingAccount,
+      NewAccountRegistration,
+    },
+    setup() {
+      const modalActive = ref(false);
 
-    const toggleModal = () => {
-      modalActive.value = !modalActive.value;
-    }
+      const toggleModal = () => {
+        modalActive.value = !modalActive.value;
+      };
 
-    return { modalActive, toggleModal }
-  },
+      return { modalActive, toggleModal };
+    },
     created() {
       this.$store.dispatch('payment/bankList');
       this.$store.dispatch('payment/accountList');
