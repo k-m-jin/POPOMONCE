@@ -64,13 +64,14 @@
     },
     created(){
       const accessToken = window.sessionStorage.getItem('token');
+      console.log(accessToken)
       if(accessToken){
         this.isLogin = true
       }
     },
     methods: {
-      async goReservate() {
-        const accessToken = await window.sessionStorage.getItem('token');
+       goReservate() {
+        const accessToken = window.sessionStorage.getItem('token');
         console.log(accessToken)
         if(accessToken){
           this.$router.push(`/paymentpage/${this.$route.params.detailId}`);
