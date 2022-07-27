@@ -23,8 +23,8 @@
         결제금액 : {{ price }} 원
       </div>
       <el-button
-        :class="selectedDay ? 'buy-btn' : ''"
-        :disabled="!selectedDay"
+        :class="selectedDay && isLogin ? 'buy-btn' : ''"
+        :disabled="!selectedDay && !isLogin"
         @click="goReservate">
         결제하기
       </el-button>
@@ -35,7 +35,8 @@
   export default {
     data() {
       return {
-         selectedDay: ''
+         selectedDay: '',
+         isLogin: false
       };
     },
     computed: {
@@ -60,12 +61,23 @@
         });
         return end;
       },
-
     },
-
+    created(){
+      const accessToken = window.sessionStorage.getItem('token');
+      console.log(accessToken)
+      if(accessToken){
+        this.isLogin = true
+      }
+    },
     methods: {
-      goReservate() {
-        this.$router.push(`/paymentpage/${this.$route.params.detailId}`);
+       goReservate() {
+        const accessToken = window.sessionStorage.getItem('token');
+        console.log(accessToken)
+        if(accessToken){
+          this.$router.push(`/paymentpage/${this.$route.params.detailId}`);
+        } else{
+          alert('로그인 시 이용가능 합니다')
+        }
       },
     },
   };
