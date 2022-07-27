@@ -1,17 +1,15 @@
 <template>
-  <el-card
-    v-if="!isLoading"
-    class="box-card">
+  <el-card v-if="!isLoading" class="box-card">
     <div class="calender-box">
       <el-calendar
         v-model="selectedDay"
         :range="[
           new Date(startDate[0], startDate[1] - 1, startDate[2]),
           new Date(endDate[0], endDate[1] - 1, endDate[2]),
-        ]">
+        ]"
+      >
         <template #dateCell="{ data }">
-          <p
-            :class="data.isSelected ? 'is-selected' : ''">
+          <p :class="data.isSelected ? 'is-selected' : ''">
             {{ data.day.split('-').slice(2).join('-') }}
             {{ data.isSelected ? '✔️' : '' }}
           </p>
@@ -19,13 +17,12 @@
       </el-calendar>
     </div>
     <div class="info">
-      <div class="price">
-        결제금액 : {{ price }} 원
-      </div>
+      <div class="price">결제금액 : {{ price }} 원</div>
       <el-button
         :class="selectedDay && isLogin ? 'buy-btn' : ''"
         :disabled="!selectedDay && !isLogin"
-        @click="goReservate">
+        @click="goReservate"
+      >
         결제하기
       </el-button>
     </div>
@@ -35,8 +32,8 @@
   export default {
     data() {
       return {
-         selectedDay: '',
-         isLogin: false
+        selectedDay: '',
+        isLogin: false,
       };
     },
     computed: {
@@ -62,21 +59,19 @@
         return end;
       },
     },
-    created(){
+    created() {
       const accessToken = window.sessionStorage.getItem('token');
-      console.log(accessToken)
-      if(accessToken){
-        this.isLogin = true
+      if (accessToken) {
+        this.isLogin = true;
       }
     },
     methods: {
-       goReservate() {
+      goReservate() {
         const accessToken = window.sessionStorage.getItem('token');
-        console.log(accessToken)
-        if(accessToken){
+        if (accessToken) {
           this.$router.push(`/paymentpage/${this.$route.params.detailId}`);
-        } else{
-          alert('로그인 시 이용가능 합니다')
+        } else {
+          alert('로그인 후 이용가능 합니다');
         }
       },
     },
@@ -100,8 +95,7 @@
         width: inherit;
         height: 400px;
         --el-calendar-cell-width: 30px;
-        .range{
-
+        .range {
         }
       }
     }

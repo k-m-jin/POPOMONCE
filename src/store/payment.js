@@ -5,6 +5,10 @@ const headers = {
   apikey: 'FcKdtJs202204',
   username: 'TeamTwo',
 };
+const CANCEL_URL =
+  'https://asia-northeast3-heropy-api.cloudfunctions.net/api/products/cancel';
+const BANK_ACCESS =
+  'https://asia-northeast3-heropy-api.cloudfunctions.net/api/account';
 
 export default {
   namespaced: true,
@@ -26,6 +30,12 @@ export default {
     paymentAll(state, payload) {
       state.paidInfo = payload;
       state.loading = false;
+    },
+    connectAccount(state, payload) {
+      state.accountList.accounts = {
+        ...state.accountList.accounts,
+        ...payload,
+      };
     },
   },
   actions: {
@@ -60,17 +70,28 @@ export default {
         state.loading = false;
       }
     },
+    async connectAccount({ commit }, data) {
+      const accessToken = window.sessionStorage.getItem('token');
+      const res = await axios({
+        url: BANK_ACCESS,
+        method: 'POST',
+        headers: {
+          ...headers,
+          Authorization: `Bearer ${accessToken}`,
+        },
+        data,
+      });
+      commit('connectAccount', res.data);
+    },
     async disconnect(context, accountId) {
       try {
         const accessToken = window.sessionStorage.getItem('token');
         await axios({
           url: 'https://asia-northeast3-heropy-api.cloudfunctions.net/api/account',
-          method: 'delete',
+          method: 'DELETE',
           headers: {
-            'content-type': 'application/json',
-            apikey: 'FcKdtJs202204',
-            username: 'TeamTwo',
-            Authorization: accessToken,
+            ...headers,
+            Authorization: `Bearer ${accessToken}`,
           },
           data: {
             accountId,
@@ -81,42 +102,17 @@ export default {
         console.log(error);
       }
     },
-    async buy(context, { productId, accountId }) {
+    async buy(context, data) {
       const accessToken = window.sessionStorage.getItem('token');
       try {
         await axios({
           url: 'https://asia-northeast3-heropy-api.cloudfunctions.net/api/products/buy',
-          method: 'post',
+          method: 'POST',
           headers: {
-            'content-type': 'application/json',
-            apikey: 'FcKdtJs202204',
-            username: 'TeamTwo',
-            Authorization: accessToken,
+            ...headers,
+            Authorization: `Bearer ${accessToken}`,
           },
-          data: {
-            productId,
-            accountId,
-          },
-        });
-      } catch (error) {
-        console.log(error);
-      }
-    },
-    async refund(context, detailId) {
-      const accessToken = window.sessionStorage.getItem('token');
-      try {
-        await axios({
-          url: 'https://asia-northeast3-heropy-api.cloudfunctions.net/api/products/cancel',
-          method: 'post',
-          headers: {
-            'content-type': 'application/json',
-            apikey: 'FcKdtJs202204',
-            username: 'TeamTwo',
-            Authorization: accessToken,
-          },
-          data: {
-            detailId,
-          },
+          data,
         });
       } catch (error) {
         console.log(error);

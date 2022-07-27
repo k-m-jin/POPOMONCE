@@ -1,42 +1,34 @@
 <template>
   <div class="edit-container">
     <div class="page-container">
-      <div class="edit__title">
-        내 정보 수정하기
-      </div>
-      <el-form
-        class="edit-form"
-        label-width="110px"
-        status-icon>
-        <el-form-item
-          label="user name"
-          class="form__composition">
+      <div class="edit__title">내 정보 수정하기</div>
+      <el-form class="edit-form" label-width="110px" status-icon>
+        <el-form-item label="user name" class="form__composition">
           <el-input
             v-model="displayName"
             placeholder="20자 이하"
-            type="display-name" />
+            maxlength="20"
+            type="display-name"
+          />
         </el-form-item>
-        <el-form-item
-          label="old password"
-          class="form__composition">
+        <el-form-item label="old password" class="form__composition">
           <el-input
             v-model="oldPassword"
             type="password"
             show-password
-            :required="{ newPassword }" />
+            :required="{ newPassword }"
+          />
         </el-form-item>
-        <el-form-item
-          label="new password"
-          class="form__composition">
+        <el-form-item label="new password" class="form__composition">
           <el-input
             v-model="newPassword"
             placeholder="8자리 이상"
+            minlength="8"
             type="password"
-            show-password />
+            show-password
+          />
         </el-form-item>
-        <el-form-item
-          label="profile"
-          class="form__composition">
+        <el-form-item label="profile" class="form__composition">
           <el-upload
             ref="profile"
             v-model:file-list="fileList"
@@ -46,7 +38,8 @@
             :auto-upload="false"
             :on-change="handleAvatarSuccess"
             :limit="2"
-            list-type="picture-card">
+            list-type="picture-card"
+          >
             <el-icon class="avatar-uploader-icon">
               <Plus />
             </el-icon>
@@ -55,11 +48,13 @@
                 <img
                   class="el-upload-list__item-thumbnail"
                   :src="file.url"
-                  alt="" />
+                  alt=""
+                />
                 <span class="el-upload-list__item-actions">
                   <span
                     class="el-upload-list__item-delete"
-                    @click="handleAvatarRemove">
+                    @click="handleAvatarRemove"
+                  >
                     <el-icon><Delete /></el-icon>
                   </span>
                 </span>
@@ -73,24 +68,16 @@
               class="delete-btn"
               type="primary"
               plain
-              @click="deleteProfile">
+              @click="deleteProfile"
+            >
               <el-icon class="delete-btn__icon">
                 <Delete />
               </el-icon>
               Use Default Image
             </el-button>
             <div class="chang-reset-btn">
-              <el-button
-                type="primary"
-                @click="submit">
-                Change
-              </el-button>
-              <el-button
-                type="warning"
-                plain
-                @click="clear">
-                Reset
-              </el-button>
+              <el-button type="primary" @click="submit"> Change </el-button>
+              <el-button type="warning" plain @click="clear"> Reset </el-button>
             </div>
           </div>
         </el-form-item>
@@ -250,8 +237,8 @@
           flex-direction: column;
           .delete-btn {
             margin-bottom: 16px;
-            border: 1px solid #3D6151;
-            background-color: #3D6151;
+            border: 1px solid #3d6151;
+            background-color: #3d6151;
             color: #fff;
             .delete-btn__icon {
               margin-right: 5px;

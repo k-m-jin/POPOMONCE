@@ -2,35 +2,49 @@
   <div class="modal-content">
     <h2>등록 계좌 관리</h2>
     <div class="account-list--wrap">
-      <div class="no-account">
+      <div v-if="!myBanks.accounts" class="no-account">
         <i class="fa-solid fa-circle-exclamation"></i>
         등록된 계좌가 없습니다<br />
         새로운 계좌를 등록해주세요
       </div>
-      <div class="account">
-        <div class="account--details">
-          <h4>KB국민은행</h4>
-          <p>111-111-1111-1</p>
+      <div v-else>
+        <div v-for="bank in myBanks.accounts" :key="bank.id" class="account">
+          <div class="account--details">
+            <h4>{{ bank.bankName }}</h4>
+            <p>{{ bank.accountNumber }}</p>
+            <p>잔액: {{ bank.balance }} 원</p>
+            <button @click="deleteAccount(bank.id)" class="del">
+              연결 해지
+            </button>
+          </div>
         </div>
-        <button class="del">
-          삭제
-        </button>
       </div>
-      <div class="account">
-        <div class="account--details">
-          <h4>신한은행</h4>
-          <p>111-111-1111-1</p>
-        </div>
-        <button class="del">
-          삭제
-        </button>
+      <div class="bank-card new-bank" @click="toggleModal">
+        <p><i class="fa-solid fa-plus"></i></p>
+        신규계좌등록
       </div>
-    </div>
-    <div class="add-btn">
-      <i class="fa-solid fa-plus"></i>
     </div>
   </div>
+  <div class="add-btn">
+    <i class="fa-solid fa-plus"></i>
+  </div>
 </template>
+
+<script>
+  export default {
+    computed: {
+      myBanks() {
+        console.log(this.$store.state.payment.accountList);
+        return this.$store.state.payment.accountList;
+      },
+    },
+    methods: {
+      deleteAccount(bankId) {
+        this.$store.dispatch('payment/', bankId);
+      },
+    },
+  };
+</script>
 
 <style lang="scss" scoped>
   .modal-content {
@@ -103,12 +117,12 @@
         .del {
           position: absolute;
           right: 20px;
-          width: 50px;
-          height: 30px;
+          width: 90px;
+          height: 35px;
           background-color: #000;
           color: #fff;
           border: none;
-          border-radius: 15px;
+          border-radius: 17.5px;
           font-size: 12px;
           line-height: 12px;
           transition: all 0.3s;

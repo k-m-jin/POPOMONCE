@@ -12,7 +12,6 @@ import Performance from './Performance';
 import PerformanceContainer from '~/components/performance/PerformanceContainer';
 import showContainer from '~/components/performance/showContainer';
 import UserPaidInfo from '~/components/user/UserPaidInfo';
-import Payment from './Payment';
 import PaymentPage from './PaymentPage';
 
 export default createRouter({
@@ -55,11 +54,6 @@ export default createRouter({
         },
         { path: 'detail/:detailId', component: showContainer },
       ],
-    },
-    {
-      name: 'payment',
-      path: '/payment',
-      component: Payment,
     },
     {
       name: 'paymentpage',

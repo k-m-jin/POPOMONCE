@@ -3,11 +3,9 @@
     <div class="pageWrap">
       <div class="bookingInfo">
         <h2>예매정보</h2>
-        <div class="bookingInfo__details">
+        <div v-if="!pfLoading" class="bookingInfo__details">
           <div class="poster">
-            <img
-              :src="myChoice.mainPoster"
-              :alt="myChoice.title" />
+            <img :src="myChoice.mainPoster" :alt="myChoice.title" />
           </div>
           <div class="tags">
             <h3>{{ myChoice.title }}</h3>
@@ -16,7 +14,9 @@
             <p>공연장소 : {{ myChoice.concertHall }}</p>
             <h4>
               결제금액 :
-              <span :style="{ fontSize: 22 + 'px', fontWeight: 800 }">{{ myChoice.price }} 원</span>
+              <span :style="{ fontSize: 22 + 'px', fontWeight: 800 }"
+                >{{ myChoice.price }} 원</span
+              >
             </h4>
           </div>
         </div>
@@ -25,41 +25,33 @@
         <h2>결제수단</h2>
         <div class="payment__select">
           <h3>간편계좌이체</h3>
-          <div
-            v-if="!loading"
-            class="payment__select__bank">
+          <div v-if="!payLoading" class="payment__select__bank">
             <div
               v-for="bank in ableBankList"
-              :key="bank.id"
-              class="bank-card">
+              :key="bank.code"
+              :ref="bank.id"
+              @click.stop="accountID(bank.id)"
+              class="bank-card"
+              :class="{ noAccess: !bank.id }"
+            >
               <h4>{{ bank.name }}</h4>
-              <div
-                v-if="bank.disabled"
-                class="bank-detail">
+              <div v-if="bank.disabled" class="bank-detail">
                 <p>{{ bank.accountNumber }}</p>
                 <p>잔액: {{ bank.balance }} 원</p>
               </div>
             </div>
-            <div
-              class="bank-card new-bank"
-              @click="toggleModal">
+            <div class="bank-card new-bank" @click="toggleModal">
               <p><i class="fa-solid fa-plus"></i></p>
               신규계좌등록
             </div>
           </div>
-          <div v-else>
-            Loading...
-          </div>
+          <div v-else>Loading...</div>
         </div>
-        <div class="payment__button">
-          결제하기
-        </div>
-        <Modal
-          :modal-active="modalActive"
-          @close="toggleModal">
+        <div @click="payPerformance" class="payment__button">결제하기</div>
+        <Modal :modal-active="modalActive" @close="toggleModal">
           <div class="modal-content">
-            <!-- <ManagingAccount /> -->
-            <NewAccountRegistration />
+            <ManagingAccount />
+            <!-- <NewAccountRegistration /> -->
           </div>
         </Modal>
       </div>
@@ -74,6 +66,11 @@
   import { ref } from 'vue';
 
   export default {
+    data() {
+      return {
+        accountId: '',
+      };
+    },
     components: {
       Modal,
       ManagingAccount,
@@ -89,8 +86,11 @@
       return { modalActive, toggleModal };
     },
     computed: {
-      loading() {
+      payLoading() {
         return this.$store.state.payment.loading;
+      },
+      pfLoading() {
+        return this.$store.state.performance.isLoading;
       },
       myChoice() {
         return this.$store.state.performance.detailData;
@@ -100,12 +100,15 @@
         const bankList = this.$store.state.payment.bankList;
         const mine = this.$store.state.payment.accountList.accounts;
 
-        mine.forEach((item, idx) => {
-          bankIndexes[item.bankCode] = idx;
-        });
+        console.log(mine);
+        if (mine) {
+          mine.forEach((item, idx) => {
+            bankIndexes[item.bankCode] = idx;
+          });
+        }
 
         const result = bankList.map((item) => {
-          const account = mine[bankIndexes[item.code]];
+          const account = mine && mine[bankIndexes[item.code]];
 
           if (!account) {
             return item;
@@ -113,7 +116,6 @@
 
           return Object.assign(item, account);
         });
-        console.log('result: ', result);
 
         return result;
       },
@@ -121,6 +123,46 @@
     created() {
       this.$store.dispatch('payment/bankList');
       this.$store.dispatch('payment/accountList');
+      this.$store.dispatch(
+        'performance/searchShow',
+        this.$route.params.reservationId,
+      );
+    },
+    methods: {
+      changeItem(newAccountId) {
+        const target = this.$refs[this.accountId];
+        target[0].style.border = '1px solid #fff';
+
+        this.accountId = newAccountId;
+        const newTarget = this.$refs[newAccountId];
+        newTarget[0].style.border = '1.5px solid #fe253f';
+      },
+      accountID(accountId) {
+        if (!this.accountId) {
+          this.$refs[accountId][0].style.border = '1.5px solid #fe253f';
+          this.accountId = accountId;
+          return;
+        }
+        if (accountId === this.accountId) {
+          const target = this.$refs[accountId];
+          target[0].style.border = '1px solid #fff';
+          this.accountId = '';
+          return;
+        }
+
+        const target = this.$refs[this.accountId];
+        target[0].style.border = '1px solid #fff';
+
+        this.accountId = accountId;
+        const newTarget = this.$refs[accountId];
+        newTarget[0].style.border = '1.5px solid #fe253f';
+      },
+      payPerformance() {
+        this.$store.dispatch('payment/buy', {
+          productId: this.$route.params.reservationId,
+          accountId: this.accountId,
+        });
+      },
     },
   };
 </script>
@@ -259,6 +301,12 @@
                   color: #fe253f;
                 }
               }
+              &.noAccess {
+                background-color: #e5e5e5;
+                border: 3px solid #dfdfdf;
+                color: #aaa;
+                cursor: not-allowed;
+              }
             }
           }
         }
@@ -279,5 +327,9 @@
         }
       }
     }
+  }
+
+  .selected {
+    border: 1.5px solid #fe253f;
   }
 </style>
