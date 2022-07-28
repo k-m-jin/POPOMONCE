@@ -7,16 +7,16 @@
         <p>( 1은행 1계좌 )</p>
       </div>
       <div class="account-form">
-        <select v-model="bankCode" class="account-select" required>
-          <option value="은행명" disabled hidden>은행명</option>
-          <option
+        <el-select v-model="bankCode" class="account-select" required>
+          <el-option value="은행명" disabled hidden>은행명</el-option>
+          <el-option
             v-for="bank in ableBankList"
             :key="bank.code"
             :label="bank.name"
             :value="bank.code"
             :disabled="bank.disabled"
-          ></option>
-        </select>
+          ></el-option>
+        </el-select>
 
         <div class="account-number">
           <h5>계좌번호</h5>
