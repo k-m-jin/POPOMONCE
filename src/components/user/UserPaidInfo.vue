@@ -97,6 +97,7 @@
     },
     computed: {
       payments() {
+        console.log(this.$store.state.payment.paidInfo);
         return this.$store.state.payment.paidInfo;
       },
       paymentDetail() {
@@ -105,11 +106,12 @@
     },
     created() {
       this.$store.dispatch('payment/paymentAll');
+      console.log('created!');
     },
     methods: {
       async openPaid(id) {
         this.paidOpen = !this.paidOpen;
-        await this.$store.dispatch('payment/paymentDetail', id);
+        await this.$store.dispatch('payment/paymentDetail', { detailId: id });
         this.paidInfoDetail = this.$store.state.payment.paidInfoDetail;
       },
     },
@@ -118,6 +120,7 @@
 
 <style lang="scss" scoped>
   .container {
+    margin-top: 120px;
     width: 100%;
     height: 100%;
     position: relative;

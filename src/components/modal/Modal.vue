@@ -1,15 +1,9 @@
 <template>
   <transition name="modal-animation">
-    <div
-      v-show="modalActive"
-      class="modal">
+    <div v-show="modalActive" class="modal">
       <transition name="modal-animation-inner">
-        <div
-          v-show="modalActive"
-          class="modal-inner">
-          <i
-            class="close fa-solid fa-xmark"
-            @click="close"></i>
+        <div v-show="modalActive" class="modal-inner">
+          <i class="close fa-solid fa-xmark" @click="close"></i>
           <!-- Modal Content -->
           <div class="modal-content">
             <ManagingAccount v-if="!isNewAccount" />
@@ -20,15 +14,9 @@
             <div class="desc">
               {{ isNewAccount ? '내 계좌 조회' : '신규 계좌 연결' }}
             </div>
-            <div
-              class="add-btn"
-              @click="changeModal">
-              <i
-                v-if="!isNewAccount"
-                class="add-btn__i fa-solid fa-plus"></i>
-              <i
-                v-else
-                class="add-btn__i fa-solid fa-bars"></i>
+            <div class="add-btn" @click="changeModal">
+              <i v-if="!isNewAccount" class="add-btn__i fa-solid fa-plus"></i>
+              <i v-else class="add-btn__i fa-solid fa-bars"></i>
             </div>
           </div>
         </div>
@@ -89,6 +77,7 @@
     justify-content: center;
     align-items: center;
     width: 100vw;
+    height: 100vh;
     position: fixed;
     bottom: 25px;
     left: 0;

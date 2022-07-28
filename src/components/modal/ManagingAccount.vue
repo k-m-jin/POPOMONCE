@@ -37,6 +37,7 @@
         await this.$store.dispatch('payment/disconnect', bankId);
         alert('연결이 해지되었습니다.');
         this.$store.dispatch('payment/accountList');
+        this.$store.dispatch('payment/bankList');
       },
     },
   };
