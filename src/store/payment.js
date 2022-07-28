@@ -9,13 +9,19 @@ const CANCEL_URL =
   'https://asia-northeast3-heropy-api.cloudfunctions.net/api/products/cancel';
 const BANK_ACCESS =
   'https://asia-northeast3-heropy-api.cloudfunctions.net/api/account';
+const TRADEDALL_URL =
+  'https://asia-northeast3-heropy-api.cloudfunctions.net/api/products/transactions/details';
+const TRADEDDETAIL_URL =
+  'https://asia-northeast3-heropy-api.cloudfunctions.net/api/products/transactions/detail';
 
 export default {
   namespaced: true,
   state: () => {
     return {
       bankList: [],
-      accountList: [],
+      accountList: {
+        accounts: [],
+      },
       paidInfo: [],
       loading: false,
     };
@@ -32,10 +38,9 @@ export default {
       state.loading = false;
     },
     connectAccount(state, payload) {
-      state.accountList.accounts = {
-        ...state.accountList.accounts,
-        ...payload,
-      };
+      const newAccounts = [...state.accountList.accounts, payload];
+
+      state.accountList.accounts = newAccounts;
     },
   },
   actions: {
@@ -114,6 +119,7 @@ export default {
           },
           data,
         });
+        console.log('paid!');
       } catch (error) {
         console.log(error);
       }
@@ -130,6 +136,26 @@ export default {
             Authorization: `Bearer ${accessToken}`,
           },
         });
+        console.log(data);
+        commit('paymentAll', data);
+      } catch (error) {
+        console.log(error);
+      }
+    },
+    async paymentDetail({ state, commit }, data) {
+      try {
+        state.loading = true;
+        const accessToken = window.sessionStorage.getItem('token');
+        const { data } = await axios({
+          url: TRADEDDETAIL_URL,
+          method: 'POST',
+          headers: {
+            ...headers,
+            Authorization: `Bearer ${accessToken}`,
+          },
+          data,
+        });
+        console.log(data);
         commit('paymentAll', data);
       } catch (error) {
         console.log(error);

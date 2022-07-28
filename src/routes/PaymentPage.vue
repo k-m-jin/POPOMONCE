@@ -121,9 +121,6 @@
         const bankList = this.$store.state.payment.bankList;
         const mine = this.$store.state.payment.accountList.accounts;
 
-        if (!mine) return;
-        console.log(mine);
-
         mine.forEach((item, idx) => {
           bankIndexes[item.bankCode] = idx;
         });
@@ -185,7 +182,7 @@
         });
         alert('결제가 완료 되었습니다');
         this.$store.dispatch('payment/accountList');
-        this.$store.dispatch('payment/paymentAll');
+        this.$router.push('/user/paidlist');
       },
     },
   };

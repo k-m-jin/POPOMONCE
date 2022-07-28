@@ -131,6 +131,7 @@
           signature: true,
         });
         this.$store.dispatch('payment/accountList');
+        this.$store.dispatch('payment/bankList');
         alert('등록이 완료되었습니다.');
       },
     },
