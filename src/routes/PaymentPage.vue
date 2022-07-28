@@ -48,12 +48,7 @@
           <div v-else>Loading...</div>
         </div>
         <div @click="payPerformance" class="payment__button">결제하기</div>
-        <Modal :modal-active="modalActive" @close="toggleModal">
-          <div class="modal-content">
-            <ManagingAccount />
-            <!-- <NewAccountRegistration /> -->
-          </div>
-        </Modal>
+        <Modal :modal-active="modalActive" @close="toggleModal" />
       </div>
     </div>
   </div>
@@ -251,8 +246,10 @@
       .payment {
         width: 65%;
         background-color: #f8f8f8;
+        position: relative;
         .payment__select {
           width: 100%;
+          height: 100%;
           background-color: #eee;
           padding: 40px 100px;
           letter-spacing: 1.2px;
@@ -311,6 +308,8 @@
           }
         }
         .payment__button {
+          position: absolute;
+          bottom: 0;
           width: 100%;
           height: 74px;
           background-color: #fe253f;

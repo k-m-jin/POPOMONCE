@@ -25,9 +25,6 @@
       </div>
     </div>
   </div>
-  <div class="add-btn">
-    <i class="fa-solid fa-plus"></i>
-  </div>
 </template>
 
 <script>
@@ -125,7 +122,7 @@
           border-radius: 17.5px;
           font-size: 12px;
           line-height: 12px;
-          transition: all 0.3s;
+          transition: all 0.1s;
           cursor: pointer;
 
           &:hover {
@@ -133,28 +130,6 @@
             color: #fff;
           }
         }
-      }
-    }
-    .add-btn {
-      width: 50px;
-      height: 50px;
-      background-color: #fe253f;
-      border-radius: 50%;
-      position: absolute;
-      bottom: 30px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      cursor: pointer;
-
-      &:hover i {
-        transform: scale(0.85);
-      }
-      i {
-        color: #fff;
-        font-size: 30px;
-        text-align: center;
-        transition: all 0.3s;
       }
     }
   }
