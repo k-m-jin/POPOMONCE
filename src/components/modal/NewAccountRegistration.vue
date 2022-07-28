@@ -20,20 +20,21 @@
 
         <div class="account-number">
           <h5>계좌번호</h5>
-          <div ref="inputGroup" class="account-number__container">
+          <div
+            ref="inputGroup"
+            class="account-number__container">
             <input
               v-for="(digit, idx) in bankDigits[bankCode]"
               :key="idx"
+              v-model="accountNumberList[idx]"
               required
               :name="`digit${idx}`"
               type="text"
               :maxlength="digit"
-              v-model="accountNumberList[idx]"
               :tabindex="idx + 1"
               class="account-number__input"
               @keydown="keyDownEvent"
-              @input="onlyNum"
-            />
+              @input="onlyNum" />
           </div>
         </div>
 
@@ -46,15 +47,19 @@
           pattern="\d*"
           placeholder="휴대폰 번호를 입력해주세요"
           minlength="11"
-          maxlength="11"
-        />
+          maxlength="11" />
 
-        <el-checkbox v-model="checked" class="check-agreement" required>
+        <el-checkbox
+          v-model="checked"
+          class="check-agreement"
+          required>
           계좌 등록에 동의합니다.
         </el-checkbox>
       </div>
     </div>
-    <div @click="submit" class="add-btn">
+    <div
+      class="add-btn"
+      @click="submit">
       <p>등록</p>
     </div>
   </div>
@@ -223,10 +228,13 @@
           }
         }
         .account-select {
+          font-size: 14px;
           letter-spacing: 1em;
+          text-indent: 20px;
         }
         .account-number,
         .phone-number {
+          font-size: 14px;
           letter-spacing: 0.5em;
         }
         .check-agreement {

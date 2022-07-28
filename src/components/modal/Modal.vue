@@ -1,9 +1,15 @@
 <template>
   <transition name="modal-animation">
-    <div v-show="modalActive" class="modal">
+    <div
+      v-show="modalActive"
+      class="modal">
       <transition name="modal-animation-inner">
-        <div v-show="modalActive" class="modal-inner">
-          <i class="close fa-solid fa-xmark" @click="close"></i>
+        <div
+          v-show="modalActive"
+          class="modal-inner">
+          <i
+            class="close fa-solid fa-xmark"
+            @click="close"></i>
           <!-- Modal Content -->
           <div class="modal-content">
             <ManagingAccount v-if="!isNewAccount" />
@@ -14,9 +20,15 @@
             <div class="desc">
               {{ isNewAccount ? '내 계좌 조회' : '신규 계좌 연결' }}
             </div>
-            <div class="add-btn" @click="changeModal">
-              <i v-if="!isNewAccount" class="add-btn__i fa-solid fa-plus"></i>
-              <i v-else class="add-btn__i fa-solid fa-bars"></i>
+            <div
+              class="add-btn"
+              @click="changeModal">
+              <i
+                v-if="!isNewAccount"
+                class="add-btn__i fa-solid fa-plus"></i>
+              <i
+                v-else
+                class="add-btn__i fa-solid fa-bars"></i>
             </div>
           </div>
         </div>
@@ -79,7 +91,7 @@
     width: 100vw;
     height: 100vh;
     position: fixed;
-    bottom: 25px;
+    bottom: 0;
     left: 0;
     backdrop-filter: blur(2px);
     background-color: rgb(27, 27, 31, 0.75);
@@ -87,8 +99,7 @@
       position: relative;
       max-width: 500px;
       width: 80%;
-      max-height: 70%;
-      height: 800px;
+      height: 750px;
       box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
         0 2px 4px -1px rgba(0, 0, 0, 0.06);
       background-color: #fff;

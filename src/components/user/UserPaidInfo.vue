@@ -3,7 +3,10 @@
     <h2>공연 구매 내역</h2>
     <div class="ticket_listbox">
       <ul class="ticket_list">
-        <li v-for="payment in payments" :key="payment.id" class="ticket_info">
+        <li
+          v-for="payment in payments"
+          :key="payment.id"
+          class="ticket_info">
           <div class="ticket_title_wrap">
             <h4 class="performance_date">
               {{ payment.product.title.split('@')[1] }}
@@ -15,15 +18,15 @@
               <h3 class="title">
                 공연명: {{ payment.product.title.split('@')[0] }}
               </h3>
-              <span class="reservation_info"
-                >예약정보: {{ payment.detailId }}</span
-              >
+              <span class="reservation_info">예약정보: {{ payment.detailId }}</span>
             </div>
           </div>
           <div class="ticket_card">
             <div class="info_area">
               <div class="thumbnail">
-                <img :src="payment.product.thumbnail" alt="poster" />
+                <img
+                  :src="payment.product.thumbnail"
+                  alt="poster" />
               </div>
               <div class="info">
                 <p>
@@ -38,12 +41,17 @@
                   공연장 :
                   <span> {{ payment.product.description.split('@')[2] }}</span>
                 </p>
-                <div class="paid_toggle" @click="openPaid(payment.detailId)">
+                <div
+                  class="paid_toggle"
+                  @click="openPaid(payment.detailId)">
                   결제내역
                 </div>
               </div>
 
-              <transition v-show="paidOpen" name="openFade" class="paid">
+              <transition
+                v-show="paidOpen"
+                name="openFade"
+                class="paid">
                 <div class="paid_info">
                   <p>
                     결제일시 :
@@ -74,7 +82,7 @@
                       }}</span>
                       <span>{{
                         paymentDetail.account &&
-                        paymentDetail.account.accountNumber
+                          paymentDetail.account.accountNumber
                       }}</span>
                     </span>
                   </div>
@@ -122,11 +130,10 @@
   .container {
     margin-top: 120px;
     width: 100%;
-    height: 100%;
     position: relative;
     text-align: center;
     background-color: rgb(27, 27, 31);
-    padding-bottom: 350px;
+    padding-bottom: 50px;
     font-size: 14px;
     line-height: 30px;
     letter-spacing: 0.5px;
@@ -141,7 +148,12 @@
       height: 100%;
       background-color: rgba(239, 239, 239, 0.964);
       overflow: hidden;
-      margin: 0 auto;
+      margin: 50px auto;
+      padding-top: 50px;
+      overflow-y: scroll;
+      &::-webkit-scrollbar {
+        display: none;
+      }
       .ticket_list {
         width: 80%;
         margin: 10px auto;
