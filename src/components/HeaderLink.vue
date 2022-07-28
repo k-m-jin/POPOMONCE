@@ -164,9 +164,12 @@
         }
       }
     }
-    .router-link {
-      color: #fff;
-      text-decoration: none;
+  }
+  a {
+    color: #606266;
+    text-decoration: none;
+    &:hover {
+      color: #409eff;
     }
   }
 </style>
