@@ -201,8 +201,8 @@
     background-color: rgb(27, 27, 31);
     .pageWrap {
       max-width: 80%;
+      max-height: 90%;
       width: 60%;
-      height: 850px;
       display: flex;
       position: relative;
       top: 25px;
@@ -279,35 +279,35 @@
         .payment__select {
           width: 100%;
           background-color: #eee;
-          padding: 40px 100px;
+          padding: 30px 0;   
           letter-spacing: 1.2px;
           h3 {
-            text-indent: -30px;
+            text-indent: 40px;
             font-size: 15px;
             font-weight: 800;
-            margin: 10px 0 40px;
+            margin-bottom: 20px;
           }
           .payment__select__bank {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
             align-items: center;
+            padding:0  20px;
             .bank-card {
               display: flex;
               justify-content: center;
+              flex-direction: column;
+              align-items: center;
               font-size: 16px;
               line-height: 30px;
-              min-width: 40%;
-              width: 45%;
-              min-height: 90px;
+              min-width: 200px;
+              min-height: 110px;
               background-color: #fff;
               border: 1px solid #fff;
               border-radius: 20px;
               margin: 10px;
+              padding: 10px;
               cursor: pointer;
-              display: flex;
-              flex-direction: column;
-              align-items: center;
               transition: all 0.4s;
               p {
                 color: #aaa;
