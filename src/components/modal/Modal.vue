@@ -11,7 +11,10 @@
           </div>
           <slot></slot>
           <div class="btn-group">
-            <div class="add-btn">
+            <div class="desc">
+              {{ isNewAccount ? '내 계좌 조회' : '신규 계좌 연결' }}
+            </div>
+            <div @click="changeModal" class="add-btn">
               <i v-if="!isNewAccount" class="add-btn__i fa-solid fa-plus"></i>
               <i v-else class="add-btn__i fa-solid fa-bars"></i>
             </div>
@@ -39,7 +42,6 @@
     },
     methods: {
       changeModal() {
-        console.log(this.isNewAccount);
         this.isNewAccount = !this.isNewAccount;
       },
     },
@@ -111,15 +113,24 @@
         z-index: 10;
         display: flex;
         justify-content: flex-end;
-        width: 400px;
-        height: 50px;
-        bottom: 20px;
-        right: 20px;
+        width: 150px;
+        height: 40px;
+        bottom: 30px;
+        right: 30px;
         cursor: pointer;
+        .desc {
+          position: absolute;
+          height: 100%;
+          display: flex;
+          right: 50px;
+          font-size: 15px;
+          justify-content: center;
+          align-items: center;
+        }
         .add-btn {
-          width: 50px;
-          height: 50px;
-          background-color: #fe253f;
+          width: 40px;
+          height: 40px;
+          background-color: #aaa;
           border-radius: 50%;
           position: absolute;
           display: flex;
@@ -133,16 +144,10 @@
           .add-btn__i {
             display: flex;
             color: #fff;
-            font-size: 30px;
+            font-size: 25px;
             text-align: center;
             transition: all 0.1s;
           }
-        }
-        .desc {
-          position: absolute;
-          justify-content: center;
-          align-items: center;
-          display: none;
         }
       }
     }

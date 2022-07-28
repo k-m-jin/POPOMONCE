@@ -19,10 +19,6 @@
           </div>
         </div>
       </div>
-      <div class="bank-card new-bank" @click="toggleModal">
-        <p><i class="fa-solid fa-plus"></i></p>
-        신규계좌등록
-      </div>
     </div>
   </div>
 </template>

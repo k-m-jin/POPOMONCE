@@ -95,7 +95,6 @@
         const bankList = this.$store.state.payment.bankList;
         const mine = this.$store.state.payment.accountList.accounts;
 
-        console.log(mine);
         if (mine) {
           mine.forEach((item, idx) => {
             bankIndexes[item.bankCode] = idx;
