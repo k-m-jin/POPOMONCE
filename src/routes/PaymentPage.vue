@@ -163,11 +163,14 @@
         const newTarget = this.$refs[accountId];
         newTarget[0].style.border = '1.5px solid #fe253f';
       },
-      payPerformance() {
-        this.$store.dispatch('payment/buy', {
+      async payPerformance() {
+        await this.$store.dispatch('payment/buy', {
           productId: this.$route.params.reservationId,
           accountId: this.accountId,
         });
+        alert('결제가 완료 되었습니다');
+        this.$store.dispatch('payment/accountList');
+        this.$store.dispatch('payment/paymentAll');
       },
     },
   };

@@ -3,10 +3,7 @@
     <h2>공연 구매 내역</h2>
     <div class="ticket_listbox">
       <ul class="ticket_list">
-        <li
-          v-for="payment in payments"
-          :key="payment.id"
-          class="ticket_info">
+        <li v-for="payment in payments" :key="payment.id" class="ticket_info">
           <div class="ticket_title_wrap">
             <h4 class="performance_date">
               {{ payment.product.title.split('@')[1] }}
@@ -18,45 +15,67 @@
               <h3 class="title">
                 공연명: {{ payment.product.title.split('@')[0] }}
               </h3>
-              <span class="reservation_info">예약정보: {{ payment.detailId }}</span>
+              <span class="reservation_info"
+                >예약정보: {{ payment.detailId }}</span
+              >
             </div>
           </div>
           <div class="ticket_card">
             <div class="info_area">
               <div class="thumbnail">
-                <img
-                  :src="payment.product.thumbnail"
-                  alt="poster" />
+                <img :src="payment.product.thumbnail" alt="poster" />
               </div>
               <div class="info">
-                <p>공연일시 : <span>{{ payment.product.title.split('@')[1] }}</span></p>
                 <p>
-                  공연시간 : <span>{{ payment.product.title.split('@')[3] }}</span>
+                  공연일시 :
+                  <span>{{ payment.product.title.split('@')[1] }}</span>
                 </p>
-                <p>공연장 : <span> {{ payment.product.description.split('@')[2] }}</span></p>
-                <div
-                  class="paid_toggle"
-                  @click="openPaid(payment.detailId)">
+                <p>
+                  공연시간 :
+                  <span>{{ payment.product.title.split('@')[3] }}</span>
+                </p>
+                <p>
+                  공연장 :
+                  <span> {{ payment.product.description.split('@')[2] }}</span>
+                </p>
+                <div class="paid_toggle" @click="openPaid(payment.detailId)">
                   결제내역
                 </div>
               </div>
 
-              <transition
-                v-show="paidOpen"
-                name="openFade"
-                class="paid">
+              <transition v-show="paidOpen" name="openFade" class="paid">
                 <div class="paid_info">
-                  <p>결제일시 : <span>{{ payment.timePaid.split('.')[0].replace('T',' ') }}</span></p>
+                  <p>
+                    결제일시 :
+                    <span>{{
+                      payment.timePaid.split('.')[0].replace('T', ' ')
+                    }}</span>
+                  </p>
                   <div class="paid_check">
-                    <p>결제취소 : <span>{{ payment.isCanceled ? '취소' : '' }}</span></p>
-                    <p>결제완료 : <span>{{ payment.done ? '결제 완료' : '결제 미완료' }}</span></p>
+                    <p>
+                      결제취소 :
+                      <span>{{ payment.isCanceled ? '취소' : '' }}</span>
+                    </p>
+                    <p>
+                      결제완료 :
+                      <span>{{
+                        payment.done ? '결제 완료' : '결제 미완료'
+                      }}</span>
+                    </p>
                   </div>
-                  <p>총 결제 금액 : <span>{{ payment.product.price }}</span></p>
+                  <p>
+                    총 결제 금액 : <span>{{ payment.product.price }}</span>
+                  </p>
                   <div class="paid_bank">
                     <p>결제 정보</p>
                     <span v-if="paymentDetail">
-                      <span>{{ paymentDetail.account && paymentDetail.account.bankName }}</span>
-                      <span>{{ paymentDetail.account && paymentDetail.account.accountNumber }}</span>  
+                      <span>{{
+                        paymentDetail.account && paymentDetail.account.bankName
+                      }}</span>
+                      <span>{{
+                        paymentDetail.account &&
+                        paymentDetail.account.accountNumber
+                      }}</span>
                     </span>
                   </div>
                 </div>
@@ -74,31 +93,24 @@
     data() {
       return {
         paidOpen: false,
-        // paymentDetail :[]
       };
     },
     computed: {
       payments() {
-        console.log(this.$store.state.payment.paidInfo);
         return this.$store.state.payment.paidInfo;
       },
-      paymentDetail(){
-        console.log('결제 상세',this.$store.state.payment.paidInfoDetail);
+      paymentDetail() {
         return this.$store.state.payment.paidInfoDetail;
-      }
+      },
     },
     created() {
       this.$store.dispatch('payment/paymentAll');
-      // this.$store.dispatch('payment/paymentDetail');
-      
     },
     methods: {
       async openPaid(id) {
         this.paidOpen = !this.paidOpen;
-        console.log(id)
-        await this.$store.dispatch('payment/paymentDetail',id);
-        this.paidInfoDetail = this.$store.state.payment.paidInfoDetail
-        console.log('this',this.paidInfoDetail)
+        await this.$store.dispatch('payment/paymentDetail', id);
+        this.paidInfoDetail = this.$store.state.payment.paidInfoDetail;
       },
     },
   };
@@ -153,12 +165,12 @@
               position: relative;
             }
             .circle_big {
-              position:relative;
+              position: relative;
               top: 2px;
               right: 2.5%;
               width: 20px;
               height: 20px;
-              background-color: #E5294B;
+              background-color: #e5294b;
               border-radius: 50%;
               .circle_sm {
                 position: absolute;
@@ -186,7 +198,7 @@
                 text-overflow: ellipsis;
                 flex-grow: 1;
               }
-              
+
               .reservation_info {
                 font-size: 14px;
                 font-weight: 500;
@@ -213,7 +225,7 @@
                 width: 150px;
                 height: 200px;
                 margin-left: 20px;
-                img{
+                img {
                   width: inherit;
                 }
               }
@@ -231,7 +243,7 @@
                   letter-spacing: 2px;
                   border: 1px solid rgb(18, 18, 19);
                   border-radius: 20px;
-                  transition: all .3s;
+                  transition: all 0.3s;
                   cursor: pointer;
                   &:hover {
                     background-color: transparent;
@@ -246,7 +258,7 @@
                 text-align: start;
                 font-size: 14px;
                 line-height: 25px;
-                 .paid_info {
+                .paid_info {
                   margin-left: 50px;
                   margin-right: 20px;
                   .paid_check {
