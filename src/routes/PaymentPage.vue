@@ -187,7 +187,7 @@
     .pageWrap {
       max-width: 80%;
       width: 60%;
-      max-height: 80%;
+      height: 850px;
       display: flex;
       position: relative;
       top: 25px;
@@ -259,11 +259,10 @@
       }
       .payment {
         width: 65%;
-        background-color: #f8f8f8;
+        background-color: #eee;
         position: relative;
         .payment__select {
           width: 100%;
-          height: 100%;
           background-color: #eee;
           padding: 40px 100px;
           letter-spacing: 1.2px;
