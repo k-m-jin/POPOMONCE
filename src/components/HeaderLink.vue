@@ -37,10 +37,6 @@
                     </router-link>
                   </el-dropdown-item>
                   <el-dropdown-item divided class="drop-down">
-                    <el-icon class="el-icon--left"> <wallet-filled /> </el-icon
-                    >내 계좌 정보 확인
-                  </el-dropdown-item>
-                  <el-dropdown-item divided class="drop-down">
                     <router-link class="router-link" to="/user/paidlist">
                       <el-icon class="el-icon--left">
                         <shopping-cart /> </el-icon
