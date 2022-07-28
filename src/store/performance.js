@@ -332,6 +332,7 @@ export default {
     isLoading: false,
     detailData: {},
     showDetail: {},
+    selectedDate: '',
     price: 0,
   }),
   mutations: {
@@ -357,6 +358,9 @@ export default {
         state[key] = payload[key];
       }
       state.isLoading = false;
+    },
+    selectDate(state, payload) {
+      state.selectedDate = payload;
     },
   },
 
@@ -423,9 +427,9 @@ export default {
           poster: data.photo,
           mainPoster: data.thumbnail,
         };
-      commit('setState', { detailData })
-      const price = data.price
-      commit('setState', { price })
+        commit('setState', { detailData });
+        const price = data.price;
+        commit('setState', { price });
       } catch (error) {
         console.log(error);
       }

@@ -27,13 +27,16 @@
   export default {
     computed: {
       myBanks() {
-        console.log(this.$store.state.payment.accountList);
         return this.$store.state.payment.accountList;
       },
     },
     methods: {
-      deleteAccount(bankId) {
-        this.$store.dispatch('payment/', bankId);
+      async deleteAccount(bankId) {
+        const res = confirm('이 계좌를 해지하시겠습니까?');
+        if (!res) return;
+        await this.$store.dispatch('payment/disconnect', bankId);
+        alert('연결이 해지되었습니다.');
+        this.$store.dispatch('payment/accountList');
       },
     },
   };

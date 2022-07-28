@@ -8,7 +8,7 @@
       </div>
       <div class="account-form">
         <select v-model="bankCode" class="account-select" required>
-          <option :value="null" disabled hidden>은행명</option>
+          <option value="은행명" disabled hidden>은행명</option>
           <option
             v-for="bank in ableBankList"
             :key="bank.code"
@@ -66,9 +66,10 @@
         accountNumberList: [],
         accountNumber: '',
         phoneNumber: '',
-        bankCode: '004',
+        bankCode: '은행명',
         checked: false,
         bankDigits: {
+          은행명: [3, 3, 3],
           '004': [3, 2, 4, 3],
           '088': [3, 3, 6],
           '020': [4, 3, 6],
@@ -129,6 +130,8 @@
           phoneNumber: this.phoneNumber,
           signature: true,
         });
+        this.$store.dispatch('payment/accountList');
+        alert('등록이 완료되었습니다.');
       },
     },
   };
@@ -226,7 +229,7 @@
           letter-spacing: 0.5em;
         }
         .check-agreement {
-          margin-top: 80px;
+          margin-top: 50px;
           color: #fe253f;
         }
         p {

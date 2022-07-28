@@ -70,6 +70,8 @@
         const accessToken = window.sessionStorage.getItem('token');
         if (accessToken) {
           this.$router.push(`/paymentpage/${this.$route.params.detailId}`);
+          console.log(this.selectedDay);
+          this.$store.commit('performance/selectDate', this.selectedDay);
         } else {
           alert('로그인 후 이용가능 합니다');
         }

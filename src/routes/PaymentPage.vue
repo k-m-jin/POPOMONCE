@@ -9,7 +9,7 @@
           </div>
           <div class="tags">
             <h3>{{ myChoice.title }}</h3>
-            <p>공연날짜 : {{ myChoice.startDate }}</p>
+            <p>공연날짜 : {{ selectedDate }}</p>
             <p>공연시간 : {{ myChoice.showTime }}</p>
             <p>공연장소 : {{ myChoice.concertHall }}</p>
             <h4>
@@ -81,6 +81,17 @@
       return { modalActive, toggleModal };
     },
     computed: {
+      selectedDate() {
+        const res = this.$store.state.performance.selectedDate;
+        if (!res) return '선택한 날짜가 없습니다';
+        const year = res.getFullYear() + '년 ';
+        const month = res.getMonth() + '월 ';
+        const date = res.getDate() + '일 ';
+        const daylist = ['월', '화', '수', '목', '금', '토', '일'];
+        const day = daylist[res.getDay()] + '요일';
+        const selected = year + month + date + day;
+        return selected;
+      },
       payLoading() {
         return this.$store.state.payment.loading;
       },
@@ -95,11 +106,12 @@
         const bankList = this.$store.state.payment.bankList;
         const mine = this.$store.state.payment.accountList.accounts;
 
-        if (mine) {
-          mine.forEach((item, idx) => {
-            bankIndexes[item.bankCode] = idx;
-          });
-        }
+        if (!mine) return;
+        console.log(mine);
+
+        mine.forEach((item, idx) => {
+          bankIndexes[item.bankCode] = idx;
+        });
 
         const result = bankList.map((item) => {
           const account = mine && mine[bankIndexes[item.code]];

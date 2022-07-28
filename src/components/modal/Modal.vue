@@ -102,7 +102,7 @@
         right: 20px;
         font-size: 20px;
         cursor: pointer;
-        z-index: 9;
+        z-index: 11;
         transition: all 0.1s;
         &:hover {
           transform: scale(0.9);
