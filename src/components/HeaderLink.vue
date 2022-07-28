@@ -2,7 +2,12 @@
   <div class="navigation">
     <div class="nav-container">
       <div class="main">
-        <router-link to="/"> HOME </router-link>
+        <router-link to="/">
+          <p class="title">
+            POPPO <br />
+            MONCE
+          </p>
+        </router-link>
       </div>
       <div v-if="isAdmin" class="admin-header-link">
         <AdminNav />
@@ -101,13 +106,20 @@
 </script>
 
 <style lang="scss" scoped>
+  @font-face {
+    font-family: 'GangwonEduPowerExtraBoldA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduPowerExtraBoldA.woff')
+      format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
   .navigation {
     position: fixed;
     top: 0;
     z-index: 99;
     background-color: rgba(15, 15, 15, 0.9);
     width: 100%;
-    height: 60px;
+    height: 100px;
     .nav-container {
       width: 1000px;
       margin: auto;
@@ -116,15 +128,28 @@
       align-items: center;
       justify-content: space-between;
       .main {
-        font-size: 20px;
+        font-family: 'GangwonEduPowerExtraBoldA';
+        font-size: 30px;
         font-weight: 500;
         align-items: center;
-        & > * {
+        display: flex;
+        justify-content: center;
+        a {
+          height: 100px;
           text-decoration: none;
-          display: block;
           color: #ddd;
+          text-align: center;
+          align-items: center;
+          justify-content: center;
           &:hover {
             color: #fff;
+          }
+          .title {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            padding-top: 10px;
           }
         }
       }
