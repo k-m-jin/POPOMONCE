@@ -3,9 +3,13 @@
     <div class="pageWrap">
       <div class="bookingInfo">
         <h2>예매정보</h2>
-        <div v-if="!pfLoading" class="bookingInfo__details">
+        <div
+          v-if="!pfLoading"
+          class="bookingInfo__details">
           <div class="poster">
-            <img :src="myChoice.mainPoster" :alt="myChoice.title" />
+            <img
+              :src="myChoice.mainPoster"
+              :alt="myChoice.title" />
           </div>
           <div class="tags">
             <h3>{{ myChoice.title }}</h3>
@@ -14,9 +18,7 @@
             <p>공연장소 : {{ myChoice.concertHall }}</p>
             <h4>
               결제금액 :
-              <span :style="{ fontSize: 22 + 'px', fontWeight: 800 }"
-                >{{ myChoice.price }} 원</span
-              >
+              <span :style="{ fontSize: 22 + 'px', fontWeight: 800 }">{{ myChoice.price }} 원</span>
             </h4>
           </div>
         </div>
@@ -25,30 +27,43 @@
         <h2>결제수단</h2>
         <div class="payment__select">
           <h3>간편계좌이체</h3>
-          <div v-if="!payLoading" class="payment__select__bank">
+          <div
+            v-if="!payLoading"
+            class="payment__select__bank">
             <div
               v-for="bank in ableBankList"
               :key="bank.code"
               :ref="bank.id"
-              @click.stop="accountID(bank.id)"
               class="bank-card"
               :class="{ noAccess: !bank.id }"
-            >
+              @click.stop="accountID(bank.id)">
               <h4>{{ bank.name }}</h4>
-              <div v-if="bank.disabled" class="bank-detail">
+              <div
+                v-if="bank.disabled"
+                class="bank-detail">
                 <p>{{ bank.accountNumber }}</p>
                 <p>잔액: {{ bank.balance }} 원</p>
               </div>
             </div>
-            <div class="bank-card new-bank" @click="toggleModal">
+            <div
+              class="bank-card new-bank"
+              @click="toggleModal">
               <p><i class="fa-solid fa-plus"></i></p>
               신규계좌등록
             </div>
           </div>
-          <div v-else>Loading...</div>
+          <div v-else>
+            Loading...
+          </div>
         </div>
-        <div @click="payPerformance" class="payment__button">결제하기</div>
-        <Modal :modal-active="modalActive" @close="toggleModal" />
+        <div
+          class="payment__button"
+          @click="payPerformance">
+          결제하기
+        </div>
+        <Modal
+          :modal-active="modalActive"
+          @close="toggleModal" />
       </div>
     </div>
   </div>
@@ -61,11 +76,6 @@
   import { ref } from 'vue';
 
   export default {
-    data() {
-      return {
-        accountId: '',
-      };
-    },
     components: {
       Modal,
       ManagingAccount,
@@ -79,6 +89,11 @@
       };
 
       return { modalActive, toggleModal };
+    },
+    data() {
+      return {
+        accountId: '',
+      };
     },
     computed: {
       selectedDate() {
@@ -270,20 +285,21 @@
             text-indent: -30px;
             font-size: 15px;
             font-weight: 800;
-            margin-bottom: 25px;
+            margin: 10px 0 40px;
           }
           .payment__select__bank {
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
+            align-items: center;
             .bank-card {
               display: flex;
               justify-content: center;
               font-size: 16px;
               line-height: 30px;
-              min-width: 200px;
-              width: 40%;
-              height: 90px;
+              min-width: 40%;
+              width: 45%;
+              min-height: 90px;
               background-color: #fff;
               border: 1px solid #fff;
               border-radius: 20px;
@@ -321,8 +337,6 @@
           }
         }
         .payment__button {
-          position: absolute;
-          bottom: 0;
           width: 100%;
           height: 74px;
           background-color: #fe253f;
